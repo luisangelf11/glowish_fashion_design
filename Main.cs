@@ -16,5 +16,14 @@ namespace Glowish_Fashion_System
         {
             InitializeComponent();
         }
+
+      
+
+        private void btnAbrirLogin_Click(object sender, EventArgs e)
+        {
+            FrmLogin flogin = new FrmLogin();
+            flogin.Show();
+
+        }
     }
 }
