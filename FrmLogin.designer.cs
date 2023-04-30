@@ -42,16 +42,18 @@
             this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
             this.txtbClave = new Guna.UI2.WinForms.Guna2TextBox();
-            this.btnIngresar = new Guna.UI2.WinForms.Guna2Button();
             this.guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlToolTip1 = new Guna.UI2.WinForms.Guna2HtmlToolTip();
             this.btnCerrar = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.btnMinimizar = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2CirclePictureBox2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel8 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.btnMinimizar = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.guna2CircleButton2 = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.guna2HtmlLabel9 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -79,9 +81,10 @@
             this.btnLinea.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnLinea.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnLinea.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnLinea.FillColor = System.Drawing.Color.Tomato;
+            this.btnLinea.FillColor = System.Drawing.Color.Salmon;
             this.btnLinea.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnLinea.ForeColor = System.Drawing.Color.White;
+            this.btnLinea.HoverState.FillColor = System.Drawing.Color.Salmon;
             this.btnLinea.Location = new System.Drawing.Point(563, 104);
             this.btnLinea.Name = "btnLinea";
             this.btnLinea.Size = new System.Drawing.Size(90, 3);
@@ -174,6 +177,7 @@
             this.txtbUsaurio.Location = new System.Drawing.Point(491, 181);
             this.txtbUsaurio.Name = "txtbUsaurio";
             this.txtbUsaurio.PasswordChar = '\0';
+            this.txtbUsaurio.PlaceholderForeColor = System.Drawing.Color.DarkGray;
             this.txtbUsaurio.PlaceholderText = "Ingrese su usuario";
             this.txtbUsaurio.SelectedText = "";
             this.txtbUsaurio.Size = new System.Drawing.Size(247, 34);
@@ -204,7 +208,7 @@
             this.guna2Button5.FillColor = System.Drawing.Color.DimGray;
             this.guna2Button5.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button5.ForeColor = System.Drawing.Color.White;
-            this.guna2Button5.Location = new System.Drawing.Point(491, 294);
+            this.guna2Button5.Location = new System.Drawing.Point(491, 314);
             this.guna2Button5.Name = "guna2Button5";
             this.guna2Button5.Size = new System.Drawing.Size(248, 3);
             this.guna2Button5.TabIndex = 11;
@@ -224,44 +228,21 @@
             this.txtbClave.Font = new System.Drawing.Font("SF Pro Display", 9.75F, System.Drawing.FontStyle.Bold);
             this.txtbClave.ForeColor = System.Drawing.Color.DimGray;
             this.txtbClave.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtbClave.Location = new System.Drawing.Point(491, 260);
+            this.txtbClave.Location = new System.Drawing.Point(491, 280);
             this.txtbClave.Name = "txtbClave";
             this.txtbClave.PasswordChar = 'x';
+            this.txtbClave.PlaceholderForeColor = System.Drawing.Color.DarkGray;
             this.txtbClave.PlaceholderText = "Ingrese su clave de usuario";
             this.txtbClave.SelectedText = "";
             this.txtbClave.Size = new System.Drawing.Size(247, 37);
             this.txtbClave.TabIndex = 10;
-            // 
-            // btnIngresar
-            // 
-            this.btnIngresar.Animated = true;
-            this.btnIngresar.BackColor = System.Drawing.Color.Transparent;
-            this.btnIngresar.BorderColor = System.Drawing.Color.White;
-            this.btnIngresar.BorderRadius = 6;
-            this.btnIngresar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnIngresar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnIngresar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnIngresar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnIngresar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnIngresar.FillColor = System.Drawing.Color.Salmon;
-            this.btnIngresar.Font = new System.Drawing.Font("SF Pro Display", 11.25F, System.Drawing.FontStyle.Bold);
-            this.btnIngresar.ForeColor = System.Drawing.Color.White;
-            this.btnIngresar.IndicateFocus = true;
-            this.btnIngresar.Location = new System.Drawing.Point(537, 379);
-            this.btnIngresar.Name = "btnIngresar";
-            this.btnIngresar.Size = new System.Drawing.Size(169, 46);
-            this.btnIngresar.TabIndex = 12;
-            this.btnIngresar.Text = "Ingresar    →";
-            this.guna2HtmlToolTip1.SetToolTip(this.btnIngresar, "Ingresar a la página principal.");
-            this.btnIngresar.UseTransparentBackground = true;
-            this.btnIngresar.Click += new System.EventHandler(this.btnIngresar_Click);
             // 
             // guna2HtmlLabel6
             // 
             this.guna2HtmlLabel6.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel6.Font = new System.Drawing.Font("SF Pro Display", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel6.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.guna2HtmlLabel6.Location = new System.Drawing.Point(506, 303);
+            this.guna2HtmlLabel6.Location = new System.Drawing.Point(506, 323);
             this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
             this.guna2HtmlLabel6.Size = new System.Drawing.Size(3, 2);
             this.guna2HtmlLabel6.TabIndex = 14;
@@ -300,6 +281,33 @@
             this.btnCerrar.UseTransparentBackground = true;
             this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
+            // btnMinimizar
+            // 
+            this.btnMinimizar.BackColor = System.Drawing.Color.Transparent;
+            this.btnMinimizar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnMinimizar.BackgroundImage")));
+            this.btnMinimizar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnMinimizar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMinimizar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnMinimizar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnMinimizar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnMinimizar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnMinimizar.FillColor = System.Drawing.Color.Transparent;
+            this.btnMinimizar.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnMinimizar.ForeColor = System.Drawing.Color.White;
+            this.btnMinimizar.HoverState.BorderColor = System.Drawing.Color.Transparent;
+            this.btnMinimizar.HoverState.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.btnMinimizar.HoverState.FillColor = System.Drawing.Color.Transparent;
+            this.btnMinimizar.HoverState.ForeColor = System.Drawing.Color.Transparent;
+            this.btnMinimizar.Location = new System.Drawing.Point(12, 12);
+            this.btnMinimizar.Name = "btnMinimizar";
+            this.btnMinimizar.PressedColor = System.Drawing.Color.Transparent;
+            this.btnMinimizar.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.btnMinimizar.Size = new System.Drawing.Size(22, 29);
+            this.btnMinimizar.TabIndex = 21;
+            this.guna2HtmlToolTip1.SetToolTip(this.btnMinimizar, "Minimizar la página actual.");
+            this.btnMinimizar.UseTransparentBackground = true;
+            this.btnMinimizar.Click += new System.EventHandler(this.btnMinimizar_Click);
+            // 
             // guna2DragControl1
             // 
             this.guna2DragControl1.DockIndicatorTransparencyValue = 0.6D;
@@ -322,7 +330,7 @@
             // 
             this.guna2CirclePictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox2.Image")));
             this.guna2CirclePictureBox2.ImageRotate = 0F;
-            this.guna2CirclePictureBox2.Location = new System.Drawing.Point(703, 260);
+            this.guna2CirclePictureBox2.Location = new System.Drawing.Point(703, 280);
             this.guna2CirclePictureBox2.Name = "guna2CirclePictureBox2";
             this.guna2CirclePictureBox2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CirclePictureBox2.Size = new System.Drawing.Size(36, 28);
@@ -352,32 +360,69 @@
             this.guna2HtmlLabel8.TabIndex = 20;
             this.guna2HtmlLabel8.Text = "F";
             // 
-            // btnMinimizar
+            // guna2CircleButton2
             // 
-            this.btnMinimizar.BackColor = System.Drawing.Color.Transparent;
-            this.btnMinimizar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnMinimizar.BackgroundImage")));
-            this.btnMinimizar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnMinimizar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMinimizar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnMinimizar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnMinimizar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnMinimizar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnMinimizar.FillColor = System.Drawing.Color.Transparent;
-            this.btnMinimizar.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnMinimizar.ForeColor = System.Drawing.Color.White;
-            this.btnMinimizar.HoverState.BorderColor = System.Drawing.Color.Transparent;
-            this.btnMinimizar.HoverState.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.btnMinimizar.HoverState.FillColor = System.Drawing.Color.Transparent;
-            this.btnMinimizar.HoverState.ForeColor = System.Drawing.Color.Transparent;
-            this.btnMinimizar.Location = new System.Drawing.Point(12, 12);
-            this.btnMinimizar.Name = "btnMinimizar";
-            this.btnMinimizar.PressedColor = System.Drawing.Color.Transparent;
-            this.btnMinimizar.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.btnMinimizar.Size = new System.Drawing.Size(22, 29);
-            this.btnMinimizar.TabIndex = 21;
-            this.guna2HtmlToolTip1.SetToolTip(this.btnMinimizar, "Minimizar la página actual.");
-            this.btnMinimizar.UseTransparentBackground = true;
-            this.btnMinimizar.Click += new System.EventHandler(this.btnMinimizar_Click);
+            this.guna2CircleButton2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CircleButton2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2CircleButton2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2CircleButton2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2CircleButton2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2CircleButton2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2CircleButton2.FillColor = System.Drawing.Color.Salmon;
+            this.guna2CircleButton2.Font = new System.Drawing.Font("SF Pro Display", 18F, System.Drawing.FontStyle.Bold);
+            this.guna2CircleButton2.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.guna2CircleButton2.HoverState.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2CircleButton2.HoverState.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.guna2CircleButton2.HoverState.FillColor = System.Drawing.Color.Salmon;
+            this.guna2CircleButton2.HoverState.ForeColor = System.Drawing.Color.White;
+            this.guna2CircleButton2.Location = new System.Drawing.Point(640, 370);
+            this.guna2CircleButton2.Name = "guna2CircleButton2";
+            this.guna2CircleButton2.PressedColor = System.Drawing.Color.Transparent;
+            this.guna2CircleButton2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CircleButton2.Size = new System.Drawing.Size(48, 47);
+            this.guna2CircleButton2.TabIndex = 23;
+            this.guna2CircleButton2.Text = "→";
+            this.guna2HtmlToolTip1.SetToolTip(this.guna2CircleButton2, "Presiona para ingresar");
+            this.guna2CircleButton2.UseTransparentBackground = true;
+            // 
+            // guna2HtmlLabel9
+            // 
+            this.guna2HtmlLabel9.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel9.Font = new System.Drawing.Font("SF Pro Display", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel9.ForeColor = System.Drawing.Color.DimGray;
+            this.guna2HtmlLabel9.Location = new System.Drawing.Point(548, 383);
+            this.guna2HtmlLabel9.Name = "guna2HtmlLabel9";
+            this.guna2HtmlLabel9.Size = new System.Drawing.Size(60, 20);
+            this.guna2HtmlLabel9.TabIndex = 24;
+            this.guna2HtmlLabel9.Text = "Ingresar";
+            this.guna2HtmlLabel9.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
+            this.guna2HtmlLabel9.UseGdiPlusTextRendering = true;
+            // 
+            // guna2CircleButton1
+            // 
+            this.guna2CircleButton1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CircleButton1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2CircleButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2CircleButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2CircleButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2CircleButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2CircleButton1.FillColor = System.Drawing.Color.Salmon;
+            this.guna2CircleButton1.Font = new System.Drawing.Font("SF Pro Display", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2CircleButton1.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.guna2CircleButton1.HoverState.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2CircleButton1.HoverState.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.guna2CircleButton1.HoverState.FillColor = System.Drawing.Color.Salmon;
+            this.guna2CircleButton1.HoverState.ForeColor = System.Drawing.Color.White;
+            this.guna2CircleButton1.Location = new System.Drawing.Point(317, 11);
+            this.guna2CircleButton1.Name = "guna2CircleButton1";
+            this.guna2CircleButton1.PressedColor = System.Drawing.Color.Transparent;
+            this.guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CircleButton1.Size = new System.Drawing.Size(29, 30);
+            this.guna2CircleButton1.TabIndex = 25;
+            this.guna2CircleButton1.Text = "?";
+            this.guna2HtmlToolTip1.SetToolTip(this.guna2CircleButton1, "Ayuda");
+            this.guna2CircleButton1.UseTransparentBackground = true;
+            this.guna2CircleButton1.Click += new System.EventHandler(this.guna2CircleButton1_Click);
             // 
             // FrmLogin
             // 
@@ -387,6 +432,9 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(821, 447);
+            this.Controls.Add(this.guna2CircleButton1);
+            this.Controls.Add(this.guna2HtmlLabel9);
+            this.Controls.Add(this.guna2CircleButton2);
             this.Controls.Add(this.btnMinimizar);
             this.Controls.Add(this.guna2HtmlLabel8);
             this.Controls.Add(this.guna2HtmlLabel7);
@@ -394,7 +442,6 @@
             this.Controls.Add(this.guna2CirclePictureBox1);
             this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.guna2HtmlLabel6);
-            this.Controls.Add(this.btnIngresar);
             this.Controls.Add(this.guna2Button5);
             this.Controls.Add(this.txtbClave);
             this.Controls.Add(this.guna2Button4);
@@ -424,7 +471,6 @@
 
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel6;
-        private Guna.UI2.WinForms.Guna2Button btnIngresar;
         private Guna.UI2.WinForms.Guna2Button guna2Button5;
         private Guna.UI2.WinForms.Guna2TextBox txtbClave;
         private Guna.UI2.WinForms.Guna2Button guna2Button4;
@@ -444,6 +490,9 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel8;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel7;
         private Guna.UI2.WinForms.Guna2CircleButton btnMinimizar;
+        private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton2;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel9;
+        private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton1;
     }
 }
 

@@ -25,5 +25,11 @@ namespace Glowish_Fashion_System
             flogin.Show();
 
         }
+
+        private void guna2CircleButton1_Click(object sender, EventArgs e)
+        {
+            FrmAyuda fayuda = new FrmAyuda();
+            fayuda.Show();
+        }
     }
 }

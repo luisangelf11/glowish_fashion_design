@@ -127,7 +127,7 @@
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAABQAAAALQCAIAAABAH0oBAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wQAADsEBuJFr7QAA/7JJREFUeF7s/Yd3FFe6cA/ff+wL72/uOAO2cZicw51w5517Rc7KnXO3YivnnAmS
+        wAAADsABataJCQAA/7JJREFUeF7s/Yd3FFe6cA/ff+wL72/uOAO2cZicw51w5517Rc7KnXO3YivnnAmS
         cLxhxgEnjLEJTphg40BGVV7f9zxVhRAtQBKoKKl777WXlpDUre5Wi9Nb59Spf5nZ85+IiIje+v8DAAAA
         cB8CGBERvdcZlAAAAADchABGRETvdQYlAAAAADchgBER0XudQQkAAADATQhgRET0XmdQAgAAAHATAhgR
         Eb3XGZQAAAAA3IQARkRE73UGJQAAAAA3IYAREdF7nUEJAAAAwE0IYERE9F5nUAIAAABwEwIYERG91xmU
@@ -1660,10 +1660,13 @@
         rkJggg==
 </value>
   </data>
+  <metadata name="guna2HtmlToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>141, 17</value>
+  </metadata>
   <data name="btnMinimizar.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wgAADsIBFShKgAAAJy1JREFUeF7t3X2wXVWZ53Hv3twLcjiXHPAeC9vu6ZtcO3WqnPGlJ2TKEqdm/vAf
+        wQAADsEBuJFr7QAAJy1JREFUeF7t3X2wXVWZ53Hv3twLcjiXHPAeC9vu6ZtcO3WqnPGlJ2TKEqdm/vAf
         4jFCyBWbYczo9Pxhp6AbUYtIIkbTRN6sGVurZ3BGm5cEMWg1HdSOU+nGYGMgDcqL7cwYaWuqVYQgWD0t
         IOl5FvsnHUJe7svZa629n++niqqI5J69nvW761l7n3P2fhkAAKhFvyzLc/v9/ubZ2dlte/bce+8j5oB5
         WsKf95s7vrr7W8Ph8MZer7fJ/s7b7e+eXv0IAADQBCsGg8G1D5t/XITnzHfM9PT0lfYz/0X1owEAQE66
@@ -1833,13 +1836,10 @@
         d4f/Jvy34e/Y3z2t+hEAAGB0Xvay/w/wh+MqPviNpQAAAABJRU5ErkJggg==
 </value>
   </data>
-  <metadata name="guna2HtmlToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>141, 17</value>
-  </metadata>
   <data name="guna2CirclePictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAADNCAYAAADOkci5AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAN
-        1AAADdQB75G6FQAAGxhJREFUeF7t3XmYFOW5xuEBFBAVjTEGBRUX3FfigggiiKwq4IYKLggqbqCoKCoE
+        0wAADdMBvdUcagAAGxhJREFUeF7t3XmYFOW5xuEBFBAVjTEGBRUX3FfigggiiKwq4IYKLggqbqCoKCoE
         tyAGNe77QSNyCKJggrgr7kuCJu7Ro0k0hqjEuCTnnCvJlTrz9FQfZOaZmZ6Z7uqu+n7v5f3XDF1dr1Xf
         83ZPd1UVRVEURVEURVEURVEURVEURVEURVEURVEURVEURVEURVEURVEURVEURVEURVEURVEURVEURVEU
         RVEURVEURVEURVEURVEURVEURVEURVEURVEURVEURVEURVEURVEURVEURVEURVEURVEURVEURVEURVEU
@@ -1961,7 +1961,7 @@
   <data name="guna2CirclePictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAEvCAYAAAAzanmEAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAN
-        1AAADdQB75G6FQAAJZRJREFUeF7t3QmYXXWZ5/Hce6tu7al93/c1te9rqlKpVKI0RiSEJYZNBBkxHUUG
+        0wAADdMBvdUcagAAJZRJREFUeF7t3QmYXXWZ5/Hce6tu7al93/c1te9rqlKpVKI0RiSEJYZNBBkxHUUG
         hYhAOm2MCB0D6QwhHSPpDEkmHWi7x3Ghe2YY7HaZRtxHBsd2b8UFBVoEO6/z8gwyL6EqufU/59z7/Tz5
         PQ+PJlXv+b/v/Z9bde89ZxkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9yKhUFJmUnJuQUpqZWV6ZqtE
         /lv+N/n/9K8BAIAgyEhKzmlenjO0qqRi8+a65h3v7eg7sat39NHdA+OP7x+efvLw6OxPjk/MP/fQynW/
@@ -2127,7 +2127,7 @@
   <data name="btnCerrar.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wgAADsIBFShKgAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAADKeSURBVHhe7d0L
+        wQAADsEBuJFr7QAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAADKeSURBVHhe7d0L
         vFxVfejxyEMBhQC2VlRQQbQWoeqYzN57TmBCZq99JiFpRQ6Cz15tUXu9l9p+lLaCjYotra/a2vaT2/aq
         IBBIyJskJLyCWLW174siAdJkzt57zkxOgAIJBMjcteas04Z9VpLzmMfea/9+n8/3o62EnLMf67/ntWcW
         ERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERER

@@ -30,6 +30,7 @@ namespace Glowish_Fashion_System
         private void InitializeComponent()
         {
             this.btnAbrirLogin = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.SuspendLayout();
             // 
             // btnAbrirLogin
@@ -48,11 +49,28 @@ namespace Glowish_Fashion_System
             this.btnAbrirLogin.Text = "Abrir Login";
             this.btnAbrirLogin.Click += new System.EventHandler(this.btnAbrirLogin_Click);
             // 
+            // guna2CircleButton1
+            // 
+            this.guna2CircleButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2CircleButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2CircleButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2CircleButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2CircleButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2CircleButton1.ForeColor = System.Drawing.Color.White;
+            this.guna2CircleButton1.Location = new System.Drawing.Point(110, 12);
+            this.guna2CircleButton1.Name = "guna2CircleButton1";
+            this.guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CircleButton1.Size = new System.Drawing.Size(70, 67);
+            this.guna2CircleButton1.TabIndex = 1;
+            this.guna2CircleButton1.Text = "Abrir ayuda";
+            this.guna2CircleButton1.Click += new System.EventHandler(this.guna2CircleButton1_Click);
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(570, 263);
+            this.Controls.Add(this.guna2CircleButton1);
             this.Controls.Add(this.btnAbrirLogin);
             this.Name = "Main";
             this.Text = "Main";
@@ -63,6 +81,7 @@ namespace Glowish_Fashion_System
         #endregion
 
         private Guna.UI2.WinForms.Guna2CircleButton btnAbrirLogin;
+        private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton1;
     }
 }
 
