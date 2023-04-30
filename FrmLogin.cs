@@ -52,7 +52,7 @@ namespace Glowish_Fashion_System
 
         private void guna2CircleButton1_Click(object sender, EventArgs e)
         {
-            FrmAyuda fayuda = new FrmAyuda();
+            Ayuda fayuda = new Ayuda();
             fayuda.Show();
         }
     }
