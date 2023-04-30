@@ -55,5 +55,15 @@ namespace Glowish_Fashion_System
             Ayuda fayuda = new Ayuda();
             fayuda.Show();
         }
+
+        private void guna2Button4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtbUsaurio_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
