@@ -29,25 +29,49 @@ namespace Glowish_Fashion_System
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.btnAbrirLogin = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.SuspendLayout();
             // 
-            // label1
+            // btnAbrirLogin
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("SF Pro Display", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(109, 80);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(99, 19);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Hola amigos";
+            this.btnAbrirLogin.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnAbrirLogin.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnAbrirLogin.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnAbrirLogin.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnAbrirLogin.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnAbrirLogin.ForeColor = System.Drawing.Color.White;
+            this.btnAbrirLogin.Location = new System.Drawing.Point(12, 12);
+            this.btnAbrirLogin.Name = "btnAbrirLogin";
+            this.btnAbrirLogin.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.btnAbrirLogin.Size = new System.Drawing.Size(70, 67);
+            this.btnAbrirLogin.TabIndex = 0;
+            this.btnAbrirLogin.Text = "Abrir Login";
+            this.btnAbrirLogin.Click += new System.EventHandler(this.btnAbrirLogin_Click);
+            // 
+            // guna2CircleButton1
+            // 
+            this.guna2CircleButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2CircleButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2CircleButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2CircleButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2CircleButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2CircleButton1.ForeColor = System.Drawing.Color.White;
+            this.guna2CircleButton1.Location = new System.Drawing.Point(110, 12);
+            this.guna2CircleButton1.Name = "guna2CircleButton1";
+            this.guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CircleButton1.Size = new System.Drawing.Size(70, 67);
+            this.guna2CircleButton1.TabIndex = 1;
+            this.guna2CircleButton1.Text = "Abrir ayuda";
+            this.guna2CircleButton1.Click += new System.EventHandler(this.guna2CircleButton1_Click);
             // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(570, 263);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.guna2CircleButton1);
+            this.Controls.Add(this.btnAbrirLogin);
             this.Name = "Main";
             this.Text = "Main";
             this.ResumeLayout(false);
@@ -57,7 +81,8 @@ namespace Glowish_Fashion_System
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private Guna.UI2.WinForms.Guna2CircleButton btnAbrirLogin;
+        private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton1;
     }
 }
 

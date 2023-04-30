@@ -10,3 +10,23 @@ C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\Glowish_Fashion_Sy
 C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\Glowish_Fashion_System\obj\Debug\Glowish_Fashion_System.csproj.CopyComplete
 C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\Glowish_Fashion_System\obj\Debug\Glowish_Fashion_System.exe
 C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\Glowish_Fashion_System\obj\Debug\Glowish_Fashion_System.pdb
+C:\Users\breid\Desktop\Diseno en sistemas\glowish_fashion_design\bin\Debug\Glowish_Fashion_System.exe.config
+C:\Users\breid\Desktop\Diseno en sistemas\glowish_fashion_design\bin\Debug\Glowish_Fashion_System.exe
+C:\Users\breid\Desktop\Diseno en sistemas\glowish_fashion_design\bin\Debug\Glowish_Fashion_System.pdb
+C:\Users\breid\Desktop\Diseno en sistemas\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.csproj.AssemblyReference.cache
+C:\Users\breid\Desktop\Diseno en sistemas\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.csproj.SuggestedBindingRedirects.cache
+C:\Users\breid\Desktop\Diseno en sistemas\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.Main.resources
+C:\Users\breid\Desktop\Diseno en sistemas\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.Properties.Resources.resources
+C:\Users\breid\Desktop\Diseno en sistemas\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.csproj.GenerateResource.cache
+C:\Users\breid\Desktop\Diseno en sistemas\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.csproj.CoreCompileInputs.cache
+C:\Users\breid\Desktop\Diseno en sistemas\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.csproj.CopyComplete
+C:\Users\breid\Desktop\Diseno en sistemas\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.exe
+C:\Users\breid\Desktop\Diseno en sistemas\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.pdb
+C:\Users\breid\Desktop\Diseno en sistemas\glowish_fashion_design\bin\Debug\Guna.UI2.dll
+C:\Users\breid\Desktop\Diseno en sistemas\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.FrmLogin.resources
+C:\Users\breid\Desktop\Diseno en sistemas\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.Ayuda.resources
+C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\Glowish_Fashion_System\bin\Debug\Guna.UI2.dll
+C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\Glowish_Fashion_System\obj\Debug\Glowish_Fashion_System.csproj.SuggestedBindingRedirects.cache
+C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\Glowish_Fashion_System\obj\Debug\Glowish_Fashion_System.Ayuda.resources
+C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\Glowish_Fashion_System\obj\Debug\Glowish_Fashion_System.FrmLogin.resources
+C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\Glowish_Fashion_System\obj\Debug\Glowish_Fashion_System.Plantilla.resources
