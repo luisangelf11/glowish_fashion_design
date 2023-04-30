@@ -3,7 +3,6 @@ C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\Glowish_Fashion_Sy
 C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\Glowish_Fashion_System\bin\Debug\Glowish_Fashion_System.pdb
 C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\Glowish_Fashion_System\bin\Debug\Guna.UI.dll
 C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\Glowish_Fashion_System\obj\Debug\Glowish_Fashion_System.csproj.AssemblyReference.cache
-C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\Glowish_Fashion_System\obj\Debug\Glowish_Fashion_System.Main.resources
 C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\Glowish_Fashion_System\obj\Debug\Glowish_Fashion_System.Properties.Resources.resources
 C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\Glowish_Fashion_System\obj\Debug\Glowish_Fashion_System.csproj.GenerateResource.cache
 C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\Glowish_Fashion_System\obj\Debug\Glowish_Fashion_System.csproj.CoreCompileInputs.cache
@@ -30,3 +29,6 @@ C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\Glowish_Fashion_Sy
 C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\Glowish_Fashion_System\obj\Debug\Glowish_Fashion_System.Ayuda.resources
 C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\Glowish_Fashion_System\obj\Debug\Glowish_Fashion_System.FrmLogin.resources
 C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\Glowish_Fashion_System\obj\Debug\Glowish_Fashion_System.Plantilla.resources
+C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\Glowish_Fashion_System\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\Glowish_Fashion_System\obj\Debug\Glowish_Fashion_System.FrmMenu.resources
+C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\Glowish_Fashion_System\obj\Debug\Glowish_Fashion_System.Notifications.FrmWelcome.resources
