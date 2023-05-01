@@ -131,7 +131,7 @@
             this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.Black;
             this.guna2HtmlLabel3.Location = new System.Drawing.Point(39, 181);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(123, 25);
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(124, 25);
             this.guna2HtmlLabel3.TabIndex = 28;
             this.guna2HtmlLabel3.Text = "label mediano";
             this.guna2HtmlLabel3.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;

@@ -33,17 +33,22 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>G:\Sistemas\Glowish_Fashion_System\Application\Glowish Fashion\Presentation\bin\Debug\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
     <Reference Include="Guna.UI">
       <HintPath>G:\Programacion\Guna UI Framework Ultimate v2.0.0.1 Lib-Master\Guna.UI WinForms\.net 2.0\Guna.UI.dll</HintPath>
     </Reference>
     <Reference Include="Guna.UI2, Version=2.0.4.4, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
       <HintPath>packages\Guna.UI2.WinForms.2.0.4.4\lib\net472\Guna.UI2.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Design" />
     <Reference Include="System.Management" />
     <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -67,11 +72,17 @@
     <Compile Include="FrmLogin.designer.cs">
       <DependentUpon>FrmLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Main.cs">
+    <Compile Include="FrmMenu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Main.Designer.cs">
-      <DependentUpon>Main.cs</DependentUpon>
+    <Compile Include="FrmMenu.Designer.cs">
+      <DependentUpon>FrmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Notifications\FrmWelcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Notifications\FrmWelcome.Designer.cs">
+      <DependentUpon>FrmWelcome.cs</DependentUpon>
     </Compile>
     <Compile Include="Plantilla.cs">
       <SubType>Form</SubType>
@@ -87,8 +98,11 @@
     <EmbeddedResource Include="FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Main.resx">
-      <DependentUpon>Main.cs</DependentUpon>
+    <EmbeddedResource Include="FrmMenu.resx">
+      <DependentUpon>FrmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Notifications\FrmWelcome.resx">
+      <DependentUpon>FrmWelcome.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Plantilla.resx">
       <DependentUpon>Plantilla.cs</DependentUpon>
@@ -118,7 +132,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Multimedia\" />
-    <Folder Include="Notifications\" />
     <Folder Include="Reports\" />
     <Folder Include="Views\" />
   </ItemGroup>
