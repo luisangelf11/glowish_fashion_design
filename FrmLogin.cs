@@ -100,5 +100,16 @@ namespace Glowish_Fashion_System
             }
 
         }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            Ayuda fayuda = new Ayuda();
+            fayuda.Show();
+        }
+
+        private void guna2HtmlLabel2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
