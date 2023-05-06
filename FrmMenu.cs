@@ -74,5 +74,20 @@ namespace Glowish_Fashion_System
             this.Close();
 
         }
+
+        private void panelCenter_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void chartVentas_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void chart1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

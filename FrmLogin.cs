@@ -68,18 +68,7 @@ namespace Glowish_Fashion_System
 
         }
 
-        private void guna2CircleButton2_Click(object sender, EventArgs e)
-        {
-            if(txtbUsaurio.Text != "" && txtbClave.Text != "")
-            {
-                this.Hide();
-                FrmWelcome welcome = new FrmWelcome(txtbUsaurio.Text);
-                welcome.ShowDialog();
-                FrmMenu menu = new FrmMenu();
-                menu.Show();
-                menu.FormClosed += CloseForm;
-            }
-        }
+       
 
         private void CloseForm(object sender, FormClosedEventArgs e)
         {
@@ -92,6 +81,24 @@ namespace Glowish_Fashion_System
         {
            if(this.Opacity < 1) this.Opacity += 0.05;
             if (this.Opacity == 1) timer1.Stop();
+        }
+
+      
+
+        private void guna2GradientButton1_Click(object sender, EventArgs e)
+        { 
+            if (txtbUsaurio.Text != "" && txtbClave.Text != "")
+            {
+
+
+                this.Hide();
+                FrmWelcome welcome = new FrmWelcome(txtbUsaurio.Text);
+                welcome.ShowDialog();
+                FrmMenuPrincipal menu = new FrmMenuPrincipal();
+                menu.Show();
+                menu.FormClosed += CloseForm;
+            }
+
         }
     }
 }

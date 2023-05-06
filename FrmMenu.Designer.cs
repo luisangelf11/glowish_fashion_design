@@ -29,17 +29,17 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint1 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, 50D);
+            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint2 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, 50D);
+            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint3 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, 12D);
+            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint4 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, 25D);
+            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint5 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, 35D);
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMenu));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint6 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, 50D);
-            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint7 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, 50D);
-            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint8 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, 12D);
-            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint9 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, 25D);
-            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint10 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, 35D);
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.panelMenu = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.btnLogout = new Guna.UI2.WinForms.Guna2CircleButton();
@@ -72,34 +72,13 @@
             this.timer2 = new System.Windows.Forms.Timer(this.components);
             this.guna2HtmlToolTip1 = new Guna.UI2.WinForms.Guna2HtmlToolTip();
             this.panelCenter = new System.Windows.Forms.Panel();
-            this.bunifuCards1 = new Bunifu.Framework.UI.BunifuCards();
-            this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.chartVentas = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.bunifuCards2 = new Bunifu.Framework.UI.BunifuCards();
-            this.guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.guna2HtmlLabel8 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.bunifuCards3 = new Bunifu.Framework.UI.BunifuCards();
-            this.guna2HtmlLabel9 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.guna2HtmlLabel10 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.bunifuCards4 = new Bunifu.Framework.UI.BunifuCards();
-            this.guna2HtmlLabel11 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.guna2HtmlLabel12 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.bunifuCards5 = new Bunifu.Framework.UI.BunifuCards();
-            this.guna2HtmlLabel13 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.guna2HtmlLabel14 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.bunifuCards6 = new Bunifu.Framework.UI.BunifuCards();
-            this.guna2HtmlLabel15 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.guna2HtmlLabel16 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel23 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2HtmlLabel24 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.guna2HtmlLabel21 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2HtmlLabel22 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.bunifuCards7 = new Bunifu.Framework.UI.BunifuCards();
             this.guna2HtmlLabel17 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
@@ -108,37 +87,58 @@
             this.guna2HtmlLabel19 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.guna2HtmlLabel20 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel21 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2HtmlLabel22 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.guna2HtmlLabel23 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2HtmlLabel24 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.bunifuCards5 = new Bunifu.Framework.UI.BunifuCards();
+            this.guna2HtmlLabel13 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.guna2HtmlLabel14 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.bunifuCards6 = new Bunifu.Framework.UI.BunifuCards();
+            this.guna2HtmlLabel15 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.guna2HtmlLabel16 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.bunifuCards3 = new Bunifu.Framework.UI.BunifuCards();
+            this.guna2HtmlLabel9 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.guna2HtmlLabel10 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.bunifuCards4 = new Bunifu.Framework.UI.BunifuCards();
+            this.guna2HtmlLabel11 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.guna2HtmlLabel12 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.bunifuCards2 = new Bunifu.Framework.UI.BunifuCards();
+            this.guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.guna2HtmlLabel8 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.chartVentas = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.bunifuCards1 = new Bunifu.Framework.UI.BunifuCards();
+            this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.panelMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panelTop.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panelCenter.SuspendLayout();
-            this.bunifuCards1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chartVentas)).BeginInit();
-            this.bunifuCards2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            this.bunifuCards3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            this.bunifuCards4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            this.bunifuCards5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            this.bunifuCards6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             this.bunifuCards7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.bunifuCards8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
+            this.bunifuCards5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            this.bunifuCards6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            this.bunifuCards3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            this.bunifuCards4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            this.bunifuCards2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartVentas)).BeginInit();
+            this.bunifuCards1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2Elipse1
@@ -770,376 +770,117 @@
             this.panelCenter.Name = "panelCenter";
             this.panelCenter.Size = new System.Drawing.Size(821, 503);
             this.panelCenter.TabIndex = 2;
+            this.panelCenter.Paint += new System.Windows.Forms.PaintEventHandler(this.panelCenter_Paint);
             // 
-            // bunifuCards1
+            // guna2HtmlLabel23
             // 
-            this.bunifuCards1.BackColor = System.Drawing.Color.White;
-            this.bunifuCards1.BorderRadius = 5;
-            this.bunifuCards1.BottomSahddow = true;
-            this.bunifuCards1.color = System.Drawing.Color.Salmon;
-            this.bunifuCards1.Controls.Add(this.guna2HtmlLabel5);
-            this.bunifuCards1.Controls.Add(this.pictureBox4);
-            this.bunifuCards1.Controls.Add(this.guna2HtmlLabel4);
-            this.bunifuCards1.LeftSahddow = false;
-            this.bunifuCards1.Location = new System.Drawing.Point(11, 63);
-            this.bunifuCards1.Name = "bunifuCards1";
-            this.bunifuCards1.RightSahddow = true;
-            this.bunifuCards1.ShadowDepth = 20;
-            this.bunifuCards1.Size = new System.Drawing.Size(191, 74);
-            this.bunifuCards1.TabIndex = 29;
+            this.guna2HtmlLabel23.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel23.Font = new System.Drawing.Font("SF Pro Display", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel23.ForeColor = System.Drawing.Color.Salmon;
+            this.guna2HtmlLabel23.Location = new System.Drawing.Point(436, 229);
+            this.guna2HtmlLabel23.Name = "guna2HtmlLabel23";
+            this.guna2HtmlLabel23.Size = new System.Drawing.Size(24, 37);
+            this.guna2HtmlLabel23.TabIndex = 46;
+            this.guna2HtmlLabel23.Text = "G";
             // 
-            // guna2HtmlLabel5
+            // guna2Button3
             // 
-            this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel5.Font = new System.Drawing.Font("SF Pro Display", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel5.ForeColor = System.Drawing.Color.DimGray;
-            this.guna2HtmlLabel5.Location = new System.Drawing.Point(62, 45);
-            this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            this.guna2HtmlLabel5.Size = new System.Drawing.Size(13, 20);
-            this.guna2HtmlLabel5.TabIndex = 31;
-            this.guna2HtmlLabel5.Text = "0";
-            this.guna2HtmlLabel5.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
-            this.guna2HtmlLabel5.UseGdiPlusTextRendering = true;
+            this.guna2Button3.AutoRoundedCorners = true;
+            this.guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button3.FillColor = System.Drawing.Color.Salmon;
+            this.guna2Button3.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button3.ForeColor = System.Drawing.Color.White;
+            this.guna2Button3.HoverState.FillColor = System.Drawing.Color.Salmon;
+            this.guna2Button3.Location = new System.Drawing.Point(436, 268);
+            this.guna2Button3.Name = "guna2Button3";
+            this.guna2Button3.Size = new System.Drawing.Size(90, 3);
+            this.guna2Button3.TabIndex = 45;
+            this.guna2Button3.Text = "guna2Button1";
             // 
-            // pictureBox4
+            // guna2HtmlLabel24
             // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(7, 27);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(50, 38);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 30;
-            this.pictureBox4.TabStop = false;
+            this.guna2HtmlLabel24.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel24.Font = new System.Drawing.Font("SF Pro Display", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel24.ForeColor = System.Drawing.Color.DimGray;
+            this.guna2HtmlLabel24.Location = new System.Drawing.Point(458, 228);
+            this.guna2HtmlLabel24.Name = "guna2HtmlLabel24";
+            this.guna2HtmlLabel24.Size = new System.Drawing.Size(258, 37);
+            this.guna2HtmlLabel24.TabIndex = 44;
+            this.guna2HtmlLabel24.Text = "ráfico de inventario";
             // 
-            // guna2HtmlLabel4
+            // chart1
             // 
-            this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel4.Font = new System.Drawing.Font("SF Pro Display", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel4.ForeColor = System.Drawing.Color.DimGray;
-            this.guna2HtmlLabel4.Location = new System.Drawing.Point(9, 9);
-            this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            this.guna2HtmlLabel4.Size = new System.Drawing.Size(148, 20);
-            this.guna2HtmlLabel4.TabIndex = 30;
-            this.guna2HtmlLabel4.Text = "No. Cuentas x Cobrar";
-            this.guna2HtmlLabel4.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
-            this.guna2HtmlLabel4.UseGdiPlusTextRendering = true;
+            chartArea1.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.chart1.Legends.Add(legend1);
+            this.chart1.Location = new System.Drawing.Point(406, 267);
+            this.chart1.Name = "chart1";
+            this.chart1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Pastel;
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Doughnut;
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            dataPoint1.Label = "";
+            dataPoint1.LabelFormat = "";
+            dataPoint1.LegendText = "Trajes de baño";
+            dataPoint1.MarkerStyle = System.Windows.Forms.DataVisualization.Charting.MarkerStyle.None;
+            dataPoint2.LegendText = "Abrigos";
+            dataPoint3.LegendText = "Pantalones de pinzas";
+            dataPoint4.LegendText = "Zapatillas";
+            dataPoint5.LegendText = "Blusas";
+            series1.Points.Add(dataPoint1);
+            series1.Points.Add(dataPoint2);
+            series1.Points.Add(dataPoint3);
+            series1.Points.Add(dataPoint4);
+            series1.Points.Add(dataPoint5);
+            this.chart1.Series.Add(series1);
+            this.chart1.Size = new System.Drawing.Size(403, 229);
+            this.chart1.TabIndex = 43;
+            this.chart1.Text = "chart1";
+            this.chart1.Click += new System.EventHandler(this.chart1_Click);
             // 
-            // guna2HtmlLabel7
+            // guna2HtmlLabel21
             // 
-            this.guna2HtmlLabel7.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel7.Font = new System.Drawing.Font("SF Pro Display", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel7.ForeColor = System.Drawing.Color.Salmon;
-            this.guna2HtmlLabel7.Location = new System.Drawing.Point(11, 6);
-            this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
-            this.guna2HtmlLabel7.Size = new System.Drawing.Size(23, 37);
-            this.guna2HtmlLabel7.TabIndex = 28;
-            this.guna2HtmlLabel7.Text = "D";
+            this.guna2HtmlLabel21.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel21.Font = new System.Drawing.Font("SF Pro Display", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel21.ForeColor = System.Drawing.Color.Salmon;
+            this.guna2HtmlLabel21.Location = new System.Drawing.Point(14, 228);
+            this.guna2HtmlLabel21.Name = "guna2HtmlLabel21";
+            this.guna2HtmlLabel21.Size = new System.Drawing.Size(24, 37);
+            this.guna2HtmlLabel21.TabIndex = 42;
+            this.guna2HtmlLabel21.Text = "G";
             // 
-            // guna2Button1
+            // guna2Button2
             // 
-            this.guna2Button1.AutoRoundedCorners = true;
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.FillColor = System.Drawing.Color.Salmon;
-            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.HoverState.FillColor = System.Drawing.Color.Salmon;
-            this.guna2Button1.Location = new System.Drawing.Point(11, 44);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(120, 3);
-            this.guna2Button1.TabIndex = 27;
-            this.guna2Button1.Text = "guna2Button1";
+            this.guna2Button2.AutoRoundedCorners = true;
+            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button2.FillColor = System.Drawing.Color.Salmon;
+            this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button2.ForeColor = System.Drawing.Color.White;
+            this.guna2Button2.HoverState.FillColor = System.Drawing.Color.Salmon;
+            this.guna2Button2.Location = new System.Drawing.Point(14, 267);
+            this.guna2Button2.Name = "guna2Button2";
+            this.guna2Button2.Size = new System.Drawing.Size(90, 3);
+            this.guna2Button2.TabIndex = 41;
+            this.guna2Button2.Text = "guna2Button1";
             // 
-            // guna2HtmlLabel2
+            // guna2HtmlLabel22
             // 
-            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel2.Font = new System.Drawing.Font("SF Pro Display", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.DimGray;
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(33, 5);
-            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(395, 37);
-            this.guna2HtmlLabel2.TabIndex = 26;
-            this.guna2HtmlLabel2.Text = "ashboard De Glowish Fashion";
-            // 
-            // chartVentas
-            // 
-            chartArea3.Name = "ChartArea1";
-            this.chartVentas.ChartAreas.Add(chartArea3);
-            legend3.Name = "Legend1";
-            this.chartVentas.Legends.Add(legend3);
-            this.chartVentas.Location = new System.Drawing.Point(20, 276);
-            this.chartVentas.Name = "chartVentas";
-            this.chartVentas.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Pastel;
-            this.chartVentas.Size = new System.Drawing.Size(380, 220);
-            this.chartVentas.TabIndex = 32;
-            this.chartVentas.Text = "chart1";
-            // 
-            // bunifuCards2
-            // 
-            this.bunifuCards2.BackColor = System.Drawing.Color.White;
-            this.bunifuCards2.BorderRadius = 5;
-            this.bunifuCards2.BottomSahddow = true;
-            this.bunifuCards2.color = System.Drawing.Color.Salmon;
-            this.bunifuCards2.Controls.Add(this.guna2HtmlLabel6);
-            this.bunifuCards2.Controls.Add(this.pictureBox5);
-            this.bunifuCards2.Controls.Add(this.guna2HtmlLabel8);
-            this.bunifuCards2.LeftSahddow = false;
-            this.bunifuCards2.Location = new System.Drawing.Point(11, 143);
-            this.bunifuCards2.Name = "bunifuCards2";
-            this.bunifuCards2.RightSahddow = true;
-            this.bunifuCards2.ShadowDepth = 20;
-            this.bunifuCards2.Size = new System.Drawing.Size(191, 74);
-            this.bunifuCards2.TabIndex = 33;
-            // 
-            // guna2HtmlLabel6
-            // 
-            this.guna2HtmlLabel6.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel6.Font = new System.Drawing.Font("SF Pro Display", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel6.ForeColor = System.Drawing.Color.DimGray;
-            this.guna2HtmlLabel6.Location = new System.Drawing.Point(62, 45);
-            this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
-            this.guna2HtmlLabel6.Size = new System.Drawing.Size(13, 20);
-            this.guna2HtmlLabel6.TabIndex = 31;
-            this.guna2HtmlLabel6.Text = "0";
-            this.guna2HtmlLabel6.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
-            this.guna2HtmlLabel6.UseGdiPlusTextRendering = true;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(7, 27);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(50, 38);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 30;
-            this.pictureBox5.TabStop = false;
-            // 
-            // guna2HtmlLabel8
-            // 
-            this.guna2HtmlLabel8.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel8.Font = new System.Drawing.Font("SF Pro Display", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel8.ForeColor = System.Drawing.Color.DimGray;
-            this.guna2HtmlLabel8.Location = new System.Drawing.Point(9, 9);
-            this.guna2HtmlLabel8.Name = "guna2HtmlLabel8";
-            this.guna2HtmlLabel8.Size = new System.Drawing.Size(105, 20);
-            this.guna2HtmlLabel8.TabIndex = 30;
-            this.guna2HtmlLabel8.Text = "No. Empleados";
-            this.guna2HtmlLabel8.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
-            this.guna2HtmlLabel8.UseGdiPlusTextRendering = true;
-            // 
-            // bunifuCards3
-            // 
-            this.bunifuCards3.BackColor = System.Drawing.Color.White;
-            this.bunifuCards3.BorderRadius = 5;
-            this.bunifuCards3.BottomSahddow = true;
-            this.bunifuCards3.color = System.Drawing.Color.Salmon;
-            this.bunifuCards3.Controls.Add(this.guna2HtmlLabel9);
-            this.bunifuCards3.Controls.Add(this.pictureBox6);
-            this.bunifuCards3.Controls.Add(this.guna2HtmlLabel10);
-            this.bunifuCards3.LeftSahddow = false;
-            this.bunifuCards3.Location = new System.Drawing.Point(208, 143);
-            this.bunifuCards3.Name = "bunifuCards3";
-            this.bunifuCards3.RightSahddow = true;
-            this.bunifuCards3.ShadowDepth = 20;
-            this.bunifuCards3.Size = new System.Drawing.Size(191, 74);
-            this.bunifuCards3.TabIndex = 35;
-            // 
-            // guna2HtmlLabel9
-            // 
-            this.guna2HtmlLabel9.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel9.Font = new System.Drawing.Font("SF Pro Display", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel9.ForeColor = System.Drawing.Color.DimGray;
-            this.guna2HtmlLabel9.Location = new System.Drawing.Point(62, 45);
-            this.guna2HtmlLabel9.Name = "guna2HtmlLabel9";
-            this.guna2HtmlLabel9.Size = new System.Drawing.Size(13, 20);
-            this.guna2HtmlLabel9.TabIndex = 31;
-            this.guna2HtmlLabel9.Text = "0";
-            this.guna2HtmlLabel9.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
-            this.guna2HtmlLabel9.UseGdiPlusTextRendering = true;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(7, 27);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(50, 38);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox6.TabIndex = 30;
-            this.pictureBox6.TabStop = false;
-            // 
-            // guna2HtmlLabel10
-            // 
-            this.guna2HtmlLabel10.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel10.Font = new System.Drawing.Font("SF Pro Display", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel10.ForeColor = System.Drawing.Color.DimGray;
-            this.guna2HtmlLabel10.Location = new System.Drawing.Point(9, 9);
-            this.guna2HtmlLabel10.Name = "guna2HtmlLabel10";
-            this.guna2HtmlLabel10.Size = new System.Drawing.Size(100, 20);
-            this.guna2HtmlLabel10.TabIndex = 30;
-            this.guna2HtmlLabel10.Text = "No. Productos";
-            this.guna2HtmlLabel10.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
-            this.guna2HtmlLabel10.UseGdiPlusTextRendering = true;
-            // 
-            // bunifuCards4
-            // 
-            this.bunifuCards4.BackColor = System.Drawing.Color.White;
-            this.bunifuCards4.BorderRadius = 5;
-            this.bunifuCards4.BottomSahddow = true;
-            this.bunifuCards4.color = System.Drawing.Color.Salmon;
-            this.bunifuCards4.Controls.Add(this.guna2HtmlLabel11);
-            this.bunifuCards4.Controls.Add(this.pictureBox7);
-            this.bunifuCards4.Controls.Add(this.guna2HtmlLabel12);
-            this.bunifuCards4.LeftSahddow = false;
-            this.bunifuCards4.Location = new System.Drawing.Point(208, 63);
-            this.bunifuCards4.Name = "bunifuCards4";
-            this.bunifuCards4.RightSahddow = true;
-            this.bunifuCards4.ShadowDepth = 20;
-            this.bunifuCards4.Size = new System.Drawing.Size(191, 74);
-            this.bunifuCards4.TabIndex = 34;
-            // 
-            // guna2HtmlLabel11
-            // 
-            this.guna2HtmlLabel11.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel11.Font = new System.Drawing.Font("SF Pro Display", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel11.ForeColor = System.Drawing.Color.DimGray;
-            this.guna2HtmlLabel11.Location = new System.Drawing.Point(62, 45);
-            this.guna2HtmlLabel11.Name = "guna2HtmlLabel11";
-            this.guna2HtmlLabel11.Size = new System.Drawing.Size(13, 20);
-            this.guna2HtmlLabel11.TabIndex = 31;
-            this.guna2HtmlLabel11.Text = "0";
-            this.guna2HtmlLabel11.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
-            this.guna2HtmlLabel11.UseGdiPlusTextRendering = true;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(7, 27);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(50, 38);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 30;
-            this.pictureBox7.TabStop = false;
-            // 
-            // guna2HtmlLabel12
-            // 
-            this.guna2HtmlLabel12.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel12.Font = new System.Drawing.Font("SF Pro Display", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel12.ForeColor = System.Drawing.Color.DimGray;
-            this.guna2HtmlLabel12.Location = new System.Drawing.Point(9, 9);
-            this.guna2HtmlLabel12.Name = "guna2HtmlLabel12";
-            this.guna2HtmlLabel12.Size = new System.Drawing.Size(90, 20);
-            this.guna2HtmlLabel12.TabIndex = 30;
-            this.guna2HtmlLabel12.Text = "No. Usuarios";
-            this.guna2HtmlLabel12.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
-            this.guna2HtmlLabel12.UseGdiPlusTextRendering = true;
-            // 
-            // bunifuCards5
-            // 
-            this.bunifuCards5.BackColor = System.Drawing.Color.White;
-            this.bunifuCards5.BorderRadius = 5;
-            this.bunifuCards5.BottomSahddow = true;
-            this.bunifuCards5.color = System.Drawing.Color.Salmon;
-            this.bunifuCards5.Controls.Add(this.guna2HtmlLabel13);
-            this.bunifuCards5.Controls.Add(this.pictureBox8);
-            this.bunifuCards5.Controls.Add(this.guna2HtmlLabel14);
-            this.bunifuCards5.LeftSahddow = false;
-            this.bunifuCards5.Location = new System.Drawing.Point(416, 143);
-            this.bunifuCards5.Name = "bunifuCards5";
-            this.bunifuCards5.RightSahddow = true;
-            this.bunifuCards5.ShadowDepth = 20;
-            this.bunifuCards5.Size = new System.Drawing.Size(191, 74);
-            this.bunifuCards5.TabIndex = 37;
-            // 
-            // guna2HtmlLabel13
-            // 
-            this.guna2HtmlLabel13.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel13.Font = new System.Drawing.Font("SF Pro Display", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel13.ForeColor = System.Drawing.Color.DimGray;
-            this.guna2HtmlLabel13.Location = new System.Drawing.Point(62, 45);
-            this.guna2HtmlLabel13.Name = "guna2HtmlLabel13";
-            this.guna2HtmlLabel13.Size = new System.Drawing.Size(13, 20);
-            this.guna2HtmlLabel13.TabIndex = 31;
-            this.guna2HtmlLabel13.Text = "0";
-            this.guna2HtmlLabel13.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
-            this.guna2HtmlLabel13.UseGdiPlusTextRendering = true;
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(7, 27);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(50, 38);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox8.TabIndex = 30;
-            this.pictureBox8.TabStop = false;
-            // 
-            // guna2HtmlLabel14
-            // 
-            this.guna2HtmlLabel14.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel14.Font = new System.Drawing.Font("SF Pro Display", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel14.ForeColor = System.Drawing.Color.DimGray;
-            this.guna2HtmlLabel14.Location = new System.Drawing.Point(9, 9);
-            this.guna2HtmlLabel14.Name = "guna2HtmlLabel14";
-            this.guna2HtmlLabel14.Size = new System.Drawing.Size(91, 20);
-            this.guna2HtmlLabel14.TabIndex = 30;
-            this.guna2HtmlLabel14.Text = "No. Compras";
-            this.guna2HtmlLabel14.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
-            this.guna2HtmlLabel14.UseGdiPlusTextRendering = true;
-            // 
-            // bunifuCards6
-            // 
-            this.bunifuCards6.BackColor = System.Drawing.Color.White;
-            this.bunifuCards6.BorderRadius = 5;
-            this.bunifuCards6.BottomSahddow = true;
-            this.bunifuCards6.color = System.Drawing.Color.Salmon;
-            this.bunifuCards6.Controls.Add(this.guna2HtmlLabel15);
-            this.bunifuCards6.Controls.Add(this.pictureBox9);
-            this.bunifuCards6.Controls.Add(this.guna2HtmlLabel16);
-            this.bunifuCards6.LeftSahddow = false;
-            this.bunifuCards6.Location = new System.Drawing.Point(416, 63);
-            this.bunifuCards6.Name = "bunifuCards6";
-            this.bunifuCards6.RightSahddow = true;
-            this.bunifuCards6.ShadowDepth = 20;
-            this.bunifuCards6.Size = new System.Drawing.Size(191, 74);
-            this.bunifuCards6.TabIndex = 36;
-            // 
-            // guna2HtmlLabel15
-            // 
-            this.guna2HtmlLabel15.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel15.Font = new System.Drawing.Font("SF Pro Display", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel15.ForeColor = System.Drawing.Color.DimGray;
-            this.guna2HtmlLabel15.Location = new System.Drawing.Point(62, 45);
-            this.guna2HtmlLabel15.Name = "guna2HtmlLabel15";
-            this.guna2HtmlLabel15.Size = new System.Drawing.Size(13, 20);
-            this.guna2HtmlLabel15.TabIndex = 31;
-            this.guna2HtmlLabel15.Text = "0";
-            this.guna2HtmlLabel15.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
-            this.guna2HtmlLabel15.UseGdiPlusTextRendering = true;
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(7, 27);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(50, 38);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox9.TabIndex = 30;
-            this.pictureBox9.TabStop = false;
-            // 
-            // guna2HtmlLabel16
-            // 
-            this.guna2HtmlLabel16.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel16.Font = new System.Drawing.Font("SF Pro Display", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel16.ForeColor = System.Drawing.Color.DimGray;
-            this.guna2HtmlLabel16.Location = new System.Drawing.Point(9, 9);
-            this.guna2HtmlLabel16.Name = "guna2HtmlLabel16";
-            this.guna2HtmlLabel16.Size = new System.Drawing.Size(76, 20);
-            this.guna2HtmlLabel16.TabIndex = 30;
-            this.guna2HtmlLabel16.Text = "No. Ventas";
-            this.guna2HtmlLabel16.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
-            this.guna2HtmlLabel16.UseGdiPlusTextRendering = true;
+            this.guna2HtmlLabel22.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel22.Font = new System.Drawing.Font("SF Pro Display", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel22.ForeColor = System.Drawing.Color.DimGray;
+            this.guna2HtmlLabel22.Location = new System.Drawing.Point(36, 227);
+            this.guna2HtmlLabel22.Name = "guna2HtmlLabel22";
+            this.guna2HtmlLabel22.Size = new System.Drawing.Size(214, 37);
+            this.guna2HtmlLabel22.TabIndex = 40;
+            this.guna2HtmlLabel22.Text = "ráfico de ventas";
             // 
             // bunifuCards7
             // 
@@ -1188,7 +929,7 @@
             this.guna2HtmlLabel18.ForeColor = System.Drawing.Color.DimGray;
             this.guna2HtmlLabel18.Location = new System.Drawing.Point(9, 9);
             this.guna2HtmlLabel18.Name = "guna2HtmlLabel18";
-            this.guna2HtmlLabel18.Size = new System.Drawing.Size(115, 20);
+            this.guna2HtmlLabel18.Size = new System.Drawing.Size(116, 20);
             this.guna2HtmlLabel18.TabIndex = 30;
             this.guna2HtmlLabel18.Text = "No. Proveedores";
             this.guna2HtmlLabel18.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -1241,120 +982,382 @@
             this.guna2HtmlLabel20.ForeColor = System.Drawing.Color.DimGray;
             this.guna2HtmlLabel20.Location = new System.Drawing.Point(9, 9);
             this.guna2HtmlLabel20.Name = "guna2HtmlLabel20";
-            this.guna2HtmlLabel20.Size = new System.Drawing.Size(102, 20);
+            this.guna2HtmlLabel20.Size = new System.Drawing.Size(103, 20);
             this.guna2HtmlLabel20.TabIndex = 30;
             this.guna2HtmlLabel20.Text = "Dinero En Caja";
             this.guna2HtmlLabel20.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
             this.guna2HtmlLabel20.UseGdiPlusTextRendering = true;
             // 
-            // guna2HtmlLabel21
+            // bunifuCards5
             // 
-            this.guna2HtmlLabel21.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel21.Font = new System.Drawing.Font("SF Pro Display", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel21.ForeColor = System.Drawing.Color.Salmon;
-            this.guna2HtmlLabel21.Location = new System.Drawing.Point(14, 228);
-            this.guna2HtmlLabel21.Name = "guna2HtmlLabel21";
-            this.guna2HtmlLabel21.Size = new System.Drawing.Size(24, 37);
-            this.guna2HtmlLabel21.TabIndex = 42;
-            this.guna2HtmlLabel21.Text = "G";
+            this.bunifuCards5.BackColor = System.Drawing.Color.White;
+            this.bunifuCards5.BorderRadius = 5;
+            this.bunifuCards5.BottomSahddow = true;
+            this.bunifuCards5.color = System.Drawing.Color.Salmon;
+            this.bunifuCards5.Controls.Add(this.guna2HtmlLabel13);
+            this.bunifuCards5.Controls.Add(this.pictureBox8);
+            this.bunifuCards5.Controls.Add(this.guna2HtmlLabel14);
+            this.bunifuCards5.LeftSahddow = false;
+            this.bunifuCards5.Location = new System.Drawing.Point(416, 143);
+            this.bunifuCards5.Name = "bunifuCards5";
+            this.bunifuCards5.RightSahddow = true;
+            this.bunifuCards5.ShadowDepth = 20;
+            this.bunifuCards5.Size = new System.Drawing.Size(191, 74);
+            this.bunifuCards5.TabIndex = 37;
             // 
-            // guna2Button2
+            // guna2HtmlLabel13
             // 
-            this.guna2Button2.AutoRoundedCorners = true;
-            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button2.FillColor = System.Drawing.Color.Salmon;
-            this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.HoverState.FillColor = System.Drawing.Color.Salmon;
-            this.guna2Button2.Location = new System.Drawing.Point(14, 267);
-            this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(90, 3);
-            this.guna2Button2.TabIndex = 41;
-            this.guna2Button2.Text = "guna2Button1";
+            this.guna2HtmlLabel13.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel13.Font = new System.Drawing.Font("SF Pro Display", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel13.ForeColor = System.Drawing.Color.DimGray;
+            this.guna2HtmlLabel13.Location = new System.Drawing.Point(62, 45);
+            this.guna2HtmlLabel13.Name = "guna2HtmlLabel13";
+            this.guna2HtmlLabel13.Size = new System.Drawing.Size(13, 20);
+            this.guna2HtmlLabel13.TabIndex = 31;
+            this.guna2HtmlLabel13.Text = "0";
+            this.guna2HtmlLabel13.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
+            this.guna2HtmlLabel13.UseGdiPlusTextRendering = true;
             // 
-            // guna2HtmlLabel22
+            // pictureBox8
             // 
-            this.guna2HtmlLabel22.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel22.Font = new System.Drawing.Font("SF Pro Display", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel22.ForeColor = System.Drawing.Color.DimGray;
-            this.guna2HtmlLabel22.Location = new System.Drawing.Point(36, 227);
-            this.guna2HtmlLabel22.Name = "guna2HtmlLabel22";
-            this.guna2HtmlLabel22.Size = new System.Drawing.Size(214, 37);
-            this.guna2HtmlLabel22.TabIndex = 40;
-            this.guna2HtmlLabel22.Text = "ráfico de ventas";
+            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
+            this.pictureBox8.Location = new System.Drawing.Point(7, 27);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(50, 38);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox8.TabIndex = 30;
+            this.pictureBox8.TabStop = false;
             // 
-            // chart1
+            // guna2HtmlLabel14
             // 
-            chartArea4.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea4);
-            legend4.Name = "Legend1";
-            this.chart1.Legends.Add(legend4);
-            this.chart1.Location = new System.Drawing.Point(406, 267);
-            this.chart1.Name = "chart1";
-            this.chart1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Pastel;
-            series2.ChartArea = "ChartArea1";
-            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Doughnut;
-            series2.Legend = "Legend1";
-            series2.Name = "Series1";
-            dataPoint6.Label = "";
-            dataPoint6.LabelFormat = "";
-            dataPoint6.LegendText = "Trajes de baño";
-            dataPoint6.MarkerStyle = System.Windows.Forms.DataVisualization.Charting.MarkerStyle.None;
-            dataPoint7.LegendText = "Abrigos";
-            dataPoint8.LegendText = "Pantalones de pinzas";
-            dataPoint9.LegendText = "Zapatillas";
-            dataPoint10.LegendText = "Blusas";
-            series2.Points.Add(dataPoint6);
-            series2.Points.Add(dataPoint7);
-            series2.Points.Add(dataPoint8);
-            series2.Points.Add(dataPoint9);
-            series2.Points.Add(dataPoint10);
-            this.chart1.Series.Add(series2);
-            this.chart1.Size = new System.Drawing.Size(403, 229);
-            this.chart1.TabIndex = 43;
-            this.chart1.Text = "chart1";
+            this.guna2HtmlLabel14.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel14.Font = new System.Drawing.Font("SF Pro Display", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel14.ForeColor = System.Drawing.Color.DimGray;
+            this.guna2HtmlLabel14.Location = new System.Drawing.Point(9, 9);
+            this.guna2HtmlLabel14.Name = "guna2HtmlLabel14";
+            this.guna2HtmlLabel14.Size = new System.Drawing.Size(93, 20);
+            this.guna2HtmlLabel14.TabIndex = 30;
+            this.guna2HtmlLabel14.Text = "No. Compras";
+            this.guna2HtmlLabel14.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
+            this.guna2HtmlLabel14.UseGdiPlusTextRendering = true;
             // 
-            // guna2HtmlLabel23
+            // bunifuCards6
             // 
-            this.guna2HtmlLabel23.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel23.Font = new System.Drawing.Font("SF Pro Display", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel23.ForeColor = System.Drawing.Color.Salmon;
-            this.guna2HtmlLabel23.Location = new System.Drawing.Point(436, 229);
-            this.guna2HtmlLabel23.Name = "guna2HtmlLabel23";
-            this.guna2HtmlLabel23.Size = new System.Drawing.Size(24, 37);
-            this.guna2HtmlLabel23.TabIndex = 46;
-            this.guna2HtmlLabel23.Text = "G";
+            this.bunifuCards6.BackColor = System.Drawing.Color.White;
+            this.bunifuCards6.BorderRadius = 5;
+            this.bunifuCards6.BottomSahddow = true;
+            this.bunifuCards6.color = System.Drawing.Color.Salmon;
+            this.bunifuCards6.Controls.Add(this.guna2HtmlLabel15);
+            this.bunifuCards6.Controls.Add(this.pictureBox9);
+            this.bunifuCards6.Controls.Add(this.guna2HtmlLabel16);
+            this.bunifuCards6.LeftSahddow = false;
+            this.bunifuCards6.Location = new System.Drawing.Point(416, 63);
+            this.bunifuCards6.Name = "bunifuCards6";
+            this.bunifuCards6.RightSahddow = true;
+            this.bunifuCards6.ShadowDepth = 20;
+            this.bunifuCards6.Size = new System.Drawing.Size(191, 74);
+            this.bunifuCards6.TabIndex = 36;
             // 
-            // guna2Button3
+            // guna2HtmlLabel15
             // 
-            this.guna2Button3.AutoRoundedCorners = true;
-            this.guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button3.FillColor = System.Drawing.Color.Salmon;
-            this.guna2Button3.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button3.ForeColor = System.Drawing.Color.White;
-            this.guna2Button3.HoverState.FillColor = System.Drawing.Color.Salmon;
-            this.guna2Button3.Location = new System.Drawing.Point(436, 268);
-            this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.Size = new System.Drawing.Size(90, 3);
-            this.guna2Button3.TabIndex = 45;
-            this.guna2Button3.Text = "guna2Button1";
+            this.guna2HtmlLabel15.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel15.Font = new System.Drawing.Font("SF Pro Display", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel15.ForeColor = System.Drawing.Color.DimGray;
+            this.guna2HtmlLabel15.Location = new System.Drawing.Point(62, 45);
+            this.guna2HtmlLabel15.Name = "guna2HtmlLabel15";
+            this.guna2HtmlLabel15.Size = new System.Drawing.Size(13, 20);
+            this.guna2HtmlLabel15.TabIndex = 31;
+            this.guna2HtmlLabel15.Text = "0";
+            this.guna2HtmlLabel15.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
+            this.guna2HtmlLabel15.UseGdiPlusTextRendering = true;
             // 
-            // guna2HtmlLabel24
+            // pictureBox9
             // 
-            this.guna2HtmlLabel24.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel24.Font = new System.Drawing.Font("SF Pro Display", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel24.ForeColor = System.Drawing.Color.DimGray;
-            this.guna2HtmlLabel24.Location = new System.Drawing.Point(458, 228);
-            this.guna2HtmlLabel24.Name = "guna2HtmlLabel24";
-            this.guna2HtmlLabel24.Size = new System.Drawing.Size(258, 37);
-            this.guna2HtmlLabel24.TabIndex = 44;
-            this.guna2HtmlLabel24.Text = "ráfico de inventario";
+            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
+            this.pictureBox9.Location = new System.Drawing.Point(7, 27);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(50, 38);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox9.TabIndex = 30;
+            this.pictureBox9.TabStop = false;
+            // 
+            // guna2HtmlLabel16
+            // 
+            this.guna2HtmlLabel16.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel16.Font = new System.Drawing.Font("SF Pro Display", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel16.ForeColor = System.Drawing.Color.DimGray;
+            this.guna2HtmlLabel16.Location = new System.Drawing.Point(9, 9);
+            this.guna2HtmlLabel16.Name = "guna2HtmlLabel16";
+            this.guna2HtmlLabel16.Size = new System.Drawing.Size(78, 20);
+            this.guna2HtmlLabel16.TabIndex = 30;
+            this.guna2HtmlLabel16.Text = "No. Ventas";
+            this.guna2HtmlLabel16.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
+            this.guna2HtmlLabel16.UseGdiPlusTextRendering = true;
+            // 
+            // bunifuCards3
+            // 
+            this.bunifuCards3.BackColor = System.Drawing.Color.White;
+            this.bunifuCards3.BorderRadius = 5;
+            this.bunifuCards3.BottomSahddow = true;
+            this.bunifuCards3.color = System.Drawing.Color.Salmon;
+            this.bunifuCards3.Controls.Add(this.guna2HtmlLabel9);
+            this.bunifuCards3.Controls.Add(this.pictureBox6);
+            this.bunifuCards3.Controls.Add(this.guna2HtmlLabel10);
+            this.bunifuCards3.LeftSahddow = false;
+            this.bunifuCards3.Location = new System.Drawing.Point(208, 143);
+            this.bunifuCards3.Name = "bunifuCards3";
+            this.bunifuCards3.RightSahddow = true;
+            this.bunifuCards3.ShadowDepth = 20;
+            this.bunifuCards3.Size = new System.Drawing.Size(191, 74);
+            this.bunifuCards3.TabIndex = 35;
+            // 
+            // guna2HtmlLabel9
+            // 
+            this.guna2HtmlLabel9.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel9.Font = new System.Drawing.Font("SF Pro Display", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel9.ForeColor = System.Drawing.Color.DimGray;
+            this.guna2HtmlLabel9.Location = new System.Drawing.Point(62, 45);
+            this.guna2HtmlLabel9.Name = "guna2HtmlLabel9";
+            this.guna2HtmlLabel9.Size = new System.Drawing.Size(13, 20);
+            this.guna2HtmlLabel9.TabIndex = 31;
+            this.guna2HtmlLabel9.Text = "0";
+            this.guna2HtmlLabel9.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
+            this.guna2HtmlLabel9.UseGdiPlusTextRendering = true;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+            this.pictureBox6.Location = new System.Drawing.Point(7, 27);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(50, 38);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 30;
+            this.pictureBox6.TabStop = false;
+            // 
+            // guna2HtmlLabel10
+            // 
+            this.guna2HtmlLabel10.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel10.Font = new System.Drawing.Font("SF Pro Display", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel10.ForeColor = System.Drawing.Color.DimGray;
+            this.guna2HtmlLabel10.Location = new System.Drawing.Point(9, 9);
+            this.guna2HtmlLabel10.Name = "guna2HtmlLabel10";
+            this.guna2HtmlLabel10.Size = new System.Drawing.Size(101, 20);
+            this.guna2HtmlLabel10.TabIndex = 30;
+            this.guna2HtmlLabel10.Text = "No. Productos";
+            this.guna2HtmlLabel10.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
+            this.guna2HtmlLabel10.UseGdiPlusTextRendering = true;
+            // 
+            // bunifuCards4
+            // 
+            this.bunifuCards4.BackColor = System.Drawing.Color.White;
+            this.bunifuCards4.BorderRadius = 5;
+            this.bunifuCards4.BottomSahddow = true;
+            this.bunifuCards4.color = System.Drawing.Color.Salmon;
+            this.bunifuCards4.Controls.Add(this.guna2HtmlLabel11);
+            this.bunifuCards4.Controls.Add(this.pictureBox7);
+            this.bunifuCards4.Controls.Add(this.guna2HtmlLabel12);
+            this.bunifuCards4.LeftSahddow = false;
+            this.bunifuCards4.Location = new System.Drawing.Point(208, 63);
+            this.bunifuCards4.Name = "bunifuCards4";
+            this.bunifuCards4.RightSahddow = true;
+            this.bunifuCards4.ShadowDepth = 20;
+            this.bunifuCards4.Size = new System.Drawing.Size(191, 74);
+            this.bunifuCards4.TabIndex = 34;
+            // 
+            // guna2HtmlLabel11
+            // 
+            this.guna2HtmlLabel11.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel11.Font = new System.Drawing.Font("SF Pro Display", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel11.ForeColor = System.Drawing.Color.DimGray;
+            this.guna2HtmlLabel11.Location = new System.Drawing.Point(62, 45);
+            this.guna2HtmlLabel11.Name = "guna2HtmlLabel11";
+            this.guna2HtmlLabel11.Size = new System.Drawing.Size(13, 20);
+            this.guna2HtmlLabel11.TabIndex = 31;
+            this.guna2HtmlLabel11.Text = "0";
+            this.guna2HtmlLabel11.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
+            this.guna2HtmlLabel11.UseGdiPlusTextRendering = true;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
+            this.pictureBox7.Location = new System.Drawing.Point(7, 27);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(50, 38);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox7.TabIndex = 30;
+            this.pictureBox7.TabStop = false;
+            // 
+            // guna2HtmlLabel12
+            // 
+            this.guna2HtmlLabel12.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel12.Font = new System.Drawing.Font("SF Pro Display", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel12.ForeColor = System.Drawing.Color.DimGray;
+            this.guna2HtmlLabel12.Location = new System.Drawing.Point(9, 9);
+            this.guna2HtmlLabel12.Name = "guna2HtmlLabel12";
+            this.guna2HtmlLabel12.Size = new System.Drawing.Size(92, 20);
+            this.guna2HtmlLabel12.TabIndex = 30;
+            this.guna2HtmlLabel12.Text = "No. Usuarios";
+            this.guna2HtmlLabel12.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
+            this.guna2HtmlLabel12.UseGdiPlusTextRendering = true;
+            // 
+            // bunifuCards2
+            // 
+            this.bunifuCards2.BackColor = System.Drawing.Color.White;
+            this.bunifuCards2.BorderRadius = 5;
+            this.bunifuCards2.BottomSahddow = true;
+            this.bunifuCards2.color = System.Drawing.Color.Salmon;
+            this.bunifuCards2.Controls.Add(this.guna2HtmlLabel6);
+            this.bunifuCards2.Controls.Add(this.pictureBox5);
+            this.bunifuCards2.Controls.Add(this.guna2HtmlLabel8);
+            this.bunifuCards2.LeftSahddow = false;
+            this.bunifuCards2.Location = new System.Drawing.Point(11, 143);
+            this.bunifuCards2.Name = "bunifuCards2";
+            this.bunifuCards2.RightSahddow = true;
+            this.bunifuCards2.ShadowDepth = 20;
+            this.bunifuCards2.Size = new System.Drawing.Size(191, 74);
+            this.bunifuCards2.TabIndex = 33;
+            // 
+            // guna2HtmlLabel6
+            // 
+            this.guna2HtmlLabel6.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel6.Font = new System.Drawing.Font("SF Pro Display", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel6.ForeColor = System.Drawing.Color.DimGray;
+            this.guna2HtmlLabel6.Location = new System.Drawing.Point(62, 45);
+            this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
+            this.guna2HtmlLabel6.Size = new System.Drawing.Size(13, 20);
+            this.guna2HtmlLabel6.TabIndex = 31;
+            this.guna2HtmlLabel6.Text = "0";
+            this.guna2HtmlLabel6.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
+            this.guna2HtmlLabel6.UseGdiPlusTextRendering = true;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(7, 27);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(50, 38);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 30;
+            this.pictureBox5.TabStop = false;
+            // 
+            // guna2HtmlLabel8
+            // 
+            this.guna2HtmlLabel8.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel8.Font = new System.Drawing.Font("SF Pro Display", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel8.ForeColor = System.Drawing.Color.DimGray;
+            this.guna2HtmlLabel8.Location = new System.Drawing.Point(9, 9);
+            this.guna2HtmlLabel8.Name = "guna2HtmlLabel8";
+            this.guna2HtmlLabel8.Size = new System.Drawing.Size(107, 20);
+            this.guna2HtmlLabel8.TabIndex = 30;
+            this.guna2HtmlLabel8.Text = "No. Empleados";
+            this.guna2HtmlLabel8.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
+            this.guna2HtmlLabel8.UseGdiPlusTextRendering = true;
+            // 
+            // chartVentas
+            // 
+            chartArea2.Name = "ChartArea1";
+            this.chartVentas.ChartAreas.Add(chartArea2);
+            legend2.Name = "Legend1";
+            this.chartVentas.Legends.Add(legend2);
+            this.chartVentas.Location = new System.Drawing.Point(20, 276);
+            this.chartVentas.Name = "chartVentas";
+            this.chartVentas.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Pastel;
+            this.chartVentas.Size = new System.Drawing.Size(380, 220);
+            this.chartVentas.TabIndex = 32;
+            this.chartVentas.Text = "chart1";
+            this.chartVentas.Click += new System.EventHandler(this.chartVentas_Click);
+            // 
+            // bunifuCards1
+            // 
+            this.bunifuCards1.BackColor = System.Drawing.Color.White;
+            this.bunifuCards1.BorderRadius = 5;
+            this.bunifuCards1.BottomSahddow = true;
+            this.bunifuCards1.color = System.Drawing.Color.Salmon;
+            this.bunifuCards1.Controls.Add(this.guna2HtmlLabel5);
+            this.bunifuCards1.Controls.Add(this.pictureBox4);
+            this.bunifuCards1.Controls.Add(this.guna2HtmlLabel4);
+            this.bunifuCards1.LeftSahddow = false;
+            this.bunifuCards1.Location = new System.Drawing.Point(11, 63);
+            this.bunifuCards1.Name = "bunifuCards1";
+            this.bunifuCards1.RightSahddow = true;
+            this.bunifuCards1.ShadowDepth = 20;
+            this.bunifuCards1.Size = new System.Drawing.Size(191, 74);
+            this.bunifuCards1.TabIndex = 29;
+            // 
+            // guna2HtmlLabel5
+            // 
+            this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel5.Font = new System.Drawing.Font("SF Pro Display", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel5.ForeColor = System.Drawing.Color.DimGray;
+            this.guna2HtmlLabel5.Location = new System.Drawing.Point(62, 45);
+            this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
+            this.guna2HtmlLabel5.Size = new System.Drawing.Size(13, 20);
+            this.guna2HtmlLabel5.TabIndex = 31;
+            this.guna2HtmlLabel5.Text = "0";
+            this.guna2HtmlLabel5.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
+            this.guna2HtmlLabel5.UseGdiPlusTextRendering = true;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(7, 27);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(50, 38);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 30;
+            this.pictureBox4.TabStop = false;
+            // 
+            // guna2HtmlLabel4
+            // 
+            this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel4.Font = new System.Drawing.Font("SF Pro Display", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel4.ForeColor = System.Drawing.Color.DimGray;
+            this.guna2HtmlLabel4.Location = new System.Drawing.Point(9, 9);
+            this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
+            this.guna2HtmlLabel4.Size = new System.Drawing.Size(149, 20);
+            this.guna2HtmlLabel4.TabIndex = 30;
+            this.guna2HtmlLabel4.Text = "No. Cuentas x Cobrar";
+            this.guna2HtmlLabel4.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
+            this.guna2HtmlLabel4.UseGdiPlusTextRendering = true;
+            // 
+            // guna2HtmlLabel7
+            // 
+            this.guna2HtmlLabel7.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel7.Font = new System.Drawing.Font("SF Pro Display", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel7.ForeColor = System.Drawing.Color.Salmon;
+            this.guna2HtmlLabel7.Location = new System.Drawing.Point(11, 6);
+            this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
+            this.guna2HtmlLabel7.Size = new System.Drawing.Size(23, 37);
+            this.guna2HtmlLabel7.TabIndex = 28;
+            this.guna2HtmlLabel7.Text = "D";
+            // 
+            // guna2Button1
+            // 
+            this.guna2Button1.AutoRoundedCorners = true;
+            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button1.FillColor = System.Drawing.Color.Salmon;
+            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button1.ForeColor = System.Drawing.Color.White;
+            this.guna2Button1.HoverState.FillColor = System.Drawing.Color.Salmon;
+            this.guna2Button1.Location = new System.Drawing.Point(11, 44);
+            this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.Size = new System.Drawing.Size(120, 3);
+            this.guna2Button1.TabIndex = 27;
+            this.guna2Button1.Text = "guna2Button1";
+            // 
+            // guna2HtmlLabel2
+            // 
+            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel2.Font = new System.Drawing.Font("SF Pro Display", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.DimGray;
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(33, 5);
+            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(395, 37);
+            this.guna2HtmlLabel2.TabIndex = 26;
+            this.guna2HtmlLabel2.Text = "ashboard De Glowish Fashion";
             // 
             // FrmMenu
             // 
@@ -1378,32 +1381,32 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panelCenter.ResumeLayout(false);
             this.panelCenter.PerformLayout();
-            this.bunifuCards1.ResumeLayout(false);
-            this.bunifuCards1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chartVentas)).EndInit();
-            this.bunifuCards2.ResumeLayout(false);
-            this.bunifuCards2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            this.bunifuCards3.ResumeLayout(false);
-            this.bunifuCards3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            this.bunifuCards4.ResumeLayout(false);
-            this.bunifuCards4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            this.bunifuCards5.ResumeLayout(false);
-            this.bunifuCards5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            this.bunifuCards6.ResumeLayout(false);
-            this.bunifuCards6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
             this.bunifuCards7.ResumeLayout(false);
             this.bunifuCards7.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             this.bunifuCards8.ResumeLayout(false);
             this.bunifuCards8.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
+            this.bunifuCards5.ResumeLayout(false);
+            this.bunifuCards5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            this.bunifuCards6.ResumeLayout(false);
+            this.bunifuCards6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            this.bunifuCards3.ResumeLayout(false);
+            this.bunifuCards3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            this.bunifuCards4.ResumeLayout(false);
+            this.bunifuCards4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            this.bunifuCards2.ResumeLayout(false);
+            this.bunifuCards2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartVentas)).EndInit();
+            this.bunifuCards1.ResumeLayout(false);
+            this.bunifuCards1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
 
         }

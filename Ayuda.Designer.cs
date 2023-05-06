@@ -32,6 +32,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Ayuda));
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2HtmlToolTip1 = new Guna.UI2.WinForms.Guna2HtmlToolTip();
+            this.guna2CircleButton2 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.btnLinea = new Guna.UI2.WinForms.Guna2Button();
@@ -40,8 +41,8 @@
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2CircleButton2 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.btnMinimizar = new Guna.UI2.WinForms.Guna2CircleButton();
             this.btnCerrar = new Guna.UI2.WinForms.Guna2CircleButton();
             this.SuspendLayout();
             // 
@@ -54,103 +55,6 @@
             // 
             this.guna2HtmlToolTip1.AllowLinksHandling = true;
             this.guna2HtmlToolTip1.MaximumSize = new System.Drawing.Size(0, 0);
-            // 
-            // guna2DragControl1
-            // 
-            this.guna2DragControl1.DockIndicatorTransparencyValue = 0.6D;
-            this.guna2DragControl1.TargetControl = this;
-            this.guna2DragControl1.UseTransparentDrag = true;
-            // 
-            // guna2HtmlLabel7
-            // 
-            this.guna2HtmlLabel7.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel7.Font = new System.Drawing.Font("SF Pro Display", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel7.ForeColor = System.Drawing.Color.Salmon;
-            this.guna2HtmlLabel7.Location = new System.Drawing.Point(72, 109);
-            this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
-            this.guna2HtmlLabel7.Size = new System.Drawing.Size(23, 37);
-            this.guna2HtmlLabel7.TabIndex = 22;
-            this.guna2HtmlLabel7.Text = "A";
-            // 
-            // btnLinea
-            // 
-            this.btnLinea.AutoRoundedCorners = true;
-            this.btnLinea.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnLinea.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnLinea.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnLinea.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnLinea.FillColor = System.Drawing.Color.Salmon;
-            this.btnLinea.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnLinea.ForeColor = System.Drawing.Color.White;
-            this.btnLinea.HoverState.FillColor = System.Drawing.Color.Salmon;
-            this.btnLinea.Location = new System.Drawing.Point(72, 152);
-            this.btnLinea.Name = "btnLinea";
-            this.btnLinea.Size = new System.Drawing.Size(90, 3);
-            this.btnLinea.TabIndex = 21;
-            this.btnLinea.Text = "guna2Button1";
-            // 
-            // guna2HtmlLabel1
-            // 
-            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.Font = new System.Drawing.Font("SF Pro Display", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.DimGray;
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(93, 109);
-            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(69, 37);
-            this.guna2HtmlLabel1.TabIndex = 20;
-            this.guna2HtmlLabel1.Text = "yuda";
-            // 
-            // guna2HtmlLabel4
-            // 
-            this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel4.Font = new System.Drawing.Font("SF Pro Display", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel4.ForeColor = System.Drawing.Color.DimGray;
-            this.guna2HtmlLabel4.Location = new System.Drawing.Point(62, 176);
-            this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            this.guna2HtmlLabel4.Size = new System.Drawing.Size(311, 25);
-            this.guna2HtmlLabel4.TabIndex = 23;
-            this.guna2HtmlLabel4.Text = "Lamentamos que tengas problemas";
-            this.guna2HtmlLabel4.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
-            this.guna2HtmlLabel4.UseGdiPlusTextRendering = true;
-            // 
-            // guna2HtmlLabel2
-            // 
-            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel2.Font = new System.Drawing.Font("SF Pro Display", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.DimGray;
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(62, 207);
-            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(266, 25);
-            this.guna2HtmlLabel2.TabIndex = 23;
-            this.guna2HtmlLabel2.Text = "con el uso de Glowish Fashion.";
-            this.guna2HtmlLabel2.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
-            this.guna2HtmlLabel2.UseGdiPlusTextRendering = true;
-            // 
-            // guna2HtmlLabel3
-            // 
-            this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel3.Font = new System.Drawing.Font("SF Pro Display", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.DimGray;
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(62, 238);
-            this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(306, 25);
-            this.guna2HtmlLabel3.TabIndex = 23;
-            this.guna2HtmlLabel3.Text = "Por favor, comunícate con nosotros";
-            this.guna2HtmlLabel3.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
-            this.guna2HtmlLabel3.UseGdiPlusTextRendering = true;
-            // 
-            // guna2HtmlLabel5
-            // 
-            this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel5.Font = new System.Drawing.Font("SF Pro Display", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel5.ForeColor = System.Drawing.Color.Gray;
-            this.guna2HtmlLabel5.Location = new System.Drawing.Point(110, 296);
-            this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            this.guna2HtmlLabel5.Size = new System.Drawing.Size(170, 25);
-            this.guna2HtmlLabel5.TabIndex = 23;
-            this.guna2HtmlLabel5.Text = "Enviar una solicitud";
-            this.guna2HtmlLabel5.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
-            this.guna2HtmlLabel5.UseGdiPlusTextRendering = true;
             // 
             // guna2CircleButton2
             // 
@@ -167,7 +71,7 @@
             this.guna2CircleButton2.HoverState.CustomBorderColor = System.Drawing.Color.Transparent;
             this.guna2CircleButton2.HoverState.FillColor = System.Drawing.Color.Salmon;
             this.guna2CircleButton2.HoverState.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton2.Location = new System.Drawing.Point(286, 284);
+            this.guna2CircleButton2.Location = new System.Drawing.Point(574, 232);
             this.guna2CircleButton2.Name = "guna2CircleButton2";
             this.guna2CircleButton2.PressedColor = System.Drawing.Color.Transparent;
             this.guna2CircleButton2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
@@ -177,11 +81,108 @@
             this.guna2HtmlToolTip1.SetToolTip(this.guna2CircleButton2, "Enviar solicitud");
             this.guna2CircleButton2.UseTransparentBackground = true;
             // 
+            // guna2DragControl1
+            // 
+            this.guna2DragControl1.DockIndicatorTransparencyValue = 0.6D;
+            this.guna2DragControl1.TargetControl = this;
+            this.guna2DragControl1.UseTransparentDrag = true;
+            // 
+            // guna2HtmlLabel7
+            // 
+            this.guna2HtmlLabel7.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel7.Font = new System.Drawing.Font("SF Pro Display", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel7.ForeColor = System.Drawing.Color.Salmon;
+            this.guna2HtmlLabel7.Location = new System.Drawing.Point(350, 57);
+            this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
+            this.guna2HtmlLabel7.Size = new System.Drawing.Size(23, 37);
+            this.guna2HtmlLabel7.TabIndex = 22;
+            this.guna2HtmlLabel7.Text = "A";
+            // 
+            // btnLinea
+            // 
+            this.btnLinea.AutoRoundedCorners = true;
+            this.btnLinea.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnLinea.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnLinea.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnLinea.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnLinea.FillColor = System.Drawing.Color.Salmon;
+            this.btnLinea.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnLinea.ForeColor = System.Drawing.Color.White;
+            this.btnLinea.HoverState.FillColor = System.Drawing.Color.Salmon;
+            this.btnLinea.Location = new System.Drawing.Point(350, 100);
+            this.btnLinea.Name = "btnLinea";
+            this.btnLinea.Size = new System.Drawing.Size(90, 3);
+            this.btnLinea.TabIndex = 21;
+            this.btnLinea.Text = "guna2Button1";
+            // 
+            // guna2HtmlLabel1
+            // 
+            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel1.Font = new System.Drawing.Font("SF Pro Display", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.DimGray;
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(371, 57);
+            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(69, 37);
+            this.guna2HtmlLabel1.TabIndex = 20;
+            this.guna2HtmlLabel1.Text = "yuda";
+            // 
+            // guna2HtmlLabel4
+            // 
+            this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel4.Font = new System.Drawing.Font("SF Pro Display", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel4.ForeColor = System.Drawing.Color.DimGray;
+            this.guna2HtmlLabel4.Location = new System.Drawing.Point(350, 124);
+            this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
+            this.guna2HtmlLabel4.Size = new System.Drawing.Size(311, 25);
+            this.guna2HtmlLabel4.TabIndex = 23;
+            this.guna2HtmlLabel4.Text = "Lamentamos que tengas problemas";
+            this.guna2HtmlLabel4.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
+            this.guna2HtmlLabel4.UseGdiPlusTextRendering = true;
+            // 
+            // guna2HtmlLabel2
+            // 
+            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel2.Font = new System.Drawing.Font("SF Pro Display", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.DimGray;
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(350, 155);
+            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(266, 25);
+            this.guna2HtmlLabel2.TabIndex = 23;
+            this.guna2HtmlLabel2.Text = "con el uso de Glowish Fashion.";
+            this.guna2HtmlLabel2.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
+            this.guna2HtmlLabel2.UseGdiPlusTextRendering = true;
+            // 
+            // guna2HtmlLabel3
+            // 
+            this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel3.Font = new System.Drawing.Font("SF Pro Display", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.DimGray;
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(350, 186);
+            this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(306, 25);
+            this.guna2HtmlLabel3.TabIndex = 23;
+            this.guna2HtmlLabel3.Text = "Por favor, comunícate con nosotros";
+            this.guna2HtmlLabel3.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
+            this.guna2HtmlLabel3.UseGdiPlusTextRendering = true;
+            // 
+            // guna2HtmlLabel5
+            // 
+            this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel5.Font = new System.Drawing.Font("SF Pro Display", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel5.ForeColor = System.Drawing.Color.Gray;
+            this.guna2HtmlLabel5.Location = new System.Drawing.Point(398, 244);
+            this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
+            this.guna2HtmlLabel5.Size = new System.Drawing.Size(170, 25);
+            this.guna2HtmlLabel5.TabIndex = 23;
+            this.guna2HtmlLabel5.Text = "Enviar una solicitud";
+            this.guna2HtmlLabel5.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
+            this.guna2HtmlLabel5.UseGdiPlusTextRendering = true;
+            // 
             // guna2HtmlLabel6
             // 
             this.guna2HtmlLabel6.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel6.Font = new System.Drawing.Font("SF Pro Display", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel6.ForeColor = System.Drawing.Color.Gray;
+            this.guna2HtmlLabel6.ForeColor = System.Drawing.Color.DimGray;
             this.guna2HtmlLabel6.Location = new System.Drawing.Point(12, 380);
             this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
             this.guna2HtmlLabel6.Size = new System.Drawing.Size(638, 15);
@@ -190,6 +191,33 @@
     ".edu.do/2021-1494@uteco.edu.do";
             this.guna2HtmlLabel6.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
             this.guna2HtmlLabel6.UseGdiPlusTextRendering = true;
+            // 
+            // btnMinimizar
+            // 
+            this.btnMinimizar.BackColor = System.Drawing.Color.Transparent;
+            this.btnMinimizar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnMinimizar.BackgroundImage")));
+            this.btnMinimizar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnMinimizar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMinimizar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnMinimizar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnMinimizar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnMinimizar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnMinimizar.FillColor = System.Drawing.Color.Transparent;
+            this.btnMinimizar.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnMinimizar.ForeColor = System.Drawing.Color.White;
+            this.btnMinimizar.HoverState.BorderColor = System.Drawing.Color.Transparent;
+            this.btnMinimizar.HoverState.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.btnMinimizar.HoverState.FillColor = System.Drawing.Color.Transparent;
+            this.btnMinimizar.HoverState.ForeColor = System.Drawing.Color.Transparent;
+            this.btnMinimizar.Location = new System.Drawing.Point(637, 12);
+            this.btnMinimizar.Name = "btnMinimizar";
+            this.btnMinimizar.PressedColor = System.Drawing.Color.Transparent;
+            this.btnMinimizar.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.btnMinimizar.Size = new System.Drawing.Size(24, 30);
+            this.btnMinimizar.TabIndex = 41;
+            this.guna2HtmlToolTip1.SetToolTip(this.btnMinimizar, "Minimizar la página actual.");
+            this.btnMinimizar.UseTransparentBackground = true;
+            this.btnMinimizar.Click += new System.EventHandler(this.btnMinimizar_Click);
             // 
             // btnCerrar
             // 
@@ -208,15 +236,15 @@
             this.btnCerrar.HoverState.CustomBorderColor = System.Drawing.Color.Transparent;
             this.btnCerrar.HoverState.FillColor = System.Drawing.Color.Transparent;
             this.btnCerrar.HoverState.ForeColor = System.Drawing.Color.Transparent;
-            this.btnCerrar.Location = new System.Drawing.Point(653, 12);
+            this.btnCerrar.Location = new System.Drawing.Point(662, 14);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.PressedColor = System.Drawing.Color.Transparent;
             this.btnCerrar.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.btnCerrar.Size = new System.Drawing.Size(34, 29);
-            this.btnCerrar.TabIndex = 26;
+            this.btnCerrar.Size = new System.Drawing.Size(34, 28);
+            this.btnCerrar.TabIndex = 40;
             this.guna2HtmlToolTip1.SetToolTip(this.btnCerrar, "Cerrar la página actual.");
             this.btnCerrar.UseTransparentBackground = true;
-            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
+            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click_1);
             // 
             // Ayuda
             // 
@@ -226,6 +254,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(718, 407);
+            this.Controls.Add(this.btnMinimizar);
             this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.guna2HtmlLabel6);
             this.Controls.Add(this.guna2CircleButton2);
@@ -237,6 +266,7 @@
             this.Controls.Add(this.btnLinea);
             this.Controls.Add(this.guna2HtmlLabel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.MaximizeBox = false;
             this.Name = "Ayuda";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ayuda";
@@ -259,6 +289,7 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel6;
         private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton2;
+        private Guna.UI2.WinForms.Guna2CircleButton btnMinimizar;
         private Guna.UI2.WinForms.Guna2CircleButton btnCerrar;
     }
 }

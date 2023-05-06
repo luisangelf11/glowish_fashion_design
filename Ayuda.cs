@@ -17,9 +17,16 @@ namespace Glowish_Fashion_System
             InitializeComponent();
         }
 
-        private void btnCerrar_Click(object sender, EventArgs e)
+        
+
+        private void btnCerrar_Click_1(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void btnMinimizar_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
         }
     }
 }
