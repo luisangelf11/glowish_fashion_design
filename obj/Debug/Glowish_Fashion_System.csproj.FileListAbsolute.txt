@@ -35,3 +35,16 @@ C:\Users\breid\Desktop\Diseno en sistemas\glowish_fashion_design\obj\Debug\Glowi
 C:\Users\breid\Desktop\Diseno en sistemas\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.Notifications.FrmWelcome.resources
 C:\Users\breid\Desktop\Diseno en sistemas\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.Plantilla.resources
 C:\Users\breid\Desktop\Diseno en sistemas\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.FrmMenuPrincipal.resources
+C:\Users\breid\Desktop\Diseno en sistemas\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.Notifications.Loader.resources
+C:\Users\breid\Desktop\Diseno en sistemas\glowish_fashion_design\bin\Debug\Bunifu.Dataviz.WinForms.dll
+C:\Users\breid\Desktop\Diseno en sistemas\glowish_fashion_design\bin\Debug\Bunifu.Licensing.dll
+C:\Users\breid\Desktop\Diseno en sistemas\glowish_fashion_design\bin\Debug\LiveCharts.dll
+C:\Users\breid\Desktop\Diseno en sistemas\glowish_fashion_design\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\breid\Desktop\Diseno en sistemas\glowish_fashion_design\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\breid\Desktop\Diseno en sistemas\glowish_fashion_design\bin\Debug\Bunifu.Dataviz.WinForms.xml
+C:\Users\breid\Desktop\Diseno en sistemas\glowish_fashion_design\bin\Debug\LiveCharts.pdb
+C:\Users\breid\Desktop\Diseno en sistemas\glowish_fashion_design\bin\Debug\LiveCharts.xml
+C:\Users\breid\Desktop\Diseno en sistemas\glowish_fashion_design\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\breid\Desktop\Diseno en sistemas\glowish_fashion_design\bin\Debug\LiveCharts.WinForms.xml
+C:\Users\breid\Desktop\Diseno en sistemas\glowish_fashion_design\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\breid\Desktop\Diseno en sistemas\glowish_fashion_design\bin\Debug\LiveCharts.Wpf.xml

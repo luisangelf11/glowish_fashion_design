@@ -92,8 +92,9 @@ namespace Glowish_Fashion_System
 
 
                 this.Hide();
-                FrmWelcome welcome = new FrmWelcome(txtbUsaurio.Text);
-                welcome.ShowDialog();
+                
+                Loader loader = new Loader();
+                loader.ShowDialog();
                 FrmMenuPrincipal menu = new FrmMenuPrincipal();
                 menu.Show();
                 menu.FormClosed += CloseForm;
@@ -103,8 +104,10 @@ namespace Glowish_Fashion_System
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
+            
             Ayuda fayuda = new Ayuda();
-            fayuda.Show();
+            fayuda.ShowDialog();
+            this.WindowState = FormWindowState.Minimized;
         }
 
         private void guna2HtmlLabel2_Click(object sender, EventArgs e)

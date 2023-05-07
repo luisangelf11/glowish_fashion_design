@@ -31,7 +31,6 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmLogin));
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -48,30 +47,16 @@
             this.guna2CirclePictureBox2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.guna2HtmlLabel9 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel10 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2CirclePictureBox3 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2Elipse1
             // 
             this.guna2Elipse1.BorderRadius = 10;
             this.guna2Elipse1.TargetControl = this;
-            // 
-            // guna2HtmlLabel2
-            // 
-            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel2.Font = new System.Drawing.Font("SF Pro Display", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.Black;
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(47, 92);
-            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(195, 40);
-            this.guna2HtmlLabel2.TabIndex = 2;
-            this.guna2HtmlLabel2.Text = "Bienvenido/a";
-            this.guna2HtmlLabel2.Click += new System.EventHandler(this.guna2HtmlLabel2_Click);
             // 
             // guna2HtmlLabel3
             // 
@@ -80,7 +65,7 @@
             this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.DimGray;
             this.guna2HtmlLabel3.Location = new System.Drawing.Point(47, 160);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(257, 25);
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(259, 25);
             this.guna2HtmlLabel3.TabIndex = 3;
             this.guna2HtmlLabel3.Text = "A la mejor tienda de ropa para";
             this.guna2HtmlLabel3.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -330,11 +315,11 @@
             this.guna2GradientButton1.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2GradientButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.guna2GradientButton1.FillColor = System.Drawing.Color.Salmon;
-            this.guna2GradientButton1.FillColor2 = System.Drawing.Color.IndianRed;
+            this.guna2GradientButton1.FillColor2 = System.Drawing.Color.Salmon;
             this.guna2GradientButton1.Font = new System.Drawing.Font("SF Pro Display", 9.75F, System.Drawing.FontStyle.Bold);
             this.guna2GradientButton1.ForeColor = System.Drawing.Color.White;
             this.guna2GradientButton1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.guna2GradientButton1.Location = new System.Drawing.Point(576, 381);
+            this.guna2GradientButton1.Location = new System.Drawing.Point(564, 354);
             this.guna2GradientButton1.Name = "guna2GradientButton1";
             this.guna2GradientButton1.Size = new System.Drawing.Size(129, 42);
             this.guna2GradientButton1.TabIndex = 27;
@@ -343,45 +328,28 @@
             this.guna2GradientButton1.UseTransparentBackground = true;
             this.guna2GradientButton1.Click += new System.EventHandler(this.guna2GradientButton1_Click);
             // 
-            // guna2HtmlLabel9
+            // guna2HtmlLabel1
             // 
-            this.guna2HtmlLabel9.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel9.Font = new System.Drawing.Font("SF Pro Display", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel9.ForeColor = System.Drawing.Color.Crimson;
-            this.guna2HtmlLabel9.Location = new System.Drawing.Point(498, 164);
-            this.guna2HtmlLabel9.Name = "guna2HtmlLabel9";
-            this.guna2HtmlLabel9.Size = new System.Drawing.Size(48, 17);
-            this.guna2HtmlLabel9.TabIndex = 28;
-            this.guna2HtmlLabel9.Text = "Usuario";
-            this.guna2HtmlLabel9.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
-            this.guna2HtmlLabel9.UseGdiPlusTextRendering = true;
+            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel1.Font = new System.Drawing.Font("SF Pro Display", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.Salmon;
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(520, 92);
+            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(222, 40);
+            this.guna2HtmlLabel1.TabIndex = 29;
+            this.guna2HtmlLabel1.Text = "Glowish Fasion";
             // 
-            // guna2HtmlLabel10
+            // guna2HtmlLabel2
             // 
-            this.guna2HtmlLabel10.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel10.Font = new System.Drawing.Font("SF Pro Display", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel10.ForeColor = System.Drawing.Color.Crimson;
-            this.guna2HtmlLabel10.Location = new System.Drawing.Point(498, 262);
-            this.guna2HtmlLabel10.Name = "guna2HtmlLabel10";
-            this.guna2HtmlLabel10.Size = new System.Drawing.Size(71, 17);
-            this.guna2HtmlLabel10.TabIndex = 28;
-            this.guna2HtmlLabel10.Text = "Contraseña";
-            this.guna2HtmlLabel10.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
-            this.guna2HtmlLabel10.UseGdiPlusTextRendering = true;
-            // 
-            // guna2CirclePictureBox3
-            // 
-            this.guna2CirclePictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2CirclePictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox3.Image")));
-            this.guna2CirclePictureBox3.ImageRotate = 0F;
-            this.guna2CirclePictureBox3.Location = new System.Drawing.Point(552, 10);
-            this.guna2CirclePictureBox3.Name = "guna2CirclePictureBox3";
-            this.guna2CirclePictureBox3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox3.Size = new System.Drawing.Size(168, 171);
-            this.guna2CirclePictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2CirclePictureBox3.TabIndex = 29;
-            this.guna2CirclePictureBox3.TabStop = false;
-            this.guna2CirclePictureBox3.UseTransparentBackground = true;
+            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel2.Font = new System.Drawing.Font("SF Pro Display", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.Black;
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(47, 92);
+            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(195, 40);
+            this.guna2HtmlLabel2.TabIndex = 2;
+            this.guna2HtmlLabel2.Text = "Bienvenido/a";
+            this.guna2HtmlLabel2.Click += new System.EventHandler(this.guna2HtmlLabel2_Click);
             // 
             // FrmLogin
             // 
@@ -391,11 +359,9 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(821, 447);
-            this.Controls.Add(this.guna2CirclePictureBox3);
-            this.Controls.Add(this.guna2HtmlLabel10);
-            this.Controls.Add(this.guna2HtmlLabel9);
-            this.Controls.Add(this.guna2GradientButton1);
             this.Controls.Add(this.guna2Button1);
+            this.Controls.Add(this.guna2HtmlLabel1);
+            this.Controls.Add(this.guna2GradientButton1);
             this.Controls.Add(this.btnMinimizar);
             this.Controls.Add(this.guna2CirclePictureBox2);
             this.Controls.Add(this.guna2CirclePictureBox1);
@@ -418,7 +384,6 @@
             this.Load += new System.EventHandler(this.FrmLogin_Load);
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -434,7 +399,6 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel5;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
         private Guna.UI2.WinForms.Guna2HtmlToolTip guna2HtmlToolTip1;
         private Guna.UI2.WinForms.Guna2CircleButton btnCerrar;
         private Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
@@ -444,9 +408,8 @@
         private System.Windows.Forms.Timer timer1;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
         private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton1;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel10;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel9;
-        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox3;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
     }
 }
 
