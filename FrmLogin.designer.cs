@@ -200,11 +200,11 @@
             this.btnCerrar.HoverState.CustomBorderColor = System.Drawing.Color.Transparent;
             this.btnCerrar.HoverState.FillColor = System.Drawing.Color.Transparent;
             this.btnCerrar.HoverState.ForeColor = System.Drawing.Color.Transparent;
-            this.btnCerrar.Location = new System.Drawing.Point(773, 12);
+            this.btnCerrar.Location = new System.Drawing.Point(782, 10);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.PressedColor = System.Drawing.Color.Transparent;
             this.btnCerrar.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.btnCerrar.Size = new System.Drawing.Size(34, 28);
+            this.btnCerrar.Size = new System.Drawing.Size(28, 28);
             this.btnCerrar.TabIndex = 16;
             this.guna2HtmlToolTip1.SetToolTip(this.btnCerrar, "Cerrar la página actual.");
             this.btnCerrar.UseTransparentBackground = true;
@@ -227,7 +227,7 @@
             this.btnMinimizar.HoverState.CustomBorderColor = System.Drawing.Color.Transparent;
             this.btnMinimizar.HoverState.FillColor = System.Drawing.Color.Transparent;
             this.btnMinimizar.HoverState.ForeColor = System.Drawing.Color.Transparent;
-            this.btnMinimizar.Location = new System.Drawing.Point(743, 10);
+            this.btnMinimizar.Location = new System.Drawing.Point(757, 10);
             this.btnMinimizar.Name = "btnMinimizar";
             this.btnMinimizar.PressedColor = System.Drawing.Color.Transparent;
             this.btnMinimizar.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;

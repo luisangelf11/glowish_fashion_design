@@ -99,7 +99,7 @@
             this.btnMinimizar.HoverState.CustomBorderColor = System.Drawing.Color.Transparent;
             this.btnMinimizar.HoverState.FillColor = System.Drawing.Color.Transparent;
             this.btnMinimizar.HoverState.ForeColor = System.Drawing.Color.Transparent;
-            this.btnMinimizar.Location = new System.Drawing.Point(637, 12);
+            this.btnMinimizar.Location = new System.Drawing.Point(648, 12);
             this.btnMinimizar.Name = "btnMinimizar";
             this.btnMinimizar.PressedColor = System.Drawing.Color.Transparent;
             this.btnMinimizar.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
@@ -126,7 +126,7 @@
             this.btnCerrar.HoverState.CustomBorderColor = System.Drawing.Color.Transparent;
             this.btnCerrar.HoverState.FillColor = System.Drawing.Color.Transparent;
             this.btnCerrar.HoverState.ForeColor = System.Drawing.Color.Transparent;
-            this.btnCerrar.Location = new System.Drawing.Point(662, 14);
+            this.btnCerrar.Location = new System.Drawing.Point(672, 12);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.PressedColor = System.Drawing.Color.Transparent;
             this.btnCerrar.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;

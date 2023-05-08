@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Windows.Forms.DataVisualization.Charting;
 using System.Windows.Media;
-
+using Glowish_Fashion_System.Views;
 
 
 namespace Glowish_Fashion_System
@@ -118,12 +118,12 @@ namespace Glowish_Fashion_System
 
         private void buttonCerrar_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
         }
 
         private void btnAyuda_Click(object sender, EventArgs e)
         {
-            this.WindowState = FormWindowState.Minimized;
+           // this.WindowState = FormWindowState.Minimized;
             Ayuda fayuda = new Ayuda();
 
             fayuda.ShowDialog();
@@ -132,6 +132,35 @@ namespace Glowish_Fashion_System
         private void guna2HtmlLabel9_Click_1(object sender, EventArgs e)
         {
 
+        }
+
+        private void guna2GradientButton1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+        //Abrir form hijos
+        private Form activeForm = null;
+        private void OpenChildForm(Form form)
+        {
+            if (activeForm != null) activeForm.Close();
+            activeForm = form;
+            form.TopLevel = false;
+            form.FormBorderStyle = FormBorderStyle.None;
+            form.Dock = DockStyle.Fill;
+            panelHome.Tag = form;
+            panelHome.Controls.Add(form);
+            form.BringToFront();
+            form.Show();
+        }
+
+        private void btnHome_Click(object sender, EventArgs e)
+        {
+            if (activeForm != null) activeForm.Close();
+        }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new FrmCaja());
         }
     }
 }
