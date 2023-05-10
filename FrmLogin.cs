@@ -106,11 +106,30 @@ namespace Glowish_Fashion_System
         {
             
             Ayuda fayuda = new Ayuda();
-            fayuda.ShowDialog();
+            fayuda.Show();
             this.WindowState = FormWindowState.Minimized;
         }
 
         private void guna2HtmlLabel2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnVerPassword_Click(object sender, EventArgs e)
+        {
+            if (txtbClave.PasswordChar == 'x')
+            {
+                btnVerPassword.BackgroundImage = Image.FromFile(@"C:\Users\breid\Desktop\Diseno en sistemas\glowish_fashion_design\Multimedia\Iconos Negros\iconizer-099hide_99940.png");
+                txtbClave.PasswordChar = '\0'; // Muestra la contraseña
+            }
+            else
+            {
+                btnVerPassword.BackgroundImage = Image.FromFile(@"C:\Users\breid\Desktop\Diseno en sistemas\glowish_fashion_design\Multimedia\Iconos Negros\iconizer-098visualization_99988.png");
+                txtbClave.PasswordChar = 'x'; // Oculta la contraseña
+            }
+        }
+
+        private void txtbClave_TextChanged(object sender, EventArgs e)
         {
 
         }

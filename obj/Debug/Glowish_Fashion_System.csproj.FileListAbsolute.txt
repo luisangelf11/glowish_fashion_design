@@ -79,3 +79,4 @@ C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\glowish_fashion_de
 C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.Properties.Resources.resources
 C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.csproj.GenerateResource.Cache
 C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.Views.FrmCaja.resources
+C:\Users\breid\Desktop\Diseno en sistemas\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.Views.FrmProveedores.resources

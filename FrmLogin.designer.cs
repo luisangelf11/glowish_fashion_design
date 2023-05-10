@@ -42,6 +42,7 @@
             this.btnCerrar = new Guna.UI2.WinForms.Guna2CircleButton();
             this.btnMinimizar = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.btnVerPassword = new Guna.UI2.WinForms.Guna2Button();
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2CirclePictureBox2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
@@ -165,6 +166,7 @@
             this.txtbClave.SelectedText = "";
             this.txtbClave.Size = new System.Drawing.Size(256, 45);
             this.txtbClave.TabIndex = 10;
+            this.txtbClave.TextChanged += new System.EventHandler(this.txtbClave_TextChanged);
             // 
             // guna2HtmlLabel6
             // 
@@ -264,6 +266,36 @@
             this.guna2Button1.UseTransparentBackground = true;
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
+            // btnVerPassword
+            // 
+            this.btnVerPassword.BackColor = System.Drawing.Color.Transparent;
+            this.btnVerPassword.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnVerPassword.BackgroundImage")));
+            this.btnVerPassword.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnVerPassword.BorderRadius = 6;
+            this.btnVerPassword.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnVerPassword.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnVerPassword.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnVerPassword.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnVerPassword.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnVerPassword.FillColor = System.Drawing.Color.Transparent;
+            this.btnVerPassword.Font = new System.Drawing.Font("SF Pro Display", 11.25F, System.Drawing.FontStyle.Bold);
+            this.btnVerPassword.ForeColor = System.Drawing.Color.Transparent;
+            this.btnVerPassword.HoverState.BorderColor = System.Drawing.Color.Transparent;
+            this.btnVerPassword.HoverState.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.btnVerPassword.HoverState.FillColor = System.Drawing.Color.Transparent;
+            this.btnVerPassword.HoverState.Font = new System.Drawing.Font("SF Pro Display", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVerPassword.HoverState.ForeColor = System.Drawing.Color.White;
+            this.btnVerPassword.Location = new System.Drawing.Point(469, 299);
+            this.btnVerPassword.Name = "btnVerPassword";
+            this.btnVerPassword.PressedColor = System.Drawing.Color.Transparent;
+            this.btnVerPassword.Size = new System.Drawing.Size(23, 20);
+            this.btnVerPassword.TabIndex = 30;
+            this.btnVerPassword.Text = "!";
+            this.btnVerPassword.TextFormatNoPrefix = true;
+            this.guna2HtmlToolTip1.SetToolTip(this.btnVerPassword, "Ayuda");
+            this.btnVerPassword.UseTransparentBackground = true;
+            this.btnVerPassword.Click += new System.EventHandler(this.btnVerPassword_Click);
+            // 
             // guna2DragControl1
             // 
             this.guna2DragControl1.DockIndicatorTransparencyValue = 0.6D;
@@ -359,6 +391,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(821, 447);
+            this.Controls.Add(this.btnVerPassword);
             this.Controls.Add(this.guna2Button1);
             this.Controls.Add(this.guna2HtmlLabel1);
             this.Controls.Add(this.guna2GradientButton1);
@@ -410,6 +443,7 @@
         private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton1;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
+        private Guna.UI2.WinForms.Guna2Button btnVerPassword;
     }
 }
 

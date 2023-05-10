@@ -12,13 +12,33 @@ using System.Windows.Forms;
 using System.Windows.Forms.DataVisualization.Charting;
 using System.Windows.Media;
 using Glowish_Fashion_System.Views;
-
+using Guna.UI2.WinForms;
 
 namespace Glowish_Fashion_System
 {
     public partial class FrmMenuPrincipal : Form
     {
+        
+        public void SelectButton(Guna2Button btn)
+        {
+            btn.ForeColor = System.Drawing.Color.Black;
+            foreach (var button in panelMenu.Controls.OfType<Guna2Button>())
+            {
+                button.ForeColor =  System.Drawing.Color.Black;
 
+            }
+
+            foreach (var button in panelSuperior.Controls.OfType<Guna2Button>())
+            {
+                button.ForeColor = System.Drawing.Color.Black;
+
+            }
+            btn.ForeColor = System.Drawing.Color.Salmon;
+
+
+
+
+        }
         public void generategraphic()
         {
             LineSeries series1 = new LineSeries
@@ -140,8 +160,10 @@ namespace Glowish_Fashion_System
         }
         //Abrir form hijos
         private Form activeForm = null;
+        
         private void OpenChildForm(Form form)
         {
+           
             if (activeForm != null) activeForm.Close();
             activeForm = form;
             form.TopLevel = false;
@@ -151,16 +173,59 @@ namespace Glowish_Fashion_System
             panelHome.Controls.Add(form);
             form.BringToFront();
             form.Show();
+            
         }
 
         private void btnHome_Click(object sender, EventArgs e)
         {
             if (activeForm != null) activeForm.Close();
+            SelectButton(btnHome);
         }
 
-        private void guna2Button2_Click(object sender, EventArgs e)
+        
+        
+
+        private void guna2PictureBox2_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new FrmCaja());
+
+        }
+
+        private void btnVercaja_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new FrmProveedores());
+            SelectButton(btnVercaja);
+        }
+
+        private void btnCompras_Click(object sender, EventArgs e)
+        {
+
+        }
+
+      
+
+        private void panelMenu_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void btnVentas_MouseLeave(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void btnVentas_MouseHover(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnVentas_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void guna2PictureBox6_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

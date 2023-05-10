@@ -29,6 +29,7 @@ namespace Glowish_Fashion_System.Notifications
         private void Loader_Load(object sender, EventArgs e)
         {
             btnBienvenido.ForeColor = Color.FromArgb(r,g, b);
+            btnBienvenido.FillColor = Color.Transparent;
             timer1.Interval = 50; 
 
             timer1.Start();
@@ -47,6 +48,8 @@ namespace Glowish_Fashion_System.Notifications
 
             // actualiza el color de fondo del formulario
             btnBienvenido.ForeColor = Color.FromArgb(r, g, b);
+            btnBienvenido.FillColor = Color.Transparent;
+
 
             // detiene el temporizador si se ha alcanzado el negro
             if (r == 0 && g == 0 && b == 0)
