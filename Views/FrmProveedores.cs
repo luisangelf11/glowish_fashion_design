@@ -94,16 +94,29 @@ namespace Glowish_Fashion_System.Views
         private void btnAgregar_Click(object sender, EventArgs e)
         {
             panelAnadirProveedor.Visible = true;
+            lblTitle.Text = "Añadir un proveedor";
         }
 
         private void btnCancelarAndirProveedor_Click(object sender, EventArgs e)
         {
             panelAnadirProveedor.Visible = false;
+            lblTitle.Text = "Añadir un proveedor";
         }
 
         private void btnGuardarproveedor_Click(object sender, EventArgs e)
         {
             panelAnadirProveedor.Visible = false;
+            lblTitle.Text = "Añadir un proveedor";
+        }
+
+        private void btnEditar_Click(object sender, EventArgs e)
+        {
+            panelAnadirProveedor.Visible = true;
+            lblTitle.Text = "Editando un proveedor";
+            if(datagridProveedores.SelectedRows.Count > 0)
+            {
+                //Codigo para enviar los datos a los textboxs
+            }
         }
     }
 }

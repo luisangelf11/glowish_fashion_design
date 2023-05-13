@@ -30,9 +30,9 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmProveedores));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
@@ -55,20 +55,22 @@
             this.panelAnadirProveedor = new Guna.UI2.WinForms.Guna2Panel();
             this.btnGuardarproveedor = new Guna.UI2.WinForms.Guna2Button();
             this.btnCancelarAndirProveedor = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2CustomCheckBox1 = new Guna.UI2.WinForms.Guna2CustomCheckBox();
             this.guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2ComboBox2 = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2TextBox4 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.lblTitle = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2TextBox3 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox6 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox5 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2CustomCheckBox1 = new Guna.UI2.WinForms.Guna2CustomCheckBox();
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.btnEditar = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rellenogirdview)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.datagridProveedores)).BeginInit();
@@ -92,7 +94,7 @@
             this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel4.Font = new System.Drawing.Font("SF Pro Display", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel4.ForeColor = System.Drawing.Color.DimGray;
-            this.guna2HtmlLabel4.Location = new System.Drawing.Point(329, 43);
+            this.guna2HtmlLabel4.Location = new System.Drawing.Point(327, 41);
             this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
             this.guna2HtmlLabel4.Size = new System.Drawing.Size(193, 21);
             this.guna2HtmlLabel4.TabIndex = 95;
@@ -122,7 +124,7 @@
             this.txtbProveedor.Font = new System.Drawing.Font("SF Pro Display", 9.75F, System.Drawing.FontStyle.Bold);
             this.txtbProveedor.ForeColor = System.Drawing.Color.Black;
             this.txtbProveedor.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtbProveedor.Location = new System.Drawing.Point(59, 105);
+            this.txtbProveedor.Location = new System.Drawing.Point(59, 100);
             this.txtbProveedor.Name = "txtbProveedor";
             this.txtbProveedor.PasswordChar = '\0';
             this.txtbProveedor.PlaceholderText = "Buscar proveedor";
@@ -165,7 +167,7 @@
             this.btnBuscar.HoverState.CustomBorderColor = System.Drawing.Color.WhiteSmoke;
             this.btnBuscar.HoverState.FillColor = System.Drawing.Color.MediumSeaGreen;
             this.btnBuscar.Image = ((System.Drawing.Image)(resources.GetObject("btnBuscar.Image")));
-            this.btnBuscar.Location = new System.Drawing.Point(372, 105);
+            this.btnBuscar.Location = new System.Drawing.Point(372, 100);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(77, 30);
             this.btnBuscar.TabIndex = 98;
@@ -223,16 +225,16 @@
             // 
             // datagridProveedores
             // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(201)))), ((int)(((byte)(197)))));
-            this.datagridProveedores.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.Crimson;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("SF Pro Display", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.datagridProveedores.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(201)))), ((int)(((byte)(197)))));
+            this.datagridProveedores.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.Crimson;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("SF Pro Display", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.datagridProveedores.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.datagridProveedores.ColumnHeadersHeight = 17;
             this.datagridProveedores.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             this.datagridProveedores.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -244,20 +246,20 @@
             this.correo,
             this.telefono,
             this.empresa});
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(219)))), ((int)(((byte)(216)))));
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("SF Pro Display", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.SteelBlue;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.datagridProveedores.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(219)))), ((int)(((byte)(216)))));
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("SF Pro Display", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.SteelBlue;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.datagridProveedores.DefaultCellStyle = dataGridViewCellStyle6;
             this.datagridProveedores.GridColor = System.Drawing.Color.White;
             this.datagridProveedores.Location = new System.Drawing.Point(41, 171);
             this.datagridProveedores.Name = "datagridProveedores";
             this.datagridProveedores.ReadOnly = true;
             this.datagridProveedores.RowHeadersVisible = false;
-            this.datagridProveedores.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
+            this.datagridProveedores.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.RowHeaderSelect;
             this.datagridProveedores.Size = new System.Drawing.Size(717, 241);
             this.datagridProveedores.TabIndex = 103;
             this.datagridProveedores.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Alizarin;
@@ -347,7 +349,7 @@
             this.btnAgregar.HoverState.CustomBorderColor = System.Drawing.Color.WhiteSmoke;
             this.btnAgregar.HoverState.FillColor = System.Drawing.Color.SteelBlue;
             this.btnAgregar.Image = ((System.Drawing.Image)(resources.GetObject("btnAgregar.Image")));
-            this.btnAgregar.Location = new System.Drawing.Point(669, 105);
+            this.btnAgregar.Location = new System.Drawing.Point(669, 100);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(77, 30);
             this.btnAgregar.TabIndex = 104;
@@ -359,23 +361,20 @@
             // 
             this.panelAnadirProveedor.Controls.Add(this.btnGuardarproveedor);
             this.panelAnadirProveedor.Controls.Add(this.btnCancelarAndirProveedor);
-            this.panelAnadirProveedor.Controls.Add(this.guna2HtmlLabel7);
-            this.panelAnadirProveedor.Controls.Add(this.guna2CustomCheckBox1);
             this.panelAnadirProveedor.Controls.Add(this.guna2HtmlLabel6);
             this.panelAnadirProveedor.Controls.Add(this.guna2HtmlLabel5);
             this.panelAnadirProveedor.Controls.Add(this.guna2ComboBox2);
             this.panelAnadirProveedor.Controls.Add(this.guna2ComboBox1);
-            this.panelAnadirProveedor.Controls.Add(this.guna2HtmlLabel3);
-            this.panelAnadirProveedor.Controls.Add(this.guna2TextBox4);
+            this.panelAnadirProveedor.Controls.Add(this.lblTitle);
             this.panelAnadirProveedor.Controls.Add(this.guna2TextBox3);
             this.panelAnadirProveedor.Controls.Add(this.guna2TextBox6);
             this.panelAnadirProveedor.Controls.Add(this.guna2TextBox5);
             this.panelAnadirProveedor.Controls.Add(this.guna2TextBox2);
             this.panelAnadirProveedor.Controls.Add(this.guna2TextBox1);
             this.panelAnadirProveedor.Controls.Add(this.guna2PictureBox1);
-            this.panelAnadirProveedor.Location = new System.Drawing.Point(41, 155);
+            this.panelAnadirProveedor.Location = new System.Drawing.Point(41, 171);
             this.panelAnadirProveedor.Name = "panelAnadirProveedor";
-            this.panelAnadirProveedor.Size = new System.Drawing.Size(717, 279);
+            this.panelAnadirProveedor.Size = new System.Drawing.Size(717, 263);
             this.panelAnadirProveedor.TabIndex = 105;
             this.panelAnadirProveedor.Visible = false;
             this.panelAnadirProveedor.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel1_Paint);
@@ -396,7 +395,7 @@
             this.btnGuardarproveedor.HoverState.CustomBorderColor = System.Drawing.Color.WhiteSmoke;
             this.btnGuardarproveedor.HoverState.FillColor = System.Drawing.Color.SteelBlue;
             this.btnGuardarproveedor.Image = ((System.Drawing.Image)(resources.GetObject("btnGuardarproveedor.Image")));
-            this.btnGuardarproveedor.Location = new System.Drawing.Point(319, 227);
+            this.btnGuardarproveedor.Location = new System.Drawing.Point(258, 221);
             this.btnGuardarproveedor.Name = "btnGuardarproveedor";
             this.btnGuardarproveedor.Size = new System.Drawing.Size(90, 30);
             this.btnGuardarproveedor.TabIndex = 108;
@@ -420,43 +419,13 @@
             this.btnCancelarAndirProveedor.HoverState.CustomBorderColor = System.Drawing.Color.WhiteSmoke;
             this.btnCancelarAndirProveedor.HoverState.FillColor = System.Drawing.Color.Crimson;
             this.btnCancelarAndirProveedor.Image = ((System.Drawing.Image)(resources.GetObject("btnCancelarAndirProveedor.Image")));
-            this.btnCancelarAndirProveedor.Location = new System.Drawing.Point(427, 227);
+            this.btnCancelarAndirProveedor.Location = new System.Drawing.Point(354, 221);
             this.btnCancelarAndirProveedor.Name = "btnCancelarAndirProveedor";
             this.btnCancelarAndirProveedor.Size = new System.Drawing.Size(89, 30);
             this.btnCancelarAndirProveedor.TabIndex = 108;
             this.btnCancelarAndirProveedor.Text = "Cancelar";
             this.btnCancelarAndirProveedor.UseTransparentBackground = true;
             this.btnCancelarAndirProveedor.Click += new System.EventHandler(this.btnCancelarAndirProveedor_Click);
-            // 
-            // guna2HtmlLabel7
-            // 
-            this.guna2HtmlLabel7.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel7.Font = new System.Drawing.Font("SF Pro Display", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel7.ForeColor = System.Drawing.Color.DimGray;
-            this.guna2HtmlLabel7.Location = new System.Drawing.Point(339, 168);
-            this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
-            this.guna2HtmlLabel7.Size = new System.Drawing.Size(152, 16);
-            this.guna2HtmlLabel7.TabIndex = 107;
-            this.guna2HtmlLabel7.Text = "Imprimir el registro en papel";
-            this.guna2HtmlLabel7.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
-            this.guna2HtmlLabel7.UseGdiPlusTextRendering = true;
-            // 
-            // guna2CustomCheckBox1
-            // 
-            this.guna2CustomCheckBox1.Checked = true;
-            this.guna2CustomCheckBox1.CheckedState.BorderColor = System.Drawing.Color.Crimson;
-            this.guna2CustomCheckBox1.CheckedState.BorderRadius = 2;
-            this.guna2CustomCheckBox1.CheckedState.BorderThickness = 0;
-            this.guna2CustomCheckBox1.CheckedState.FillColor = System.Drawing.Color.Crimson;
-            this.guna2CustomCheckBox1.Location = new System.Drawing.Point(319, 168);
-            this.guna2CustomCheckBox1.Name = "guna2CustomCheckBox1";
-            this.guna2CustomCheckBox1.Size = new System.Drawing.Size(14, 17);
-            this.guna2CustomCheckBox1.TabIndex = 106;
-            this.guna2CustomCheckBox1.Text = "Solo proveedores activos";
-            this.guna2CustomCheckBox1.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.guna2CustomCheckBox1.UncheckedState.BorderRadius = 2;
-            this.guna2CustomCheckBox1.UncheckedState.BorderThickness = 0;
-            this.guna2CustomCheckBox1.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             // 
             // guna2HtmlLabel6
             // 
@@ -520,44 +489,18 @@
             this.guna2ComboBox1.Size = new System.Drawing.Size(135, 36);
             this.guna2ComboBox1.TabIndex = 99;
             // 
-            // guna2HtmlLabel3
+            // lblTitle
             // 
-            this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Crimson;
-            this.guna2HtmlLabel3.Font = new System.Drawing.Font("SF Pro Display", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.White;
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(306, 5);
-            this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(151, 21);
-            this.guna2HtmlLabel3.TabIndex = 98;
-            this.guna2HtmlLabel3.Text = "Añadir un proveedor";
-            this.guna2HtmlLabel3.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
-            this.guna2HtmlLabel3.UseGdiPlusTextRendering = true;
-            // 
-            // guna2TextBox4
-            // 
-            this.guna2TextBox4.Animated = true;
-            this.guna2TextBox4.BackColor = System.Drawing.Color.White;
-            this.guna2TextBox4.BorderColor = System.Drawing.Color.White;
-            this.guna2TextBox4.BorderRadius = 9;
-            this.guna2TextBox4.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox4.DefaultText = "";
-            this.guna2TextBox4.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox4.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox4.FillColor = System.Drawing.Color.WhiteSmoke;
-            this.guna2TextBox4.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox4.Font = new System.Drawing.Font("SF Pro Display", 9.75F, System.Drawing.FontStyle.Bold);
-            this.guna2TextBox4.ForeColor = System.Drawing.Color.Black;
-            this.guna2TextBox4.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox4.Location = new System.Drawing.Point(18, 227);
-            this.guna2TextBox4.Name = "guna2TextBox4";
-            this.guna2TextBox4.PasswordChar = '\0';
-            this.guna2TextBox4.PlaceholderText = "Correo";
-            this.guna2TextBox4.SelectedText = "";
-            this.guna2TextBox4.Size = new System.Drawing.Size(253, 30);
-            this.guna2TextBox4.TabIndex = 97;
-            this.guna2TextBox4.TextChanged += new System.EventHandler(this.guna2TextBox1_TextChanged);
+            this.lblTitle.BackColor = System.Drawing.Color.Crimson;
+            this.lblTitle.Font = new System.Drawing.Font("SF Pro Display", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle.ForeColor = System.Drawing.Color.White;
+            this.lblTitle.Location = new System.Drawing.Point(276, 2);
+            this.lblTitle.Name = "lblTitle";
+            this.lblTitle.Size = new System.Drawing.Size(180, 25);
+            this.lblTitle.TabIndex = 98;
+            this.lblTitle.Text = "Añadir un proveedor";
+            this.lblTitle.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
+            this.lblTitle.UseGdiPlusTextRendering = true;
             // 
             // guna2TextBox3
             // 
@@ -696,23 +639,128 @@
             this.guna2PictureBox1.FillColor = System.Drawing.Color.Crimson;
             this.guna2PictureBox1.ImageFlip = Guna.UI2.WinForms.Enums.FlipOrientation.Vertical;
             this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(0, -82);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
             this.guna2PictureBox1.ShadowDecoration.BorderRadius = 9;
             this.guna2PictureBox1.ShadowDecoration.Depth = 2;
             this.guna2PictureBox1.ShadowDecoration.Enabled = true;
-            this.guna2PictureBox1.Size = new System.Drawing.Size(717, 30);
+            this.guna2PictureBox1.Size = new System.Drawing.Size(717, 112);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox1.TabIndex = 106;
             this.guna2PictureBox1.TabStop = false;
             this.guna2PictureBox1.UseTransparentBackground = true;
+            // 
+            // guna2HtmlLabel7
+            // 
+            this.guna2HtmlLabel7.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel7.Font = new System.Drawing.Font("SF Pro Display", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel7.ForeColor = System.Drawing.Color.DimGray;
+            this.guna2HtmlLabel7.Location = new System.Drawing.Point(511, 450);
+            this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
+            this.guna2HtmlLabel7.Size = new System.Drawing.Size(152, 16);
+            this.guna2HtmlLabel7.TabIndex = 107;
+            this.guna2HtmlLabel7.Text = "Imprimir el registro en papel";
+            this.guna2HtmlLabel7.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
+            this.guna2HtmlLabel7.UseGdiPlusTextRendering = true;
+            // 
+            // guna2CustomCheckBox1
+            // 
+            this.guna2CustomCheckBox1.Checked = true;
+            this.guna2CustomCheckBox1.CheckedState.BorderColor = System.Drawing.Color.Crimson;
+            this.guna2CustomCheckBox1.CheckedState.BorderRadius = 2;
+            this.guna2CustomCheckBox1.CheckedState.BorderThickness = 0;
+            this.guna2CustomCheckBox1.CheckedState.FillColor = System.Drawing.Color.Crimson;
+            this.guna2CustomCheckBox1.Location = new System.Drawing.Point(493, 451);
+            this.guna2CustomCheckBox1.Name = "guna2CustomCheckBox1";
+            this.guna2CustomCheckBox1.Size = new System.Drawing.Size(14, 17);
+            this.guna2CustomCheckBox1.TabIndex = 106;
+            this.guna2CustomCheckBox1.Text = "Solo proveedores activos";
+            this.guna2CustomCheckBox1.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CustomCheckBox1.UncheckedState.BorderRadius = 2;
+            this.guna2CustomCheckBox1.UncheckedState.BorderThickness = 0;
+            this.guna2CustomCheckBox1.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2Button1
+            // 
+            this.guna2Button1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Button1.BorderRadius = 9;
+            this.guna2Button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button1.FillColor = System.Drawing.Color.Crimson;
+            this.guna2Button1.Font = new System.Drawing.Font("SF Pro Display", 9F, System.Drawing.FontStyle.Bold);
+            this.guna2Button1.ForeColor = System.Drawing.Color.White;
+            this.guna2Button1.HoverState.BorderColor = System.Drawing.Color.WhiteSmoke;
+            this.guna2Button1.HoverState.CustomBorderColor = System.Drawing.Color.WhiteSmoke;
+            this.guna2Button1.HoverState.FillColor = System.Drawing.Color.Crimson;
+            this.guna2Button1.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button1.Image")));
+            this.guna2Button1.Location = new System.Drawing.Point(581, 100);
+            this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.Size = new System.Drawing.Size(82, 30);
+            this.guna2Button1.TabIndex = 109;
+            this.guna2Button1.Text = "Eliminar";
+            this.guna2Button1.UseTransparentBackground = true;
+            // 
+            // btnEditar
+            // 
+            this.btnEditar.BackColor = System.Drawing.Color.Transparent;
+            this.btnEditar.BorderRadius = 9;
+            this.btnEditar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnEditar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnEditar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnEditar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnEditar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnEditar.FillColor = System.Drawing.Color.Goldenrod;
+            this.btnEditar.Font = new System.Drawing.Font("SF Pro Display", 9F, System.Drawing.FontStyle.Bold);
+            this.btnEditar.ForeColor = System.Drawing.Color.White;
+            this.btnEditar.HoverState.BorderColor = System.Drawing.Color.WhiteSmoke;
+            this.btnEditar.HoverState.CustomBorderColor = System.Drawing.Color.WhiteSmoke;
+            this.btnEditar.HoverState.FillColor = System.Drawing.Color.Goldenrod;
+            this.btnEditar.Image = ((System.Drawing.Image)(resources.GetObject("btnEditar.Image")));
+            this.btnEditar.Location = new System.Drawing.Point(502, 100);
+            this.btnEditar.Name = "btnEditar";
+            this.btnEditar.Size = new System.Drawing.Size(73, 30);
+            this.btnEditar.TabIndex = 110;
+            this.btnEditar.Text = "Editar";
+            this.btnEditar.UseTransparentBackground = true;
+            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
+            // 
+            // guna2Button3
+            // 
+            this.guna2Button3.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Button3.BorderRadius = 9;
+            this.guna2Button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button3.FillColor = System.Drawing.Color.SteelBlue;
+            this.guna2Button3.Font = new System.Drawing.Font("SF Pro Display", 9F, System.Drawing.FontStyle.Bold);
+            this.guna2Button3.ForeColor = System.Drawing.Color.White;
+            this.guna2Button3.HoverState.BorderColor = System.Drawing.Color.WhiteSmoke;
+            this.guna2Button3.HoverState.CustomBorderColor = System.Drawing.Color.WhiteSmoke;
+            this.guna2Button3.HoverState.FillColor = System.Drawing.Color.SteelBlue;
+            this.guna2Button3.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button3.Image")));
+            this.guna2Button3.Location = new System.Drawing.Point(669, 441);
+            this.guna2Button3.Name = "guna2Button3";
+            this.guna2Button3.Size = new System.Drawing.Size(89, 30);
+            this.guna2Button3.TabIndex = 109;
+            this.guna2Button3.Text = "Reporte";
+            this.guna2Button3.UseTransparentBackground = true;
             // 
             // FrmProveedores
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(798, 461);
+            this.ClientSize = new System.Drawing.Size(798, 480);
+            this.Controls.Add(this.guna2Button3);
+            this.Controls.Add(this.btnEditar);
+            this.Controls.Add(this.guna2CustomCheckBox1);
+            this.Controls.Add(this.guna2HtmlLabel7);
+            this.Controls.Add(this.guna2Button1);
             this.Controls.Add(this.panelAnadirProveedor);
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.btnBuscar);
@@ -750,24 +798,15 @@
         private Guna.UI2.WinForms.Guna2CustomCheckBox chckbtnSoloActivos;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2DataGridView datagridProveedores;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Id;
-        private System.Windows.Forms.DataGridViewTextBoxColumn nombre;
-        private System.Windows.Forms.DataGridViewTextBoxColumn plataforma;
-        private System.Windows.Forms.DataGridViewTextBoxColumn pais;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ciudad;
-        private System.Windows.Forms.DataGridViewTextBoxColumn correo;
-        private System.Windows.Forms.DataGridViewTextBoxColumn telefono;
-        private System.Windows.Forms.DataGridViewTextBoxColumn empresa;
         private Guna.UI2.WinForms.Guna2Button btnAgregar;
         private Guna.UI2.WinForms.Guna2Panel panelAnadirProveedor;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblTitle;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
         private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel6;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel5;
         private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox2;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox4;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox3;
         private Guna.UI2.WinForms.Guna2Button btnCancelarAndirProveedor;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel7;
@@ -776,5 +815,16 @@
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox5;
         private Guna.UI2.WinForms.Guna2Button btnGuardarproveedor;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Id;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nombre;
+        private System.Windows.Forms.DataGridViewTextBoxColumn plataforma;
+        private System.Windows.Forms.DataGridViewTextBoxColumn pais;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ciudad;
+        private System.Windows.Forms.DataGridViewTextBoxColumn correo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn telefono;
+        private System.Windows.Forms.DataGridViewTextBoxColumn empresa;
+        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2Button btnEditar;
+        private Guna.UI2.WinForms.Guna2Button guna2Button3;
     }
 }

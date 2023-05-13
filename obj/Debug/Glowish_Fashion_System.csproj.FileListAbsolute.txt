@@ -68,7 +68,6 @@ C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\glowish_fashion_de
 C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\glowish_fashion_design\bin\Debug\LiveCharts.WinForms.xml
 C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\glowish_fashion_design\bin\Debug\LiveCharts.Wpf.pdb
 C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\glowish_fashion_design\bin\Debug\LiveCharts.Wpf.xml
-C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.csprojResolveAssemblyReference.cache
 C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.Ayuda.resources
 C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.FrmLogin.resources
 C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.FrmMenu.resources
@@ -78,5 +77,9 @@ C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\glowish_fashion_de
 C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.Plantilla.resources
 C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.Properties.Resources.resources
 C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.csproj.GenerateResource.Cache
-C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.Views.FrmCaja.resources
 C:\Users\breid\Desktop\Diseno en sistemas\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.Views.FrmProveedores.resources
+C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.csproj.AssemblyReference.cache
+C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.csproj.SuggestedBindingRedirects.cache
+C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.Views.FrmProveedores.resources
+C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.csproj.CoreCompileInputs.cache
+C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.csproj.CopyComplete
