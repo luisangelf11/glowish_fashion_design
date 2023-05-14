@@ -347,11 +347,11 @@
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("SF Pro Display", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.Crimson;
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(25, 20);
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(21, 20);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(126, 21);
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(135, 21);
             this.guna2HtmlLabel2.TabIndex = 93;
-            this.guna2HtmlLabel2.Text = "Men de opciones";
+            this.guna2HtmlLabel2.Text = "Menú de opciones";
             this.guna2HtmlLabel2.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
             this.guna2HtmlLabel2.UseGdiPlusTextRendering = true;
             // 
@@ -471,6 +471,7 @@
             this.btnFacturas.TabIndex = 62;
             this.btnFacturas.Text = "Facturas";
             this.btnFacturas.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.btnFacturas.Click += new System.EventHandler(this.btnFacturas_Click);
             // 
             // btnInventario
             // 

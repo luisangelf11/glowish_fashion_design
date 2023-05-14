@@ -44,7 +44,7 @@ namespace Glowish_Fashion_System
 
         private void btnCerrar_Click(object sender, EventArgs e)
         {
-            Close();
+            Application.Exit();
         }
 
         private void btnMinimizar_Click(object sender, EventArgs e)

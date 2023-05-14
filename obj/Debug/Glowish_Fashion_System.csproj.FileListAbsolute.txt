@@ -83,3 +83,4 @@ C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\glowish_fashion_de
 C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.Views.FrmProveedores.resources
 C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.csproj.CoreCompileInputs.cache
 C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.csproj.CopyComplete
+C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.Views.FrmFactura.resources

@@ -227,5 +227,11 @@ namespace Glowish_Fashion_System
         {
 
         }
+
+        private void btnFacturas_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new FrmFactura());
+            SelectButton(btnFacturas);
+        }
     }
 }
