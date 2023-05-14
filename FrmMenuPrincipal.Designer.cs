@@ -49,7 +49,7 @@
             this.btnVentas = new Guna.UI2.WinForms.Guna2Button();
             this.btnFacturas = new Guna.UI2.WinForms.Guna2Button();
             this.btnInventario = new Guna.UI2.WinForms.Guna2Button();
-            this.btnCPCobrar = new Guna.UI2.WinForms.Guna2Button();
+            this.btnUsuarios = new Guna.UI2.WinForms.Guna2Button();
             this.btnCompras = new Guna.UI2.WinForms.Guna2Button();
             this.btnVercaja = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
@@ -323,7 +323,7 @@
             this.panelMenu.Controls.Add(this.btnVentas);
             this.panelMenu.Controls.Add(this.btnFacturas);
             this.panelMenu.Controls.Add(this.btnInventario);
-            this.panelMenu.Controls.Add(this.btnCPCobrar);
+            this.panelMenu.Controls.Add(this.btnUsuarios);
             this.panelMenu.Controls.Add(this.btnCompras);
             this.panelMenu.Controls.Add(this.btnVercaja);
             this.panelMenu.Controls.Add(this.guna2Button1);
@@ -504,36 +504,36 @@
             this.btnInventario.Text = "Inventario";
             this.btnInventario.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // btnCPCobrar
+            // btnUsuarios
             // 
-            this.btnCPCobrar.Animated = true;
-            this.btnCPCobrar.BackColor = System.Drawing.Color.Transparent;
-            this.btnCPCobrar.BorderColor = System.Drawing.Color.Transparent;
-            this.btnCPCobrar.BorderRadius = 6;
-            this.btnCPCobrar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCPCobrar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnCPCobrar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnCPCobrar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnCPCobrar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnCPCobrar.FillColor = System.Drawing.Color.Transparent;
-            this.btnCPCobrar.FocusedColor = System.Drawing.Color.Transparent;
-            this.btnCPCobrar.Font = new System.Drawing.Font("SF Pro Display", 9F, System.Drawing.FontStyle.Bold);
-            this.btnCPCobrar.ForeColor = System.Drawing.Color.Black;
-            this.btnCPCobrar.HoverState.BorderColor = System.Drawing.Color.Transparent;
-            this.btnCPCobrar.HoverState.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.btnCPCobrar.HoverState.FillColor = System.Drawing.Color.Transparent;
-            this.btnCPCobrar.HoverState.ForeColor = System.Drawing.Color.Crimson;
-            this.btnCPCobrar.Image = ((System.Drawing.Image)(resources.GetObject("btnCPCobrar.Image")));
-            this.btnCPCobrar.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnCPCobrar.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnCPCobrar.Location = new System.Drawing.Point(19, 213);
-            this.btnCPCobrar.Name = "btnCPCobrar";
-            this.btnCPCobrar.PressedColor = System.Drawing.Color.Salmon;
-            this.btnCPCobrar.PressedDepth = 0;
-            this.btnCPCobrar.Size = new System.Drawing.Size(135, 27);
-            this.btnCPCobrar.TabIndex = 64;
-            this.btnCPCobrar.Text = "C.P. Cobrar";
-            this.btnCPCobrar.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.btnUsuarios.Animated = true;
+            this.btnUsuarios.BackColor = System.Drawing.Color.Transparent;
+            this.btnUsuarios.BorderColor = System.Drawing.Color.Transparent;
+            this.btnUsuarios.BorderRadius = 6;
+            this.btnUsuarios.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnUsuarios.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnUsuarios.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnUsuarios.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnUsuarios.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnUsuarios.FillColor = System.Drawing.Color.Transparent;
+            this.btnUsuarios.FocusedColor = System.Drawing.Color.Transparent;
+            this.btnUsuarios.Font = new System.Drawing.Font("SF Pro Display", 9F, System.Drawing.FontStyle.Bold);
+            this.btnUsuarios.ForeColor = System.Drawing.Color.Black;
+            this.btnUsuarios.HoverState.BorderColor = System.Drawing.Color.Transparent;
+            this.btnUsuarios.HoverState.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.btnUsuarios.HoverState.FillColor = System.Drawing.Color.Transparent;
+            this.btnUsuarios.HoverState.ForeColor = System.Drawing.Color.Crimson;
+            this.btnUsuarios.Image = ((System.Drawing.Image)(resources.GetObject("btnUsuarios.Image")));
+            this.btnUsuarios.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnUsuarios.ImageSize = new System.Drawing.Size(30, 30);
+            this.btnUsuarios.Location = new System.Drawing.Point(19, 209);
+            this.btnUsuarios.Name = "btnUsuarios";
+            this.btnUsuarios.PressedColor = System.Drawing.Color.Salmon;
+            this.btnUsuarios.PressedDepth = 0;
+            this.btnUsuarios.Size = new System.Drawing.Size(135, 34);
+            this.btnUsuarios.TabIndex = 64;
+            this.btnUsuarios.Text = "Usuarios";
+            this.btnUsuarios.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // btnCompras
             // 
@@ -1077,7 +1077,7 @@
         private Guna.UI2.WinForms.Guna2Button btnVentas;
         private Guna.UI2.WinForms.Guna2Button btnFacturas;
         private Guna.UI2.WinForms.Guna2Button btnInventario;
-        private Guna.UI2.WinForms.Guna2Button btnCPCobrar;
+        private Guna.UI2.WinForms.Guna2Button btnUsuarios;
         private Guna.UI2.WinForms.Guna2Button btnCompras;
         private Guna.UI2.WinForms.Guna2Button btnVercaja;
         private System.Windows.Forms.Integration.ElementHost elementHost1;
