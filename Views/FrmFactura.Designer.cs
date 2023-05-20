@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmFactura));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.btnBuscar = new Guna.UI2.WinForms.Guna2Button();
             this.txtbProveedor = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -50,14 +50,14 @@
             this.guna2HtmlLabel8 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel9 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel10 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel11 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel12 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.ID_Venta = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ID_Producto = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Nombre_Producto = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Cantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Precio = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.SubTotal = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.guna2HtmlLabel11 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel12 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.datagridFacturas)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
@@ -156,16 +156,16 @@
             // 
             // datagridFacturas
             // 
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(201)))), ((int)(((byte)(197)))));
-            this.datagridFacturas.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.Crimson;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("SF Pro Display", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.datagridFacturas.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(201)))), ((int)(((byte)(197)))));
+            this.datagridFacturas.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.Crimson;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("SF Pro Display", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.datagridFacturas.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.datagridFacturas.ColumnHeadersHeight = 17;
             this.datagridFacturas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             this.datagridFacturas.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -175,14 +175,14 @@
             this.Cantidad,
             this.Precio,
             this.SubTotal});
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(219)))), ((int)(((byte)(216)))));
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("SF Pro Display", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.SteelBlue;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.datagridFacturas.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(219)))), ((int)(((byte)(216)))));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("SF Pro Display", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.SteelBlue;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.datagridFacturas.DefaultCellStyle = dataGridViewCellStyle3;
             this.datagridFacturas.GridColor = System.Drawing.Color.White;
             this.datagridFacturas.Location = new System.Drawing.Point(48, 169);
             this.datagridFacturas.Name = "datagridFacturas";
@@ -308,7 +308,7 @@
             this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.Crimson;
             this.guna2HtmlLabel1.Location = new System.Drawing.Point(578, 18);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(138, 21);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(141, 21);
             this.guna2HtmlLabel1.TabIndex = 124;
             this.guna2HtmlLabel1.Text = "Datos de la factura";
             this.guna2HtmlLabel1.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -321,7 +321,7 @@
             this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.DimGray;
             this.guna2HtmlLabel3.Location = new System.Drawing.Point(547, 45);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(74, 17);
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(75, 17);
             this.guna2HtmlLabel3.TabIndex = 125;
             this.guna2HtmlLabel3.Text = "No. Factura:";
             this.guna2HtmlLabel3.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -347,7 +347,7 @@
             this.guna2HtmlLabel6.ForeColor = System.Drawing.Color.DarkGray;
             this.guna2HtmlLabel6.Location = new System.Drawing.Point(593, 65);
             this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
-            this.guna2HtmlLabel6.Size = new System.Drawing.Size(74, 17);
+            this.guna2HtmlLabel6.Size = new System.Drawing.Size(73, 17);
             this.guna2HtmlLabel6.TabIndex = 128;
             this.guna2HtmlLabel6.Text = "11/05/2023";
             this.guna2HtmlLabel6.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -360,7 +360,7 @@
             this.guna2HtmlLabel8.ForeColor = System.Drawing.Color.DimGray;
             this.guna2HtmlLabel8.Location = new System.Drawing.Point(547, 66);
             this.guna2HtmlLabel8.Name = "guna2HtmlLabel8";
-            this.guna2HtmlLabel8.Size = new System.Drawing.Size(42, 17);
+            this.guna2HtmlLabel8.Size = new System.Drawing.Size(43, 17);
             this.guna2HtmlLabel8.TabIndex = 127;
             this.guna2HtmlLabel8.Text = "Fecha:";
             this.guna2HtmlLabel8.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -373,7 +373,7 @@
             this.guna2HtmlLabel9.ForeColor = System.Drawing.Color.DarkGray;
             this.guna2HtmlLabel9.Location = new System.Drawing.Point(588, 88);
             this.guna2HtmlLabel9.Name = "guna2HtmlLabel9";
-            this.guna2HtmlLabel9.Size = new System.Drawing.Size(74, 17);
+            this.guna2HtmlLabel9.Size = new System.Drawing.Size(73, 17);
             this.guna2HtmlLabel9.TabIndex = 130;
             this.guna2HtmlLabel9.Text = "10,500.00$";
             this.guna2HtmlLabel9.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -386,27 +386,53 @@
             this.guna2HtmlLabel10.ForeColor = System.Drawing.Color.DimGray;
             this.guna2HtmlLabel10.Location = new System.Drawing.Point(547, 88);
             this.guna2HtmlLabel10.Name = "guna2HtmlLabel10";
-            this.guna2HtmlLabel10.Size = new System.Drawing.Size(35, 17);
+            this.guna2HtmlLabel10.Size = new System.Drawing.Size(37, 17);
             this.guna2HtmlLabel10.TabIndex = 129;
             this.guna2HtmlLabel10.Text = "Total:";
             this.guna2HtmlLabel10.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
             this.guna2HtmlLabel10.UseGdiPlusTextRendering = true;
             // 
+            // guna2HtmlLabel11
+            // 
+            this.guna2HtmlLabel11.BackColor = System.Drawing.Color.White;
+            this.guna2HtmlLabel11.Font = new System.Drawing.Font("SF Pro Display", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel11.ForeColor = System.Drawing.Color.DarkGray;
+            this.guna2HtmlLabel11.Location = new System.Drawing.Point(619, 110);
+            this.guna2HtmlLabel11.Name = "guna2HtmlLabel11";
+            this.guna2HtmlLabel11.Size = new System.Drawing.Size(105, 17);
+            this.guna2HtmlLabel11.TabIndex = 132;
+            this.guna2HtmlLabel11.Text = "Maryelis Almonte";
+            this.guna2HtmlLabel11.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
+            this.guna2HtmlLabel11.UseGdiPlusTextRendering = true;
+            // 
+            // guna2HtmlLabel12
+            // 
+            this.guna2HtmlLabel12.BackColor = System.Drawing.Color.White;
+            this.guna2HtmlLabel12.Font = new System.Drawing.Font("SF Pro Display", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel12.ForeColor = System.Drawing.Color.DimGray;
+            this.guna2HtmlLabel12.Location = new System.Drawing.Point(548, 110);
+            this.guna2HtmlLabel12.Name = "guna2HtmlLabel12";
+            this.guna2HtmlLabel12.Size = new System.Drawing.Size(65, 17);
+            this.guna2HtmlLabel12.TabIndex = 131;
+            this.guna2HtmlLabel12.Text = "Empleado:";
+            this.guna2HtmlLabel12.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
+            this.guna2HtmlLabel12.UseGdiPlusTextRendering = true;
+            // 
             // ID_Venta
             // 
-            this.ID_Venta.HeaderText = "ID_Venta";
+            this.ID_Venta.HeaderText = "Id Venta";
             this.ID_Venta.Name = "ID_Venta";
             this.ID_Venta.ReadOnly = true;
             // 
             // ID_Producto
             // 
-            this.ID_Producto.HeaderText = "ID_Producto";
+            this.ID_Producto.HeaderText = "Id Producto";
             this.ID_Producto.Name = "ID_Producto";
             this.ID_Producto.ReadOnly = true;
             // 
             // Nombre_Producto
             // 
-            this.Nombre_Producto.HeaderText = "Nombre_Producto";
+            this.Nombre_Producto.HeaderText = "Nombre Producto";
             this.Nombre_Producto.Name = "Nombre_Producto";
             this.Nombre_Producto.ReadOnly = true;
             // 
@@ -427,32 +453,6 @@
             this.SubTotal.HeaderText = "SubTotal";
             this.SubTotal.Name = "SubTotal";
             this.SubTotal.ReadOnly = true;
-            // 
-            // guna2HtmlLabel11
-            // 
-            this.guna2HtmlLabel11.BackColor = System.Drawing.Color.White;
-            this.guna2HtmlLabel11.Font = new System.Drawing.Font("SF Pro Display", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel11.ForeColor = System.Drawing.Color.DarkGray;
-            this.guna2HtmlLabel11.Location = new System.Drawing.Point(619, 110);
-            this.guna2HtmlLabel11.Name = "guna2HtmlLabel11";
-            this.guna2HtmlLabel11.Size = new System.Drawing.Size(106, 17);
-            this.guna2HtmlLabel11.TabIndex = 132;
-            this.guna2HtmlLabel11.Text = "Maryelis Almonte";
-            this.guna2HtmlLabel11.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
-            this.guna2HtmlLabel11.UseGdiPlusTextRendering = true;
-            // 
-            // guna2HtmlLabel12
-            // 
-            this.guna2HtmlLabel12.BackColor = System.Drawing.Color.White;
-            this.guna2HtmlLabel12.Font = new System.Drawing.Font("SF Pro Display", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel12.ForeColor = System.Drawing.Color.DimGray;
-            this.guna2HtmlLabel12.Location = new System.Drawing.Point(548, 110);
-            this.guna2HtmlLabel12.Name = "guna2HtmlLabel12";
-            this.guna2HtmlLabel12.Size = new System.Drawing.Size(65, 17);
-            this.guna2HtmlLabel12.TabIndex = 131;
-            this.guna2HtmlLabel12.Text = "Empleado:";
-            this.guna2HtmlLabel12.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
-            this.guna2HtmlLabel12.UseGdiPlusTextRendering = true;
             // 
             // FrmFactura
             // 
@@ -512,13 +512,13 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel8;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel9;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel10;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel11;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel12;
         private System.Windows.Forms.DataGridViewTextBoxColumn ID_Venta;
         private System.Windows.Forms.DataGridViewTextBoxColumn ID_Producto;
         private System.Windows.Forms.DataGridViewTextBoxColumn Nombre_Producto;
         private System.Windows.Forms.DataGridViewTextBoxColumn Cantidad;
         private System.Windows.Forms.DataGridViewTextBoxColumn Precio;
         private System.Windows.Forms.DataGridViewTextBoxColumn SubTotal;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel11;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel12;
     }
 }

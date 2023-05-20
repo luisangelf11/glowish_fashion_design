@@ -13,6 +13,7 @@ using System.Windows.Forms.DataVisualization.Charting;
 using System.Windows.Media;
 using Glowish_Fashion_System.Views;
 using Guna.UI2.WinForms;
+using AutoCompleteTextBox;
 
 namespace Glowish_Fashion_System
 {
@@ -70,6 +71,7 @@ namespace Glowish_Fashion_System
             this.Opacity = 0;
             timer1.Start();
             generategraphic();
+            
         }
 
         private void timer1_Tick(object sender, EventArgs e)

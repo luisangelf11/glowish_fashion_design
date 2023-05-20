@@ -290,9 +290,8 @@
             this.btnVerPassword.PressedColor = System.Drawing.Color.Transparent;
             this.btnVerPassword.Size = new System.Drawing.Size(23, 20);
             this.btnVerPassword.TabIndex = 30;
-            this.btnVerPassword.Text = "!";
             this.btnVerPassword.TextFormatNoPrefix = true;
-            this.guna2HtmlToolTip1.SetToolTip(this.btnVerPassword, "Ayuda");
+            this.guna2HtmlToolTip1.SetToolTip(this.btnVerPassword, "Ver Contraseña/Dejar de ver contraseña");
             this.btnVerPassword.UseTransparentBackground = true;
             this.btnVerPassword.Click += new System.EventHandler(this.btnVerPassword_Click);
             // 
@@ -357,6 +356,7 @@
             this.guna2GradientButton1.TabIndex = 27;
             this.guna2GradientButton1.Text = "Iniciar Sesión";
             this.guna2GradientButton1.TextFormatNoPrefix = true;
+            this.guna2HtmlToolTip1.SetToolTip(this.guna2GradientButton1, "Ingresar al sistema");
             this.guna2GradientButton1.UseTransparentBackground = true;
             this.guna2GradientButton1.Click += new System.EventHandler(this.guna2GradientButton1_Click);
             // 

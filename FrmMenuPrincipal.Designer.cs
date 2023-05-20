@@ -77,6 +77,7 @@
             this.guna2CircleButton2 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.btnLinea = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2HtmlToolTip1 = new Guna.UI2.WinForms.Guna2HtmlToolTip();
             this.panelSuperior.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
@@ -205,7 +206,7 @@
             this.btnAyuda.HoverState.ForeColor = System.Drawing.Color.Crimson;
             this.btnAyuda.Image = ((System.Drawing.Image)(resources.GetObject("btnAyuda.Image")));
             this.btnAyuda.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnAyuda.Location = new System.Drawing.Point(38, -5);
+            this.btnAyuda.Location = new System.Drawing.Point(98, -8);
             this.btnAyuda.Name = "btnAyuda";
             this.btnAyuda.PressedColor = System.Drawing.Color.Salmon;
             this.btnAyuda.PressedDepth = 0;
@@ -214,6 +215,7 @@
             this.btnAyuda.Text = "Acerca";
             this.btnAyuda.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.btnAyuda.TextOffset = new System.Drawing.Point(0, 25);
+            this.guna2HtmlToolTip1.SetToolTip(this.btnAyuda, "Acerca del programa");
             this.btnAyuda.Click += new System.EventHandler(this.btnAyuda_Click);
             // 
             // guna2TextBox1
@@ -260,7 +262,7 @@
             this.btnHome.HoverState.ForeColor = System.Drawing.Color.Crimson;
             this.btnHome.Image = ((System.Drawing.Image)(resources.GetObject("btnHome.Image")));
             this.btnHome.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnHome.Location = new System.Drawing.Point(115, -5);
+            this.btnHome.Location = new System.Drawing.Point(29, -8);
             this.btnHome.Name = "btnHome";
             this.btnHome.PressedColor = System.Drawing.Color.Salmon;
             this.btnHome.PressedDepth = 0;
@@ -269,6 +271,7 @@
             this.btnHome.Text = "Home";
             this.btnHome.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.btnHome.TextOffset = new System.Drawing.Point(0, 25);
+            this.guna2HtmlToolTip1.SetToolTip(this.btnHome, "Ir al menú principal");
             this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             // 
             // lblUsername
@@ -278,7 +281,7 @@
             this.lblUsername.ForeColor = System.Drawing.Color.Black;
             this.lblUsername.Location = new System.Drawing.Point(612, 13);
             this.lblUsername.Name = "lblUsername";
-            this.lblUsername.Size = new System.Drawing.Size(114, 17);
+            this.lblUsername.Size = new System.Drawing.Size(114, 18);
             this.lblUsername.TabIndex = 84;
             this.lblUsername.Text = "Nombre de usuario";
             this.lblUsername.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -406,6 +409,7 @@
             this.btnMasOpciones.TabIndex = 60;
             this.btnMasOpciones.Text = "Más opciones";
             this.btnMasOpciones.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.guna2HtmlToolTip1.SetToolTip(this.btnMasOpciones, "Ver más opciones");
             // 
             // btnVentas
             // 
@@ -437,6 +441,7 @@
             this.btnVentas.TabIndex = 61;
             this.btnVentas.Text = "Ventas";
             this.btnVentas.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.guna2HtmlToolTip1.SetToolTip(this.btnVentas, "Ver ventas");
             this.btnVentas.Click += new System.EventHandler(this.btnVentas_Click);
             this.btnVentas.MouseLeave += new System.EventHandler(this.btnVentas_MouseLeave);
             this.btnVentas.MouseHover += new System.EventHandler(this.btnVentas_MouseHover);
@@ -471,6 +476,7 @@
             this.btnFacturas.TabIndex = 62;
             this.btnFacturas.Text = "Facturas";
             this.btnFacturas.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.guna2HtmlToolTip1.SetToolTip(this.btnFacturas, "Ver facturas");
             this.btnFacturas.Click += new System.EventHandler(this.btnFacturas_Click);
             // 
             // btnInventario
@@ -503,6 +509,7 @@
             this.btnInventario.TabIndex = 63;
             this.btnInventario.Text = "Inventario";
             this.btnInventario.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.guna2HtmlToolTip1.SetToolTip(this.btnInventario, "Ver inventarios");
             // 
             // btnUsuarios
             // 
@@ -534,6 +541,7 @@
             this.btnUsuarios.TabIndex = 64;
             this.btnUsuarios.Text = "Usuarios";
             this.btnUsuarios.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.guna2HtmlToolTip1.SetToolTip(this.btnUsuarios, "Ver los usuarios");
             // 
             // btnCompras
             // 
@@ -565,6 +573,7 @@
             this.btnCompras.TabIndex = 65;
             this.btnCompras.Text = "Compras";
             this.btnCompras.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.guna2HtmlToolTip1.SetToolTip(this.btnCompras, "Ver las compras");
             this.btnCompras.Click += new System.EventHandler(this.btnCompras_Click);
             // 
             // btnVercaja
@@ -597,6 +606,7 @@
             this.btnVercaja.TabIndex = 66;
             this.btnVercaja.Text = "Proveedores";
             this.btnVercaja.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.guna2HtmlToolTip1.SetToolTip(this.btnVercaja, "Veer los proveedores");
             this.btnVercaja.Click += new System.EventHandler(this.btnVercaja_Click);
             // 
             // guna2Button1
@@ -788,6 +798,7 @@
             this.btnCalcular.Size = new System.Drawing.Size(97, 39);
             this.btnCalcular.TabIndex = 87;
             this.btnCalcular.Text = "Calcular";
+            this.guna2HtmlToolTip1.SetToolTip(this.btnCalcular, "Calcular de dólares a pesos dominicanos");
             // 
             // guna2TextBox2
             // 
@@ -1002,6 +1013,11 @@
             this.btnLinea.Size = new System.Drawing.Size(154, 3);
             this.btnLinea.TabIndex = 83;
             // 
+            // guna2HtmlToolTip1
+            // 
+            this.guna2HtmlToolTip1.AllowLinksHandling = true;
+            this.guna2HtmlToolTip1.MaximumSize = new System.Drawing.Size(0, 0);
+            // 
             // FrmMenuPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1088,5 +1104,6 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox7;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox6;
+        private Guna.UI2.WinForms.Guna2HtmlToolTip guna2HtmlToolTip1;
     }
 }
