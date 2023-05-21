@@ -281,7 +281,7 @@
             this.lblUsername.ForeColor = System.Drawing.Color.Black;
             this.lblUsername.Location = new System.Drawing.Point(612, 13);
             this.lblUsername.Name = "lblUsername";
-            this.lblUsername.Size = new System.Drawing.Size(114, 18);
+            this.lblUsername.Size = new System.Drawing.Size(114, 17);
             this.lblUsername.TabIndex = 84;
             this.lblUsername.Text = "Nombre de usuario";
             this.lblUsername.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -1032,6 +1032,7 @@
             this.Controls.Add(this.panelSuperior);
             this.Controls.Add(this.btnLinea);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmMenuPrincipal";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
