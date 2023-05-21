@@ -30,9 +30,9 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmProveedores));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
@@ -51,6 +51,9 @@
             this.empresa = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnAgregar = new Guna.UI2.WinForms.Guna2Button();
             this.panelAnadirProveedor = new Guna.UI2.WinForms.Guna2Panel();
+            this.cmbbProvPais = new Guna.UI2.WinForms.Guna2TextBox();
+            this.cmbbProvCiudad = new Guna.UI2.WinForms.Guna2TextBox();
+            this.picturebAdvertenciaCorreo = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2HtmlLabel9 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel8 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -72,17 +75,13 @@
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.btnEditar = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
-            this.picturebAdvertenciaCorreo = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2HtmlToolTip1 = new Guna.UI2.WinForms.Guna2HtmlToolTip();
-            this.cmbbProvCiudad = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
-            this.cmbbProvPais = new Guna.UI2.WinForms.Guna2TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rellenogirdview)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.datagridProveedores)).BeginInit();
             this.panelAnadirProveedor.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picturebAdvertenciaCorreo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2HtmlLabel2
@@ -92,7 +91,7 @@
             this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.Crimson;
             this.guna2HtmlLabel2.Location = new System.Drawing.Point(347, 2);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(159, 34);
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(159, 35);
             this.guna2HtmlLabel2.TabIndex = 8;
             this.guna2HtmlLabel2.Text = "Proveedores";
             // 
@@ -204,16 +203,16 @@
             // 
             // datagridProveedores
             // 
-            dataGridViewCellStyle10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(201)))), ((int)(((byte)(197)))));
-            this.datagridProveedores.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle10;
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle11.BackColor = System.Drawing.Color.Crimson;
-            dataGridViewCellStyle11.Font = new System.Drawing.Font("SF Pro Display", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.datagridProveedores.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(201)))), ((int)(((byte)(197)))));
+            this.datagridProveedores.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.Crimson;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("SF Pro Display", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.datagridProveedores.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.datagridProveedores.ColumnHeadersHeight = 17;
             this.datagridProveedores.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             this.datagridProveedores.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -225,14 +224,14 @@
             this.correo,
             this.telefono,
             this.empresa});
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(219)))), ((int)(((byte)(216)))));
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("SF Pro Display", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.SteelBlue;
-            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.datagridProveedores.DefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(219)))), ((int)(((byte)(216)))));
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("SF Pro Display", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.SteelBlue;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.datagridProveedores.DefaultCellStyle = dataGridViewCellStyle6;
             this.datagridProveedores.GridColor = System.Drawing.Color.White;
             this.datagridProveedores.Location = new System.Drawing.Point(41, 171);
             this.datagridProveedores.Name = "datagridProveedores";
@@ -365,6 +364,72 @@
             this.panelAnadirProveedor.Visible = false;
             this.panelAnadirProveedor.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel1_Paint);
             // 
+            // cmbbProvPais
+            // 
+            this.cmbbProvPais.Animated = true;
+            this.cmbbProvPais.BackColor = System.Drawing.Color.White;
+            this.cmbbProvPais.BorderColor = System.Drawing.Color.White;
+            this.cmbbProvPais.BorderRadius = 9;
+            this.cmbbProvPais.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.cmbbProvPais.DefaultText = "";
+            this.cmbbProvPais.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.cmbbProvPais.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.cmbbProvPais.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.cmbbProvPais.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.cmbbProvPais.FillColor = System.Drawing.Color.WhiteSmoke;
+            this.cmbbProvPais.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cmbbProvPais.Font = new System.Drawing.Font("SF Pro Display", 9.75F, System.Drawing.FontStyle.Bold);
+            this.cmbbProvPais.ForeColor = System.Drawing.Color.Black;
+            this.cmbbProvPais.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cmbbProvPais.Location = new System.Drawing.Point(306, 79);
+            this.cmbbProvPais.Name = "cmbbProvPais";
+            this.cmbbProvPais.PasswordChar = '\0';
+            this.cmbbProvPais.PlaceholderText = "Ejemplo: Republica Dominicana";
+            this.cmbbProvPais.SelectedText = "";
+            this.cmbbProvPais.Size = new System.Drawing.Size(368, 30);
+            this.cmbbProvPais.TabIndex = 113;
+            this.cmbbProvPais.TextChanged += new System.EventHandler(this.cmbbProvPais_TextChanged_1);
+            // 
+            // cmbbProvCiudad
+            // 
+            this.cmbbProvCiudad.Animated = true;
+            this.cmbbProvCiudad.BackColor = System.Drawing.Color.White;
+            this.cmbbProvCiudad.BorderColor = System.Drawing.Color.White;
+            this.cmbbProvCiudad.BorderRadius = 9;
+            this.cmbbProvCiudad.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.cmbbProvCiudad.DefaultText = "";
+            this.cmbbProvCiudad.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.cmbbProvCiudad.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.cmbbProvCiudad.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.cmbbProvCiudad.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.cmbbProvCiudad.FillColor = System.Drawing.Color.WhiteSmoke;
+            this.cmbbProvCiudad.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cmbbProvCiudad.Font = new System.Drawing.Font("SF Pro Display", 9.75F, System.Drawing.FontStyle.Bold);
+            this.cmbbProvCiudad.ForeColor = System.Drawing.Color.Black;
+            this.cmbbProvCiudad.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cmbbProvCiudad.Location = new System.Drawing.Point(302, 137);
+            this.cmbbProvCiudad.Name = "cmbbProvCiudad";
+            this.cmbbProvCiudad.PasswordChar = '\0';
+            this.cmbbProvCiudad.PlaceholderText = "Ejemplo: Sánchez Ramírez";
+            this.cmbbProvCiudad.SelectedText = "";
+            this.cmbbProvCiudad.Size = new System.Drawing.Size(372, 30);
+            this.cmbbProvCiudad.TabIndex = 111;
+            // 
+            // picturebAdvertenciaCorreo
+            // 
+            this.picturebAdvertenciaCorreo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.picturebAdvertenciaCorreo.Image = ((System.Drawing.Image)(resources.GetObject("picturebAdvertenciaCorreo.Image")));
+            this.picturebAdvertenciaCorreo.ImageRotate = 0F;
+            this.picturebAdvertenciaCorreo.Location = new System.Drawing.Point(256, 202);
+            this.picturebAdvertenciaCorreo.Name = "picturebAdvertenciaCorreo";
+            this.picturebAdvertenciaCorreo.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.picturebAdvertenciaCorreo.Size = new System.Drawing.Size(17, 25);
+            this.picturebAdvertenciaCorreo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picturebAdvertenciaCorreo.TabIndex = 110;
+            this.picturebAdvertenciaCorreo.TabStop = false;
+            this.guna2HtmlToolTip1.SetToolTip(this.picturebAdvertenciaCorreo, "Debe de colocar el formato correcto con un \"@\" y finalizar con \".com\" u otro domi" +
+        "nio");
+            // 
             // guna2HtmlLabel9
             // 
             this.guna2HtmlLabel9.BackColor = System.Drawing.Color.Transparent;
@@ -372,7 +437,7 @@
             this.guna2HtmlLabel9.ForeColor = System.Drawing.Color.DimGray;
             this.guna2HtmlLabel9.Location = new System.Drawing.Point(45, 56);
             this.guna2HtmlLabel9.Name = "guna2HtmlLabel9";
-            this.guna2HtmlLabel9.Size = new System.Drawing.Size(114, 18);
+            this.guna2HtmlLabel9.Size = new System.Drawing.Size(114, 17);
             this.guna2HtmlLabel9.TabIndex = 109;
             this.guna2HtmlLabel9.Text = "Nombre proveedor";
             this.guna2HtmlLabel9.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -385,7 +450,7 @@
             this.guna2HtmlLabel8.ForeColor = System.Drawing.Color.DimGray;
             this.guna2HtmlLabel8.Location = new System.Drawing.Point(43, 115);
             this.guna2HtmlLabel8.Name = "guna2HtmlLabel8";
-            this.guna2HtmlLabel8.Size = new System.Drawing.Size(68, 18);
+            this.guna2HtmlLabel8.Size = new System.Drawing.Size(68, 17);
             this.guna2HtmlLabel8.TabIndex = 109;
             this.guna2HtmlLabel8.Text = "Plataforma";
             this.guna2HtmlLabel8.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -398,7 +463,7 @@
             this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.DimGray;
             this.guna2HtmlLabel3.Location = new System.Drawing.Point(43, 174);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(111, 18);
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(111, 17);
             this.guna2HtmlLabel3.TabIndex = 109;
             this.guna2HtmlLabel3.Text = "Correo electrónico";
             this.guna2HtmlLabel3.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -461,7 +526,7 @@
             this.guna2HtmlLabel11.ForeColor = System.Drawing.Color.DimGray;
             this.guna2HtmlLabel11.Location = new System.Drawing.Point(504, 174);
             this.guna2HtmlLabel11.Name = "guna2HtmlLabel11";
-            this.guna2HtmlLabel11.Size = new System.Drawing.Size(54, 18);
+            this.guna2HtmlLabel11.Size = new System.Drawing.Size(54, 17);
             this.guna2HtmlLabel11.TabIndex = 100;
             this.guna2HtmlLabel11.Text = "Teléfono";
             this.guna2HtmlLabel11.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -474,7 +539,7 @@
             this.guna2HtmlLabel10.ForeColor = System.Drawing.Color.DimGray;
             this.guna2HtmlLabel10.Location = new System.Drawing.Point(312, 173);
             this.guna2HtmlLabel10.Name = "guna2HtmlLabel10";
-            this.guna2HtmlLabel10.Size = new System.Drawing.Size(55, 18);
+            this.guna2HtmlLabel10.Size = new System.Drawing.Size(55, 17);
             this.guna2HtmlLabel10.TabIndex = 100;
             this.guna2HtmlLabel10.Text = "Empresa";
             this.guna2HtmlLabel10.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -487,7 +552,7 @@
             this.guna2HtmlLabel6.ForeColor = System.Drawing.Color.DimGray;
             this.guna2HtmlLabel6.Location = new System.Drawing.Point(312, 55);
             this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
-            this.guna2HtmlLabel6.Size = new System.Drawing.Size(28, 18);
+            this.guna2HtmlLabel6.Size = new System.Drawing.Size(28, 17);
             this.guna2HtmlLabel6.TabIndex = 100;
             this.guna2HtmlLabel6.Text = "País";
             this.guna2HtmlLabel6.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -500,7 +565,7 @@
             this.guna2HtmlLabel5.ForeColor = System.Drawing.Color.DimGray;
             this.guna2HtmlLabel5.Location = new System.Drawing.Point(312, 113);
             this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            this.guna2HtmlLabel5.Size = new System.Drawing.Size(45, 18);
+            this.guna2HtmlLabel5.Size = new System.Drawing.Size(45, 17);
             this.guna2HtmlLabel5.TabIndex = 100;
             this.guna2HtmlLabel5.Text = "Ciudad";
             this.guna2HtmlLabel5.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -513,7 +578,7 @@
             this.lblTitle.ForeColor = System.Drawing.Color.White;
             this.lblTitle.Location = new System.Drawing.Point(286, 5);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(179, 25);
+            this.lblTitle.Size = new System.Drawing.Size(181, 25);
             this.lblTitle.TabIndex = 98;
             this.lblTitle.Text = "Añadir un Proveedor";
             this.lblTitle.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -771,82 +836,10 @@
             this.guna2HtmlToolTip1.SetToolTip(this.guna2Button3, "Listar los datos del provedor");
             this.guna2Button3.UseTransparentBackground = true;
             // 
-            // picturebAdvertenciaCorreo
-            // 
-            this.picturebAdvertenciaCorreo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.picturebAdvertenciaCorreo.Image = ((System.Drawing.Image)(resources.GetObject("picturebAdvertenciaCorreo.Image")));
-            this.picturebAdvertenciaCorreo.ImageRotate = 0F;
-            this.picturebAdvertenciaCorreo.Location = new System.Drawing.Point(256, 202);
-            this.picturebAdvertenciaCorreo.Name = "picturebAdvertenciaCorreo";
-            this.picturebAdvertenciaCorreo.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.picturebAdvertenciaCorreo.Size = new System.Drawing.Size(17, 25);
-            this.picturebAdvertenciaCorreo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picturebAdvertenciaCorreo.TabIndex = 110;
-            this.picturebAdvertenciaCorreo.TabStop = false;
-            this.guna2HtmlToolTip1.SetToolTip(this.picturebAdvertenciaCorreo, "Debe de colocar el formato correcto con un \"@\" y finalizar con \".com\" u otro domi" +
-        "nio");
-            // 
             // guna2HtmlToolTip1
             // 
             this.guna2HtmlToolTip1.AllowLinksHandling = true;
             this.guna2HtmlToolTip1.MaximumSize = new System.Drawing.Size(0, 0);
-            // 
-            // cmbbProvCiudad
-            // 
-            this.cmbbProvCiudad.Animated = true;
-            this.cmbbProvCiudad.BackColor = System.Drawing.Color.White;
-            this.cmbbProvCiudad.BorderColor = System.Drawing.Color.White;
-            this.cmbbProvCiudad.BorderRadius = 9;
-            this.cmbbProvCiudad.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.cmbbProvCiudad.DefaultText = "";
-            this.cmbbProvCiudad.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.cmbbProvCiudad.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.cmbbProvCiudad.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.cmbbProvCiudad.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.cmbbProvCiudad.FillColor = System.Drawing.Color.WhiteSmoke;
-            this.cmbbProvCiudad.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cmbbProvCiudad.Font = new System.Drawing.Font("SF Pro Display", 9.75F, System.Drawing.FontStyle.Bold);
-            this.cmbbProvCiudad.ForeColor = System.Drawing.Color.Black;
-            this.cmbbProvCiudad.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cmbbProvCiudad.Location = new System.Drawing.Point(302, 137);
-            this.cmbbProvCiudad.Name = "cmbbProvCiudad";
-            this.cmbbProvCiudad.PasswordChar = '\0';
-            this.cmbbProvCiudad.PlaceholderText = "Ejemplo: Sánchez Ramírez";
-            this.cmbbProvCiudad.SelectedText = "";
-            this.cmbbProvCiudad.Size = new System.Drawing.Size(372, 30);
-            this.cmbbProvCiudad.TabIndex = 111;
-            // 
-            // guna2BorderlessForm1
-            // 
-            this.guna2BorderlessForm1.ContainerControl = this;
-            this.guna2BorderlessForm1.DockIndicatorTransparencyValue = 0.6D;
-            this.guna2BorderlessForm1.TransparentWhileDrag = true;
-            // 
-            // cmbbProvPais
-            // 
-            this.cmbbProvPais.Animated = true;
-            this.cmbbProvPais.BackColor = System.Drawing.Color.White;
-            this.cmbbProvPais.BorderColor = System.Drawing.Color.White;
-            this.cmbbProvPais.BorderRadius = 9;
-            this.cmbbProvPais.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.cmbbProvPais.DefaultText = "";
-            this.cmbbProvPais.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.cmbbProvPais.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.cmbbProvPais.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.cmbbProvPais.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.cmbbProvPais.FillColor = System.Drawing.Color.WhiteSmoke;
-            this.cmbbProvPais.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cmbbProvPais.Font = new System.Drawing.Font("SF Pro Display", 9.75F, System.Drawing.FontStyle.Bold);
-            this.cmbbProvPais.ForeColor = System.Drawing.Color.Black;
-            this.cmbbProvPais.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cmbbProvPais.Location = new System.Drawing.Point(306, 79);
-            this.cmbbProvPais.Name = "cmbbProvPais";
-            this.cmbbProvPais.PasswordChar = '\0';
-            this.cmbbProvPais.PlaceholderText = "Ejemplo: Republica Dominicana";
-            this.cmbbProvPais.SelectedText = "";
-            this.cmbbProvPais.Size = new System.Drawing.Size(368, 30);
-            this.cmbbProvPais.TabIndex = 113;
-            this.cmbbProvPais.TextChanged += new System.EventHandler(this.cmbbProvPais_TextChanged_1);
             // 
             // FrmProveedores
             // 
@@ -877,8 +870,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.datagridProveedores)).EndInit();
             this.panelAnadirProveedor.ResumeLayout(false);
             this.panelAnadirProveedor.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picturebAdvertenciaCorreo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -927,7 +920,6 @@
         private Guna.UI2.WinForms.Guna2CirclePictureBox picturebAdvertenciaCorreo;
         private Guna.UI2.WinForms.Guna2HtmlToolTip guna2HtmlToolTip1;
         private Guna.UI2.WinForms.Guna2TextBox cmbbProvCiudad;
-        private Guna.UI2.WinForms.Guna2BorderlessForm guna2BorderlessForm1;
         private Guna.UI2.WinForms.Guna2TextBox cmbbProvPais;
     }
 }

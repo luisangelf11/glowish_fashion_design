@@ -124,3 +124,10 @@ C:\Users\breid\Desktop\glowish_fashion_design\bin\Debug\Nager.Country.dll
 C:\Users\breid\Desktop\glowish_fashion_design\bin\Debug\Nager.Country.Translation.dll
 C:\Users\breid\Desktop\glowish_fashion_design\bin\Debug\Nager.Country.xml
 C:\Users\breid\Desktop\glowish_fashion_design\bin\Debug\Nager.Country.Translation.xml
+C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\glowish_fashion_design\bin\Debug\AutoCompleteTextBox.dll
+C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\glowish_fashion_design\bin\Debug\Nager.Country.dll
+C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\glowish_fashion_design\bin\Debug\Nager.Country.Translation.dll
+C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\glowish_fashion_design\bin\Debug\WpfControls.dll
+C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\glowish_fashion_design\bin\Debug\Nager.Country.xml
+C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\glowish_fashion_design\bin\Debug\Nager.Country.Translation.xml
+C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\glowish_fashion_design\bin\Debug\WpfControls.xml
