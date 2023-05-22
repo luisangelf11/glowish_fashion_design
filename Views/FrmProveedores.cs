@@ -24,7 +24,10 @@ namespace Glowish_Fashion_System.Views
 {
     public partial class FrmProveedores : Form
     {
+        int posicionfiltro = 0;
         bool guardar = false;
+
+        List<string> filtros = new List<string>() { "General","ID", "Nombre", "Pais", "Teléfono", "Plataforma", "Ciudad", "Institución"};
 
         List<string> paises = new List<string>()
         {
@@ -265,6 +268,7 @@ namespace Glowish_Fashion_System.Views
         {
             InitializeComponent();
             AgregarDTG();
+            
 
         }
 
@@ -299,20 +303,28 @@ namespace Glowish_Fashion_System.Views
        
         private void btnBuscar_Click(object sender, EventArgs e)
         {
-            string searchTerm = txtbProveedor.Text.ToLower(); // Get the search term from the TextBox
-
+            string searchTerm = txtbProveedor.Text.ToLower(); 
+            bool existe = false;
             foreach (DataGridViewRow row in datagridProveedores.Rows)
             {
                 foreach (DataGridViewCell cell in row.Cells)
                 {
                     if (cell.Value != null && cell.Value.ToString().ToLower().Contains(searchTerm))
                     {
+                        existe = true;
                         datagridProveedores.ClearSelection();
-                        cell.Selected = true; // Select the cell if it contains the search term
-                        datagridProveedores.FirstDisplayedScrollingRowIndex = row.Index; // Scroll to the selected row
+                        cell.Selected = true; 
+                        datagridProveedores.FirstDisplayedScrollingRowIndex = row.Index; 
                         return;
                     }
+                    
                 }
+            }
+
+            if(!existe)
+            {
+
+                MessageBNoProvedor.Show();
             }
         }
 
@@ -361,20 +373,25 @@ namespace Glowish_Fashion_System.Views
                 if (guardar && txtbProvCorreo.Text.Contains("@") && (txtbProvCorreo.Text.EndsWith(".com") || txtbProvCorreo.Text.EndsWith(".net")))
                 {
 
-                   datagridProveedores.Rows.Add("--", txtbProvNombre.Text, txtbProvPlataforma.Text, cmbbProvPais.Text, cmbbProvCiudad.Text, txtbProvCorreo.Text, txtbProvTelefono.Text, txtbProvEmpresa.Text);
+                    datagridProveedores.Rows.Add("--", txtbProvNombre.Text, txtbProvPlataforma.Text, cmbbProvPais.Text, cmbbProvCiudad.Text, txtbProvCorreo.Text, txtbProvTelefono.Text, txtbProvEmpresa.Text);
 
                     Evaluate("Borrar");
                     panelAnadirProveedor.Visible = false;
 
+
+                    MessageSuccesss.Show();
                 }
                 else
                 {
-                    MessageBox.Show("El correo debe de tener un @ y terminar con un dominio: .Com", "Error de formato", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    
+                    MessageBErroCorreo.Show();
+                    
                 }
             }
             else
             {
-                MessageBox.Show("No deje campos vacíos", "Campos Vacios", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MesageBCamposVacios.Show();
+                
             }
 
             guardar = false;
@@ -409,6 +426,26 @@ namespace Glowish_Fashion_System.Views
 
         private void cmbbProvPais_TextChanged_1(object sender, EventArgs e)
         {
+            
+        }
+
+        private void btnCambiarFiltro_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                posicionfiltro++;
+                lblFiltro.Text = filtros[posicionfiltro];
+                
+            }
+            catch
+            {
+
+               
+                posicionfiltro = 0;
+                lblFiltro.Text = filtros[posicionfiltro];          
+                
+            }
+            
             
         }
     }

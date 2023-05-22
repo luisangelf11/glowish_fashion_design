@@ -131,3 +131,43 @@ C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\glowish_fashion_de
 C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\glowish_fashion_design\bin\Debug\Nager.Country.xml
 C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\glowish_fashion_design\bin\Debug\Nager.Country.Translation.xml
 C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\glowish_fashion_design\bin\Debug\WpfControls.xml
+C:\Users\breid\OneDrive\Escritorio\glowish_fashion_design\bin\Debug\Glowish_Fashion_System.exe.config
+C:\Users\breid\OneDrive\Escritorio\glowish_fashion_design\bin\Debug\Glowish_Fashion_System.exe
+C:\Users\breid\OneDrive\Escritorio\glowish_fashion_design\bin\Debug\Glowish_Fashion_System.pdb
+C:\Users\breid\OneDrive\Escritorio\glowish_fashion_design\bin\Debug\AutoCompleteTextBox.dll
+C:\Users\breid\OneDrive\Escritorio\glowish_fashion_design\bin\Debug\Bunifu.Dataviz.WinForms.dll
+C:\Users\breid\OneDrive\Escritorio\glowish_fashion_design\bin\Debug\Bunifu.Licensing.dll
+C:\Users\breid\OneDrive\Escritorio\glowish_fashion_design\bin\Debug\Guna.UI2.dll
+C:\Users\breid\OneDrive\Escritorio\glowish_fashion_design\bin\Debug\LiveCharts.dll
+C:\Users\breid\OneDrive\Escritorio\glowish_fashion_design\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\breid\OneDrive\Escritorio\glowish_fashion_design\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\breid\OneDrive\Escritorio\glowish_fashion_design\bin\Debug\Nager.Country.dll
+C:\Users\breid\OneDrive\Escritorio\glowish_fashion_design\bin\Debug\Nager.Country.Translation.dll
+C:\Users\breid\OneDrive\Escritorio\glowish_fashion_design\bin\Debug\WpfControls.dll
+C:\Users\breid\OneDrive\Escritorio\glowish_fashion_design\bin\Debug\Bunifu.Dataviz.WinForms.xml
+C:\Users\breid\OneDrive\Escritorio\glowish_fashion_design\bin\Debug\LiveCharts.pdb
+C:\Users\breid\OneDrive\Escritorio\glowish_fashion_design\bin\Debug\LiveCharts.xml
+C:\Users\breid\OneDrive\Escritorio\glowish_fashion_design\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\breid\OneDrive\Escritorio\glowish_fashion_design\bin\Debug\LiveCharts.WinForms.xml
+C:\Users\breid\OneDrive\Escritorio\glowish_fashion_design\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\breid\OneDrive\Escritorio\glowish_fashion_design\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\breid\OneDrive\Escritorio\glowish_fashion_design\bin\Debug\Nager.Country.xml
+C:\Users\breid\OneDrive\Escritorio\glowish_fashion_design\bin\Debug\Nager.Country.Translation.xml
+C:\Users\breid\OneDrive\Escritorio\glowish_fashion_design\bin\Debug\WpfControls.xml
+C:\Users\breid\OneDrive\Escritorio\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.csproj.AssemblyReference.cache
+C:\Users\breid\OneDrive\Escritorio\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.csproj.SuggestedBindingRedirects.cache
+C:\Users\breid\OneDrive\Escritorio\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.Ayuda.resources
+C:\Users\breid\OneDrive\Escritorio\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.FrmLogin.resources
+C:\Users\breid\OneDrive\Escritorio\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.FrmMenu.resources
+C:\Users\breid\OneDrive\Escritorio\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.FrmMenuPrincipal.resources
+C:\Users\breid\OneDrive\Escritorio\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.Notifications.FrmWelcome.resources
+C:\Users\breid\OneDrive\Escritorio\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.Notifications.Loader.resources
+C:\Users\breid\OneDrive\Escritorio\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.Plantilla.resources
+C:\Users\breid\OneDrive\Escritorio\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.Properties.Resources.resources
+C:\Users\breid\OneDrive\Escritorio\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.Views.FrmFactura.resources
+C:\Users\breid\OneDrive\Escritorio\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.Views.FrmProveedores.resources
+C:\Users\breid\OneDrive\Escritorio\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.csproj.GenerateResource.cache
+C:\Users\breid\OneDrive\Escritorio\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.csproj.CoreCompileInputs.cache
+C:\Users\breid\OneDrive\Escritorio\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.csproj.CopyComplete
+C:\Users\breid\OneDrive\Escritorio\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.exe
+C:\Users\breid\OneDrive\Escritorio\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.pdb

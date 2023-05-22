@@ -30,9 +30,9 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmProveedores));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
@@ -76,6 +76,13 @@
             this.btnEditar = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2HtmlToolTip1 = new Guna.UI2.WinForms.Guna2HtmlToolTip();
+            this.MessageSuccesss = new Guna.UI2.WinForms.Guna2MessageDialog();
+            this.MesageBCamposVacios = new Guna.UI2.WinForms.Guna2MessageDialog();
+            this.MessageBErroCorreo = new Guna.UI2.WinForms.Guna2MessageDialog();
+            this.MessageBNoProvedor = new Guna.UI2.WinForms.Guna2MessageDialog();
+            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.lblFiltro = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.btnCambiarFiltro = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rellenogirdview)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.datagridProveedores)).BeginInit();
@@ -89,7 +96,7 @@
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("SF Pro Display", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.Crimson;
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(347, 2);
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(341, -11);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
             this.guna2HtmlLabel2.Size = new System.Drawing.Size(159, 35);
             this.guna2HtmlLabel2.TabIndex = 8;
@@ -100,7 +107,7 @@
             this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel4.Font = new System.Drawing.Font("SF Pro Display", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel4.ForeColor = System.Drawing.Color.DimGray;
-            this.guna2HtmlLabel4.Location = new System.Drawing.Point(327, 41);
+            this.guna2HtmlLabel4.Location = new System.Drawing.Point(321, 28);
             this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
             this.guna2HtmlLabel4.Size = new System.Drawing.Size(193, 21);
             this.guna2HtmlLabel4.TabIndex = 95;
@@ -130,7 +137,7 @@
             this.txtbProveedor.Font = new System.Drawing.Font("SF Pro Display", 9.75F, System.Drawing.FontStyle.Bold);
             this.txtbProveedor.ForeColor = System.Drawing.Color.Black;
             this.txtbProveedor.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtbProveedor.Location = new System.Drawing.Point(59, 100);
+            this.txtbProveedor.Location = new System.Drawing.Point(54, 89);
             this.txtbProveedor.Name = "txtbProveedor";
             this.txtbProveedor.PasswordChar = '\0';
             this.txtbProveedor.PlaceholderText = "Buscar proveedor";
@@ -174,7 +181,7 @@
             this.btnBuscar.HoverState.CustomBorderColor = System.Drawing.Color.WhiteSmoke;
             this.btnBuscar.HoverState.FillColor = System.Drawing.Color.MediumSeaGreen;
             this.btnBuscar.Image = ((System.Drawing.Image)(resources.GetObject("btnBuscar.Image")));
-            this.btnBuscar.Location = new System.Drawing.Point(327, 100);
+            this.btnBuscar.Location = new System.Drawing.Point(320, 89);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(77, 30);
             this.btnBuscar.TabIndex = 98;
@@ -203,16 +210,16 @@
             // 
             // datagridProveedores
             // 
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(201)))), ((int)(((byte)(197)))));
-            this.datagridProveedores.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.Crimson;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("SF Pro Display", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.datagridProveedores.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(201)))), ((int)(((byte)(197)))));
+            this.datagridProveedores.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.Crimson;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("SF Pro Display", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.datagridProveedores.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.datagridProveedores.ColumnHeadersHeight = 17;
             this.datagridProveedores.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             this.datagridProveedores.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -224,14 +231,14 @@
             this.correo,
             this.telefono,
             this.empresa});
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(219)))), ((int)(((byte)(216)))));
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("SF Pro Display", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.SteelBlue;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.datagridProveedores.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(219)))), ((int)(((byte)(216)))));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("SF Pro Display", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.SteelBlue;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.datagridProveedores.DefaultCellStyle = dataGridViewCellStyle3;
             this.datagridProveedores.GridColor = System.Drawing.Color.White;
             this.datagridProveedores.Location = new System.Drawing.Point(41, 171);
             this.datagridProveedores.Name = "datagridProveedores";
@@ -327,7 +334,7 @@
             this.btnAgregar.HoverState.CustomBorderColor = System.Drawing.Color.WhiteSmoke;
             this.btnAgregar.HoverState.FillColor = System.Drawing.Color.SteelBlue;
             this.btnAgregar.Image = ((System.Drawing.Image)(resources.GetObject("btnAgregar.Image")));
-            this.btnAgregar.Location = new System.Drawing.Point(669, 100);
+            this.btnAgregar.Location = new System.Drawing.Point(667, 89);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(77, 30);
             this.btnAgregar.TabIndex = 104;
@@ -779,7 +786,7 @@
             this.guna2Button1.HoverState.CustomBorderColor = System.Drawing.Color.WhiteSmoke;
             this.guna2Button1.HoverState.FillColor = System.Drawing.Color.Crimson;
             this.guna2Button1.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button1.Image")));
-            this.guna2Button1.Location = new System.Drawing.Point(581, 100);
+            this.guna2Button1.Location = new System.Drawing.Point(579, 89);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(82, 30);
             this.guna2Button1.TabIndex = 109;
@@ -803,7 +810,7 @@
             this.btnEditar.HoverState.CustomBorderColor = System.Drawing.Color.WhiteSmoke;
             this.btnEditar.HoverState.FillColor = System.Drawing.Color.Goldenrod;
             this.btnEditar.Image = ((System.Drawing.Image)(resources.GetObject("btnEditar.Image")));
-            this.btnEditar.Location = new System.Drawing.Point(502, 100);
+            this.btnEditar.Location = new System.Drawing.Point(500, 89);
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(73, 30);
             this.btnEditar.TabIndex = 110;
@@ -826,7 +833,7 @@
             this.guna2Button3.ForeColor = System.Drawing.Color.White;
             this.guna2Button3.HoverState.BorderColor = System.Drawing.Color.WhiteSmoke;
             this.guna2Button3.HoverState.CustomBorderColor = System.Drawing.Color.WhiteSmoke;
-            this.guna2Button3.HoverState.FillColor = System.Drawing.Color.SteelBlue;
+            this.guna2Button3.HoverState.FillColor = System.Drawing.Color.MediumSeaGreen;
             this.guna2Button3.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button3.Image")));
             this.guna2Button3.Location = new System.Drawing.Point(255, 447);
             this.guna2Button3.Name = "guna2Button3";
@@ -841,12 +848,101 @@
             this.guna2HtmlToolTip1.AllowLinksHandling = true;
             this.guna2HtmlToolTip1.MaximumSize = new System.Drawing.Size(0, 0);
             // 
+            // MessageSuccesss
+            // 
+            this.MessageSuccesss.Buttons = Guna.UI2.WinForms.MessageDialogButtons.OK;
+            this.MessageSuccesss.Caption = "Proveedor Agregado";
+            this.MessageSuccesss.Icon = Guna.UI2.WinForms.MessageDialogIcon.Information;
+            this.MessageSuccesss.Parent = null;
+            this.MessageSuccesss.Style = Guna.UI2.WinForms.MessageDialogStyle.Light;
+            this.MessageSuccesss.Text = "Se agregó un proveedor correctamente";
+            // 
+            // MesageBCamposVacios
+            // 
+            this.MesageBCamposVacios.Buttons = Guna.UI2.WinForms.MessageDialogButtons.OK;
+            this.MesageBCamposVacios.Caption = "Hay Campos Vacíos";
+            this.MesageBCamposVacios.Icon = Guna.UI2.WinForms.MessageDialogIcon.Warning;
+            this.MesageBCamposVacios.Parent = null;
+            this.MesageBCamposVacios.Style = Guna.UI2.WinForms.MessageDialogStyle.Light;
+            this.MesageBCamposVacios.Text = "Hay campos vaciós. Por favor, llene todos los campos.";
+            // 
+            // MessageBErroCorreo
+            // 
+            this.MessageBErroCorreo.Buttons = Guna.UI2.WinForms.MessageDialogButtons.OK;
+            this.MessageBErroCorreo.Caption = "Error de Formato";
+            this.MessageBErroCorreo.Icon = Guna.UI2.WinForms.MessageDialogIcon.Error;
+            this.MessageBErroCorreo.Parent = null;
+            this.MessageBErroCorreo.Style = Guna.UI2.WinForms.MessageDialogStyle.Light;
+            this.MessageBErroCorreo.Text = "El correo debe de ser válido.";
+            // 
+            // MessageBNoProvedor
+            // 
+            this.MessageBNoProvedor.Buttons = Guna.UI2.WinForms.MessageDialogButtons.OK;
+            this.MessageBNoProvedor.Caption = "Proveedor Inexistente";
+            this.MessageBNoProvedor.Icon = Guna.UI2.WinForms.MessageDialogIcon.Error;
+            this.MessageBNoProvedor.Parent = null;
+            this.MessageBNoProvedor.Style = Guna.UI2.WinForms.MessageDialogStyle.Light;
+            this.MessageBNoProvedor.Text = "No existe el proveedor a buscar";
+            // 
+            // guna2HtmlLabel1
+            // 
+            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel1.Font = new System.Drawing.Font("SF Pro Display", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.DimGray;
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(63, 125);
+            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(70, 17);
+            this.guna2HtmlLabel1.TabIndex = 112;
+            this.guna2HtmlLabel1.Text = "Buscar por:";
+            this.guna2HtmlLabel1.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
+            this.guna2HtmlLabel1.UseGdiPlusTextRendering = true;
+            // 
+            // lblFiltro
+            // 
+            this.lblFiltro.BackColor = System.Drawing.Color.Transparent;
+            this.lblFiltro.Font = new System.Drawing.Font("SF Pro Display", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFiltro.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.lblFiltro.Location = new System.Drawing.Point(139, 125);
+            this.lblFiltro.Name = "lblFiltro";
+            this.lblFiltro.Size = new System.Drawing.Size(49, 17);
+            this.lblFiltro.TabIndex = 113;
+            this.lblFiltro.Text = "General";
+            this.lblFiltro.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
+            this.lblFiltro.UseGdiPlusTextRendering = true;
+            // 
+            // btnCambiarFiltro
+            // 
+            this.btnCambiarFiltro.BackColor = System.Drawing.Color.Transparent;
+            this.btnCambiarFiltro.BorderRadius = 5;
+            this.btnCambiarFiltro.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCambiarFiltro.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnCambiarFiltro.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnCambiarFiltro.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnCambiarFiltro.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnCambiarFiltro.FillColor = System.Drawing.Color.Silver;
+            this.btnCambiarFiltro.Font = new System.Drawing.Font("SF Pro Display", 8.25F, System.Drawing.FontStyle.Bold);
+            this.btnCambiarFiltro.ForeColor = System.Drawing.Color.White;
+            this.btnCambiarFiltro.HoverState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnCambiarFiltro.HoverState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnCambiarFiltro.HoverState.FillColor = System.Drawing.Color.DarkGray;
+            this.btnCambiarFiltro.Location = new System.Drawing.Point(219, 125);
+            this.btnCambiarFiltro.Name = "btnCambiarFiltro";
+            this.btnCambiarFiltro.Size = new System.Drawing.Size(72, 17);
+            this.btnCambiarFiltro.TabIndex = 114;
+            this.btnCambiarFiltro.Text = "Cambiar";
+            this.guna2HtmlToolTip1.SetToolTip(this.btnCambiarFiltro, "Cambiar");
+            this.btnCambiarFiltro.UseTransparentBackground = true;
+            this.btnCambiarFiltro.Click += new System.EventHandler(this.btnCambiarFiltro_Click);
+            // 
             // FrmProveedores
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(798, 489);
+            this.Controls.Add(this.btnCambiarFiltro);
+            this.Controls.Add(this.lblFiltro);
+            this.Controls.Add(this.guna2HtmlLabel1);
             this.Controls.Add(this.guna2Button3);
             this.Controls.Add(this.btnEditar);
             this.Controls.Add(this.guna2CustomCheckBox1);
@@ -921,5 +1017,12 @@
         private Guna.UI2.WinForms.Guna2HtmlToolTip guna2HtmlToolTip1;
         private Guna.UI2.WinForms.Guna2TextBox cmbbProvCiudad;
         private Guna.UI2.WinForms.Guna2TextBox cmbbProvPais;
+        private Guna.UI2.WinForms.Guna2MessageDialog MessageSuccesss;
+        private Guna.UI2.WinForms.Guna2MessageDialog MesageBCamposVacios;
+        private Guna.UI2.WinForms.Guna2MessageDialog MessageBErroCorreo;
+        private Guna.UI2.WinForms.Guna2MessageDialog MessageBNoProvedor;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblFiltro;
+        private Guna.UI2.WinForms.Guna2Button btnCambiarFiltro;
     }
 }
