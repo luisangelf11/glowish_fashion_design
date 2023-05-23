@@ -823,6 +823,8 @@
             this.guna2TextBox2.Size = new System.Drawing.Size(131, 37);
             this.guna2TextBox2.TabIndex = 86;
             this.guna2TextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.guna2TextBox2.TextChanged += new System.EventHandler(this.guna2TextBox2_TextChanged);
+            this.guna2TextBox2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.guna2TextBox2_KeyPress);
             // 
             // guna2HtmlLabel11
             // 

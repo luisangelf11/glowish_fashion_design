@@ -119,12 +119,12 @@ namespace Glowish_Fashion_System
         {
             if (txtbClave.PasswordChar == 'x')
             {
-                btnVerPassword.BackgroundImage = Image.FromFile(@"C:\Users\breid\Desktop\glowish_fashion_design\Multimedia\Iconos Negros\iconizer-099hide_99940.png");
+                btnVerPassword.BackgroundImage = Image.FromFile(@"C:\Users\breid\OneDrive\Escritorio\glowish_fashion_design\Multimedia\Iconos Negros\iconizer-099hide_99940.png");
                 txtbClave.PasswordChar = '\0'; // Muestra la contraseña
             }
             else
             {
-                btnVerPassword.BackgroundImage = Image.FromFile(@"C:\Users\breid\Desktop\glowish_fashion_design\Multimedia\Iconos Negros\iconizer-098visualization_99988.png");
+                btnVerPassword.BackgroundImage = Image.FromFile(@"C:\Users\breid\OneDrive\Escritorio\glowish_fashion_design\Multimedia\Iconos Negros\iconizer-098visualization_99988.png");
                 txtbClave.PasswordChar = 'x'; // Oculta la contraseña
               
             }

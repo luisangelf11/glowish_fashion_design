@@ -76,13 +76,13 @@
             this.btnEditar = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2HtmlToolTip1 = new Guna.UI2.WinForms.Guna2HtmlToolTip();
+            this.btnCambiarFiltro = new Guna.UI2.WinForms.Guna2Button();
             this.MessageSuccesss = new Guna.UI2.WinForms.Guna2MessageDialog();
             this.MesageBCamposVacios = new Guna.UI2.WinForms.Guna2MessageDialog();
             this.MessageBErroCorreo = new Guna.UI2.WinForms.Guna2MessageDialog();
             this.MessageBNoProvedor = new Guna.UI2.WinForms.Guna2MessageDialog();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblFiltro = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.btnCambiarFiltro = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rellenogirdview)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.datagridProveedores)).BeginInit();
@@ -96,7 +96,7 @@
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("SF Pro Display", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.Crimson;
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(341, -11);
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(341, 0);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
             this.guna2HtmlLabel2.Size = new System.Drawing.Size(159, 35);
             this.guna2HtmlLabel2.TabIndex = 8;
@@ -107,7 +107,7 @@
             this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel4.Font = new System.Drawing.Font("SF Pro Display", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel4.ForeColor = System.Drawing.Color.DimGray;
-            this.guna2HtmlLabel4.Location = new System.Drawing.Point(321, 28);
+            this.guna2HtmlLabel4.Location = new System.Drawing.Point(321, 32);
             this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
             this.guna2HtmlLabel4.Size = new System.Drawing.Size(193, 21);
             this.guna2HtmlLabel4.TabIndex = 95;
@@ -848,6 +848,30 @@
             this.guna2HtmlToolTip1.AllowLinksHandling = true;
             this.guna2HtmlToolTip1.MaximumSize = new System.Drawing.Size(0, 0);
             // 
+            // btnCambiarFiltro
+            // 
+            this.btnCambiarFiltro.BackColor = System.Drawing.Color.Transparent;
+            this.btnCambiarFiltro.BorderRadius = 5;
+            this.btnCambiarFiltro.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCambiarFiltro.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnCambiarFiltro.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnCambiarFiltro.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnCambiarFiltro.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnCambiarFiltro.FillColor = System.Drawing.Color.Silver;
+            this.btnCambiarFiltro.Font = new System.Drawing.Font("SF Pro Display", 8.25F, System.Drawing.FontStyle.Bold);
+            this.btnCambiarFiltro.ForeColor = System.Drawing.Color.White;
+            this.btnCambiarFiltro.HoverState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnCambiarFiltro.HoverState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnCambiarFiltro.HoverState.FillColor = System.Drawing.Color.DarkGray;
+            this.btnCambiarFiltro.Location = new System.Drawing.Point(219, 125);
+            this.btnCambiarFiltro.Name = "btnCambiarFiltro";
+            this.btnCambiarFiltro.Size = new System.Drawing.Size(72, 17);
+            this.btnCambiarFiltro.TabIndex = 114;
+            this.btnCambiarFiltro.Text = "Cambiar";
+            this.guna2HtmlToolTip1.SetToolTip(this.btnCambiarFiltro, "Cambiar");
+            this.btnCambiarFiltro.UseTransparentBackground = true;
+            this.btnCambiarFiltro.Click += new System.EventHandler(this.btnCambiarFiltro_Click);
+            // 
             // MessageSuccesss
             // 
             this.MessageSuccesss.Buttons = Guna.UI2.WinForms.MessageDialogButtons.OK;
@@ -891,7 +915,7 @@
             this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.DimGray;
             this.guna2HtmlLabel1.Location = new System.Drawing.Point(63, 125);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(70, 17);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(71, 17);
             this.guna2HtmlLabel1.TabIndex = 112;
             this.guna2HtmlLabel1.Text = "Buscar por:";
             this.guna2HtmlLabel1.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -904,35 +928,11 @@
             this.lblFiltro.ForeColor = System.Drawing.Color.RoyalBlue;
             this.lblFiltro.Location = new System.Drawing.Point(139, 125);
             this.lblFiltro.Name = "lblFiltro";
-            this.lblFiltro.Size = new System.Drawing.Size(49, 17);
+            this.lblFiltro.Size = new System.Drawing.Size(48, 17);
             this.lblFiltro.TabIndex = 113;
             this.lblFiltro.Text = "General";
             this.lblFiltro.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
             this.lblFiltro.UseGdiPlusTextRendering = true;
-            // 
-            // btnCambiarFiltro
-            // 
-            this.btnCambiarFiltro.BackColor = System.Drawing.Color.Transparent;
-            this.btnCambiarFiltro.BorderRadius = 5;
-            this.btnCambiarFiltro.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCambiarFiltro.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnCambiarFiltro.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnCambiarFiltro.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnCambiarFiltro.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnCambiarFiltro.FillColor = System.Drawing.Color.Silver;
-            this.btnCambiarFiltro.Font = new System.Drawing.Font("SF Pro Display", 8.25F, System.Drawing.FontStyle.Bold);
-            this.btnCambiarFiltro.ForeColor = System.Drawing.Color.White;
-            this.btnCambiarFiltro.HoverState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnCambiarFiltro.HoverState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnCambiarFiltro.HoverState.FillColor = System.Drawing.Color.DarkGray;
-            this.btnCambiarFiltro.Location = new System.Drawing.Point(219, 125);
-            this.btnCambiarFiltro.Name = "btnCambiarFiltro";
-            this.btnCambiarFiltro.Size = new System.Drawing.Size(72, 17);
-            this.btnCambiarFiltro.TabIndex = 114;
-            this.btnCambiarFiltro.Text = "Cambiar";
-            this.guna2HtmlToolTip1.SetToolTip(this.btnCambiarFiltro, "Cambiar");
-            this.btnCambiarFiltro.UseTransparentBackground = true;
-            this.btnCambiarFiltro.Click += new System.EventHandler(this.btnCambiarFiltro_Click);
             // 
             // FrmProveedores
             // 

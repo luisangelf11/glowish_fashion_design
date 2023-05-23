@@ -343,6 +343,7 @@ namespace Glowish_Fashion_System.Views
             AutoCompleteStringCollection autoCompleteCollection = new AutoCompleteStringCollection();
             autoCompleteCollection.AddRange(paises.ToArray());
 
+            
             cmbbProvPais.AutoCompleteCustomSource = autoCompleteCollection;
             cmbbProvPais.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
             cmbbProvPais.AutoCompleteSource = AutoCompleteSource.CustomSource;
@@ -402,7 +403,7 @@ namespace Glowish_Fashion_System.Views
         private void btnEditar_Click(object sender, EventArgs e)
         {
             panelAnadirProveedor.Visible = true;
-            lblTitle.Text = "Editando un proveedor";
+            lblTitle.Text = "Editar un proveedor";
             if(datagridProveedores.SelectedRows.Count > 0)
             {
                 //Codigo para enviar los datos a los textboxs
