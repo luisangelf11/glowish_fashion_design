@@ -83,6 +83,7 @@
             this.MessageBNoProvedor = new Guna.UI2.WinForms.Guna2MessageDialog();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblFiltro = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.MessageBPais = new Guna.UI2.WinForms.Guna2MessageDialog();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rellenogirdview)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.datagridProveedores)).BeginInit();
@@ -803,7 +804,7 @@
             this.btnEditar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnEditar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnEditar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnEditar.FillColor = System.Drawing.Color.Goldenrod;
+            this.btnEditar.FillColor = System.Drawing.Color.Orange;
             this.btnEditar.Font = new System.Drawing.Font("SF Pro Display", 9F, System.Drawing.FontStyle.Bold);
             this.btnEditar.ForeColor = System.Drawing.Color.White;
             this.btnEditar.HoverState.BorderColor = System.Drawing.Color.WhiteSmoke;
@@ -934,6 +935,15 @@
             this.lblFiltro.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
             this.lblFiltro.UseGdiPlusTextRendering = true;
             // 
+            // MessageBPais
+            // 
+            this.MessageBPais.Buttons = Guna.UI2.WinForms.MessageDialogButtons.OK;
+            this.MessageBPais.Caption = "Pais Incorrecto";
+            this.MessageBPais.Icon = Guna.UI2.WinForms.MessageDialogIcon.Information;
+            this.MessageBPais.Parent = null;
+            this.MessageBPais.Style = Guna.UI2.WinForms.MessageDialogStyle.Light;
+            this.MessageBPais.Text = "El pais que introdujo no existe";
+            // 
             // FrmProveedores
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1024,5 +1034,6 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblFiltro;
         private Guna.UI2.WinForms.Guna2Button btnCambiarFiltro;
+        private Guna.UI2.WinForms.Guna2MessageDialog MessageBPais;
     }
 }

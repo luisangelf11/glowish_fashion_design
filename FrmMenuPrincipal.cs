@@ -248,5 +248,15 @@ namespace Glowish_Fashion_System
                 e.Handled = true;
             }
         }
+
+        private void guna2PictureBox9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2PictureBox7_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

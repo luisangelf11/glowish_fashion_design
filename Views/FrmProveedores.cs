@@ -27,9 +27,16 @@ namespace Glowish_Fashion_System.Views
         int posicionfiltro = 0;
         bool guardar = false;
 
-        List<string> filtros = new List<string>() { "General","ID", "Nombre", "Pais", "Teléfono", "Plataforma", "Ciudad", "Institución"};
+        List<string> filtros = new List<string>() { "General","ID", "Nombre","Correo", "Pais", "Teléfono", "Plataforma", "Ciudad", "Institución"};
+   
+       
+        
 
-        List<string> paises = new List<string>()
+        
+        
+        
+
+       public List<string> paises = new List<string>()
         {
             "Afganistán",
             "Albania",
@@ -225,6 +232,7 @@ namespace Glowish_Fashion_System.Views
             "Zambia",
             "Zimbabue"
         };
+       
 
 
         
@@ -340,14 +348,9 @@ namespace Glowish_Fashion_System.Views
 
         private void guna2Panel1_Paint(object sender, PaintEventArgs e)
         {
-            AutoCompleteStringCollection autoCompleteCollection = new AutoCompleteStringCollection();
-            autoCompleteCollection.AddRange(paises.ToArray());
+
 
             
-            cmbbProvPais.AutoCompleteCustomSource = autoCompleteCollection;
-            cmbbProvPais.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
-            cmbbProvPais.AutoCompleteSource = AutoCompleteSource.CustomSource;
-            cmbbProvPais.Font = new Font("SF Pro Display",  10, FontStyle.Bold);
 
         }
 
@@ -356,7 +359,7 @@ namespace Glowish_Fashion_System.Views
         private void btnAgregar_Click(object sender, EventArgs e)
         {
             panelAnadirProveedor.Visible = true;
-            lblTitle.Text = "Añadir un proveedor";
+            
         }
 
         private void btnCancelarAndirProveedor_Click(object sender, EventArgs e)
@@ -371,16 +374,25 @@ namespace Glowish_Fashion_System.Views
 
             if(guardar == true)
             {
+
                 if (guardar && txtbProvCorreo.Text.Contains("@") && (txtbProvCorreo.Text.EndsWith(".com") || txtbProvCorreo.Text.EndsWith(".net")))
                 {
+                    if(paises.Contains(cmbbProvPais.Text))
+                    {
+                        datagridProveedores.Rows.Add("--", txtbProvNombre.Text, txtbProvPlataforma.Text, cmbbProvPais.Text, cmbbProvCiudad.Text, txtbProvCorreo.Text, txtbProvTelefono.Text, txtbProvEmpresa.Text);
 
-                    datagridProveedores.Rows.Add("--", txtbProvNombre.Text, txtbProvPlataforma.Text, cmbbProvPais.Text, cmbbProvCiudad.Text, txtbProvCorreo.Text, txtbProvTelefono.Text, txtbProvEmpresa.Text);
-
-                    Evaluate("Borrar");
-                    panelAnadirProveedor.Visible = false;
+                        Evaluate("Borrar");
+                        panelAnadirProveedor.Visible = false;
 
 
-                    MessageSuccesss.Show();
+                        MessageSuccesss.Show();
+
+                    }
+                    else
+                    {
+                        MessageBPais.Show();
+                    }
+                    
                 }
                 else
                 {

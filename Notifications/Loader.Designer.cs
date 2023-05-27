@@ -74,7 +74,7 @@
             this.btnBienvenido.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnBienvenido.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnBienvenido.FillColor = System.Drawing.Color.Transparent;
-            this.btnBienvenido.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold);
+            this.btnBienvenido.Font = new System.Drawing.Font("SF Pro Display", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBienvenido.ForeColor = System.Drawing.Color.White;
             this.btnBienvenido.HoverState.BorderColor = System.Drawing.Color.Transparent;
             this.btnBienvenido.HoverState.CustomBorderColor = System.Drawing.Color.Transparent;
