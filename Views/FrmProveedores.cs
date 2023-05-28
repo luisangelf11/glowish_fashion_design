@@ -19,6 +19,7 @@ using AutoCompleteTextBox;
 using System.Web.UI.WebControls;
 using Nager.Country.Translation;
 using Nager.Country;
+using AutoCompleteTextBox.Editors;
 
 namespace Glowish_Fashion_System.Views
 {
@@ -29,13 +30,6 @@ namespace Glowish_Fashion_System.Views
 
         List<string> filtros = new List<string>() { "General","ID", "Nombre","Correo", "Pais", "Teléfono", "Plataforma", "Ciudad", "Institución"};
    
-       
-        
-
-        
-        
-        
-
        public List<string> paises = new List<string>()
         {
             "Afganistán",
@@ -232,10 +226,6 @@ namespace Glowish_Fashion_System.Views
             "Zambia",
             "Zimbabue"
         };
-       
-
-
-        
         public void Evaluate(string accion)
         {
             

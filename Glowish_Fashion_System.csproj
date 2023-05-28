@@ -154,6 +154,18 @@
     <Compile Include="Views\FrmProveedores.Designer.cs">
       <DependentUpon>FrmProveedores.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\FrmUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FrmUsuarios.Designer.cs">
+      <DependentUpon>FrmUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FrmVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FrmVentas.Designer.cs">
+      <DependentUpon>FrmVentas.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Ayuda.resx">
       <DependentUpon>Ayuda.cs</DependentUpon>
     </EmbeddedResource>
@@ -189,6 +201,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\FrmProveedores.resx">
       <DependentUpon>FrmProveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FrmUsuarios.resx">
+      <DependentUpon>FrmUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FrmVentas.resx">
+      <DependentUpon>FrmVentas.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

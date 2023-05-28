@@ -58,6 +58,8 @@
             this.guna2HtmlLabel10 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel11 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel12 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.lblFiltro = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel13 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.datagridFacturas)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
@@ -80,7 +82,7 @@
             this.btnBuscar.HoverState.CustomBorderColor = System.Drawing.Color.WhiteSmoke;
             this.btnBuscar.HoverState.FillColor = System.Drawing.Color.MediumSeaGreen;
             this.btnBuscar.Image = ((System.Drawing.Image)(resources.GetObject("btnBuscar.Image")));
-            this.btnBuscar.Location = new System.Drawing.Point(361, 110);
+            this.btnBuscar.Location = new System.Drawing.Point(361, 101);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(77, 30);
             this.btnBuscar.TabIndex = 113;
@@ -104,7 +106,7 @@
             this.txtbProveedor.Font = new System.Drawing.Font("SF Pro Display", 9.75F, System.Drawing.FontStyle.Bold);
             this.txtbProveedor.ForeColor = System.Drawing.Color.Black;
             this.txtbProveedor.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtbProveedor.Location = new System.Drawing.Point(48, 110);
+            this.txtbProveedor.Location = new System.Drawing.Point(48, 101);
             this.txtbProveedor.Name = "txtbProveedor";
             this.txtbProveedor.PasswordChar = '\0';
             this.txtbProveedor.PlaceholderText = "Buscar Factura";
@@ -454,12 +456,40 @@
             this.guna2HtmlLabel12.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
             this.guna2HtmlLabel12.UseGdiPlusTextRendering = true;
             // 
+            // lblFiltro
+            // 
+            this.lblFiltro.BackColor = System.Drawing.Color.Transparent;
+            this.lblFiltro.Font = new System.Drawing.Font("SF Pro Display", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFiltro.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.lblFiltro.Location = new System.Drawing.Point(129, 133);
+            this.lblFiltro.Name = "lblFiltro";
+            this.lblFiltro.Size = new System.Drawing.Size(71, 17);
+            this.lblFiltro.TabIndex = 134;
+            this.lblFiltro.Text = "No. Factura";
+            this.lblFiltro.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
+            this.lblFiltro.UseGdiPlusTextRendering = true;
+            // 
+            // guna2HtmlLabel13
+            // 
+            this.guna2HtmlLabel13.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel13.Font = new System.Drawing.Font("SF Pro Display", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel13.ForeColor = System.Drawing.Color.DimGray;
+            this.guna2HtmlLabel13.Location = new System.Drawing.Point(53, 133);
+            this.guna2HtmlLabel13.Name = "guna2HtmlLabel13";
+            this.guna2HtmlLabel13.Size = new System.Drawing.Size(71, 17);
+            this.guna2HtmlLabel13.TabIndex = 133;
+            this.guna2HtmlLabel13.Text = "Buscar por:";
+            this.guna2HtmlLabel13.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
+            this.guna2HtmlLabel13.UseGdiPlusTextRendering = true;
+            // 
             // FrmFactura
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(798, 480);
+            this.Controls.Add(this.lblFiltro);
+            this.Controls.Add(this.guna2HtmlLabel13);
             this.Controls.Add(this.guna2HtmlLabel11);
             this.Controls.Add(this.guna2HtmlLabel12);
             this.Controls.Add(this.guna2HtmlLabel9);
@@ -520,5 +550,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Cantidad;
         private System.Windows.Forms.DataGridViewTextBoxColumn Precio;
         private System.Windows.Forms.DataGridViewTextBoxColumn SubTotal;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblFiltro;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel13;
     }
 }

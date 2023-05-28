@@ -49,6 +49,7 @@
             this.btnVentas = new Guna.UI2.WinForms.Guna2Button();
             this.btnFacturas = new Guna.UI2.WinForms.Guna2Button();
             this.btnInventario = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.btnUsuarios = new Guna.UI2.WinForms.Guna2Button();
             this.btnCompras = new Guna.UI2.WinForms.Guna2Button();
             this.btnVercaja = new Guna.UI2.WinForms.Guna2Button();
@@ -81,7 +82,6 @@
             this.guna2PictureBox8 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.btnLinea = new Guna.UI2.WinForms.Guna2Button();
             this.guna2HtmlToolTip1 = new Guna.UI2.WinForms.Guna2HtmlToolTip();
-            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.panelSuperior.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).BeginInit();
@@ -527,6 +527,40 @@
             this.btnInventario.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.guna2HtmlToolTip1.SetToolTip(this.btnInventario, "Ver inventarios");
             // 
+            // guna2Button2
+            // 
+            this.guna2Button2.Animated = true;
+            this.guna2Button2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Button2.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2Button2.BorderRadius = 6;
+            this.guna2Button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button2.FillColor = System.Drawing.Color.White;
+            this.guna2Button2.FocusedColor = System.Drawing.Color.Transparent;
+            this.guna2Button2.Font = new System.Drawing.Font("SF Pro Display", 9F, System.Drawing.FontStyle.Bold);
+            this.guna2Button2.ForeColor = System.Drawing.Color.Black;
+            this.guna2Button2.HoverState.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2Button2.HoverState.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.guna2Button2.HoverState.FillColor = System.Drawing.Color.Transparent;
+            this.guna2Button2.HoverState.ForeColor = System.Drawing.Color.Crimson;
+            this.guna2Button2.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button2.Image")));
+            this.guna2Button2.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.guna2Button2.ImageSize = new System.Drawing.Size(30, 30);
+            this.guna2Button2.Location = new System.Drawing.Point(19, 242);
+            this.guna2Button2.Name = "guna2Button2";
+            this.guna2Button2.PressedColor = System.Drawing.Color.Salmon;
+            this.guna2Button2.PressedDepth = 0;
+            this.guna2Button2.ShadowDecoration.Depth = 2;
+            this.guna2Button2.ShadowDecoration.Enabled = true;
+            this.guna2Button2.Size = new System.Drawing.Size(132, 49);
+            this.guna2Button2.TabIndex = 64;
+            this.guna2Button2.Text = "Clientes";
+            this.guna2Button2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.guna2HtmlToolTip1.SetToolTip(this.guna2Button2, "Ver Clientes");
+            // 
             // btnUsuarios
             // 
             this.btnUsuarios.Animated = true;
@@ -560,6 +594,7 @@
             this.btnUsuarios.Text = "Usuarios";
             this.btnUsuarios.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.guna2HtmlToolTip1.SetToolTip(this.btnUsuarios, "Ver los usuarios");
+            this.btnUsuarios.Click += new System.EventHandler(this.btnUsuarios_Click);
             // 
             // btnCompras
             // 
@@ -1097,40 +1132,6 @@
             // 
             this.guna2HtmlToolTip1.AllowLinksHandling = true;
             this.guna2HtmlToolTip1.MaximumSize = new System.Drawing.Size(0, 0);
-            // 
-            // guna2Button2
-            // 
-            this.guna2Button2.Animated = true;
-            this.guna2Button2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button2.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2Button2.BorderRadius = 6;
-            this.guna2Button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button2.FillColor = System.Drawing.Color.White;
-            this.guna2Button2.FocusedColor = System.Drawing.Color.Transparent;
-            this.guna2Button2.Font = new System.Drawing.Font("SF Pro Display", 9F, System.Drawing.FontStyle.Bold);
-            this.guna2Button2.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button2.HoverState.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2Button2.HoverState.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.guna2Button2.HoverState.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button2.HoverState.ForeColor = System.Drawing.Color.Crimson;
-            this.guna2Button2.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button2.Image")));
-            this.guna2Button2.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button2.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2Button2.Location = new System.Drawing.Point(19, 242);
-            this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.PressedColor = System.Drawing.Color.Salmon;
-            this.guna2Button2.PressedDepth = 0;
-            this.guna2Button2.ShadowDecoration.Depth = 2;
-            this.guna2Button2.ShadowDecoration.Enabled = true;
-            this.guna2Button2.Size = new System.Drawing.Size(132, 49);
-            this.guna2Button2.TabIndex = 64;
-            this.guna2Button2.Text = "Clientes";
-            this.guna2Button2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.guna2HtmlToolTip1.SetToolTip(this.guna2Button2, "Ver Clientes");
             // 
             // guna2Elipse2
             // 
