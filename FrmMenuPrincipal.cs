@@ -14,6 +14,7 @@ using System.Windows.Media;
 using Glowish_Fashion_System.Views;
 using Guna.UI2.WinForms;
 using AutoCompleteTextBox;
+using Glowish_Fashion_System.Notifications;
 
 namespace Glowish_Fashion_System
 {
@@ -264,6 +265,12 @@ namespace Glowish_Fashion_System
         {
             OpenChildForm(new FrmUsuarios());
             SelectButton(btnUsuarios);
+        }
+
+        private void btnMasOpciones_Click(object sender, EventArgs e)
+        {
+            Options options = new Options();
+            options.Show();
         }
     }
 }

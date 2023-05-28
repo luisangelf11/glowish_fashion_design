@@ -66,13 +66,13 @@
             this.guna2CircleButton2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2CircleButton2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.guna2CircleButton2.FillColor = System.Drawing.Color.Salmon;
-            this.guna2CircleButton2.Font = new System.Drawing.Font("SF Pro Display", 18F, System.Drawing.FontStyle.Bold);
+            this.guna2CircleButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold);
             this.guna2CircleButton2.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.guna2CircleButton2.HoverState.BorderColor = System.Drawing.Color.Transparent;
             this.guna2CircleButton2.HoverState.CustomBorderColor = System.Drawing.Color.Transparent;
             this.guna2CircleButton2.HoverState.FillColor = System.Drawing.Color.Salmon;
             this.guna2CircleButton2.HoverState.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton2.Location = new System.Drawing.Point(561, 232);
+            this.guna2CircleButton2.Location = new System.Drawing.Point(575, 233);
             this.guna2CircleButton2.Name = "guna2CircleButton2";
             this.guna2CircleButton2.PressedColor = System.Drawing.Color.Transparent;
             this.guna2CircleButton2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
@@ -188,7 +188,7 @@
             this.guna2HtmlLabel4.ForeColor = System.Drawing.Color.DimGray;
             this.guna2HtmlLabel4.Location = new System.Drawing.Point(350, 124);
             this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            this.guna2HtmlLabel4.Size = new System.Drawing.Size(312, 25);
+            this.guna2HtmlLabel4.Size = new System.Drawing.Size(311, 25);
             this.guna2HtmlLabel4.TabIndex = 23;
             this.guna2HtmlLabel4.Text = "Lamentamos que tengas problemas";
             this.guna2HtmlLabel4.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -201,7 +201,7 @@
             this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.DimGray;
             this.guna2HtmlLabel2.Location = new System.Drawing.Point(350, 155);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(269, 25);
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(265, 25);
             this.guna2HtmlLabel2.TabIndex = 23;
             this.guna2HtmlLabel2.Text = "con el uso de Glowish Fashion.";
             this.guna2HtmlLabel2.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -214,7 +214,7 @@
             this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.DimGray;
             this.guna2HtmlLabel3.Location = new System.Drawing.Point(350, 186);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(311, 25);
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(306, 25);
             this.guna2HtmlLabel3.TabIndex = 23;
             this.guna2HtmlLabel3.Text = "Por favor, comunícate con nosotros";
             this.guna2HtmlLabel3.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -227,7 +227,7 @@
             this.guna2HtmlLabel6.ForeColor = System.Drawing.Color.DimGray;
             this.guna2HtmlLabel6.Location = new System.Drawing.Point(12, 380);
             this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
-            this.guna2HtmlLabel6.Size = new System.Drawing.Size(640, 15);
+            this.guna2HtmlLabel6.Size = new System.Drawing.Size(638, 16);
             this.guna2HtmlLabel6.TabIndex = 25;
             this.guna2HtmlLabel6.Text = "Soporte técnico: 2021-0457@uteco.edu.do / 2022-0162@uteco.edu.do/ 2021-1022@uteco" +
     ".edu.do/2021-1494@uteco.edu.do";
@@ -241,7 +241,7 @@
             this.guna2HtmlLabel5.ForeColor = System.Drawing.Color.Gray;
             this.guna2HtmlLabel5.Location = new System.Drawing.Point(385, 244);
             this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            this.guna2HtmlLabel5.Size = new System.Drawing.Size(172, 25);
+            this.guna2HtmlLabel5.Size = new System.Drawing.Size(170, 25);
             this.guna2HtmlLabel5.TabIndex = 23;
             this.guna2HtmlLabel5.Text = "Enviar una solicitud";
             this.guna2HtmlLabel5.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;

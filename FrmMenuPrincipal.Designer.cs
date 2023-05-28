@@ -238,10 +238,11 @@
             this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Font = new System.Drawing.Font("SF Pro Display", 9.75F, System.Drawing.FontStyle.Bold);
+            this.guna2TextBox1.Font = new System.Drawing.Font("SF Pro Display", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2TextBox1.ForeColor = System.Drawing.Color.Black;
             this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox1.Location = new System.Drawing.Point(196, 13);
+            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.guna2TextBox1.Name = "guna2TextBox1";
             this.guna2TextBox1.PasswordChar = '\0';
             this.guna2TextBox1.PlaceholderText = "Buscar alguna opción";
@@ -287,9 +288,9 @@
             this.lblUsername.BackColor = System.Drawing.Color.Transparent;
             this.lblUsername.Font = new System.Drawing.Font("SF Pro Display", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUsername.ForeColor = System.Drawing.Color.Black;
-            this.lblUsername.Location = new System.Drawing.Point(612, 13);
+            this.lblUsername.Location = new System.Drawing.Point(609, 15);
             this.lblUsername.Name = "lblUsername";
-            this.lblUsername.Size = new System.Drawing.Size(114, 17);
+            this.lblUsername.Size = new System.Drawing.Size(113, 18);
             this.lblUsername.TabIndex = 84;
             this.lblUsername.Text = "Nombre de usuario";
             this.lblUsername.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -314,9 +315,9 @@
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("SF Pro Display", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.Salmon;
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(612, 28);
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(609, 30);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(19, 15);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(19, 16);
             this.guna2HtmlLabel1.TabIndex = 85;
             this.guna2HtmlLabel1.Text = "Rol";
             this.guna2HtmlLabel1.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -345,7 +346,7 @@
             this.panelMenu.FillColor2 = System.Drawing.Color.Transparent;
             this.panelMenu.FillColor3 = System.Drawing.Color.Transparent;
             this.panelMenu.FillColor4 = System.Drawing.Color.Transparent;
-            this.panelMenu.Font = new System.Drawing.Font("SF Pro Display", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panelMenu.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panelMenu.Location = new System.Drawing.Point(0, 0);
             this.panelMenu.Name = "panelMenu";
             this.panelMenu.ShadowDecoration.BorderRadius = 9;
@@ -360,9 +361,9 @@
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("SF Pro Display", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.Crimson;
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(21, 9);
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(21, 18);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(135, 21);
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(135, 22);
             this.guna2HtmlLabel2.TabIndex = 93;
             this.guna2HtmlLabel2.Text = "Menú de opciones";
             this.guna2HtmlLabel2.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -381,7 +382,7 @@
             this.btnCerrarSesion.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnCerrarSesion.FillColor = System.Drawing.Color.Crimson;
             this.btnCerrarSesion.FillColor2 = System.Drawing.Color.Crimson;
-            this.btnCerrarSesion.Font = new System.Drawing.Font("SF Pro Display", 9.75F, System.Drawing.FontStyle.Bold);
+            this.btnCerrarSesion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
             this.btnCerrarSesion.ForeColor = System.Drawing.Color.White;
             this.btnCerrarSesion.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
             this.btnCerrarSesion.Location = new System.Drawing.Point(28, 501);
@@ -420,6 +421,7 @@
             this.btnMasOpciones.Text = "Más opciones";
             this.btnMasOpciones.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.guna2HtmlToolTip1.SetToolTip(this.btnMasOpciones, "Ver más opciones");
+            this.btnMasOpciones.Click += new System.EventHandler(this.btnMasOpciones_Click);
             // 
             // btnVentas
             // 
@@ -540,7 +542,7 @@
             this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.guna2Button2.FillColor = System.Drawing.Color.White;
             this.guna2Button2.FocusedColor = System.Drawing.Color.Transparent;
-            this.guna2Button2.Font = new System.Drawing.Font("SF Pro Display", 9F, System.Drawing.FontStyle.Bold);
+            this.guna2Button2.Font = new System.Drawing.Font("SF Pro Display", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button2.ForeColor = System.Drawing.Color.Black;
             this.guna2Button2.HoverState.BorderColor = System.Drawing.Color.Transparent;
             this.guna2Button2.HoverState.CustomBorderColor = System.Drawing.Color.Transparent;
@@ -574,7 +576,7 @@
             this.btnUsuarios.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnUsuarios.FillColor = System.Drawing.Color.White;
             this.btnUsuarios.FocusedColor = System.Drawing.Color.Transparent;
-            this.btnUsuarios.Font = new System.Drawing.Font("SF Pro Display", 9F, System.Drawing.FontStyle.Bold);
+            this.btnUsuarios.Font = new System.Drawing.Font("SF Pro Display", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUsuarios.ForeColor = System.Drawing.Color.Black;
             this.btnUsuarios.HoverState.BorderColor = System.Drawing.Color.Transparent;
             this.btnUsuarios.HoverState.CustomBorderColor = System.Drawing.Color.Transparent;
@@ -838,6 +840,7 @@
             // 
             this.elementHost1.BackColor = System.Drawing.Color.WhiteSmoke;
             this.elementHost1.BackColorTransparent = true;
+            this.elementHost1.Font = new System.Drawing.Font("SF Pro Display", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.elementHost1.Location = new System.Drawing.Point(38, 211);
             this.elementHost1.Name = "elementHost1";
             this.elementHost1.Size = new System.Drawing.Size(501, 200);
@@ -852,7 +855,7 @@
             this.guna2HtmlLabel13.ForeColor = System.Drawing.Color.Black;
             this.guna2HtmlLabel13.Location = new System.Drawing.Point(267, 184);
             this.guna2HtmlLabel13.Name = "guna2HtmlLabel13";
-            this.guna2HtmlLabel13.Size = new System.Drawing.Size(55, 21);
+            this.guna2HtmlLabel13.Size = new System.Drawing.Size(53, 22);
             this.guna2HtmlLabel13.TabIndex = 90;
             this.guna2HtmlLabel13.Text = "Ventas";
             this.guna2HtmlLabel13.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -865,7 +868,7 @@
             this.guna2HtmlLabel12.ForeColor = System.Drawing.Color.DimGray;
             this.guna2HtmlLabel12.Location = new System.Drawing.Point(667, 190);
             this.guna2HtmlLabel12.Name = "guna2HtmlLabel12";
-            this.guna2HtmlLabel12.Size = new System.Drawing.Size(71, 21);
+            this.guna2HtmlLabel12.Size = new System.Drawing.Size(71, 22);
             this.guna2HtmlLabel12.TabIndex = 88;
             this.guna2HtmlLabel12.Text = "RD$ 0.00";
             this.guna2HtmlLabel12.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -885,9 +888,9 @@
             this.btnCalcular.HoverState.BorderColor = System.Drawing.Color.WhiteSmoke;
             this.btnCalcular.HoverState.CustomBorderColor = System.Drawing.Color.WhiteSmoke;
             this.btnCalcular.HoverState.FillColor = System.Drawing.Color.MediumSeaGreen;
-            this.btnCalcular.Location = new System.Drawing.Point(652, 127);
+            this.btnCalcular.Location = new System.Drawing.Point(652, 131);
             this.btnCalcular.Name = "btnCalcular";
-            this.btnCalcular.Size = new System.Drawing.Size(97, 39);
+            this.btnCalcular.Size = new System.Drawing.Size(97, 35);
             this.btnCalcular.TabIndex = 87;
             this.btnCalcular.Text = "Calcular";
             this.guna2HtmlToolTip1.SetToolTip(this.btnCalcular, "Calcular de dólares a pesos dominicanos");
@@ -905,7 +908,7 @@
             this.guna2TextBox2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.guna2TextBox2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.guna2TextBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox2.Font = new System.Drawing.Font("SF Pro Display", 9F, System.Drawing.FontStyle.Bold);
+            this.guna2TextBox2.Font = new System.Drawing.Font("SF Pro Display", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox2.Location = new System.Drawing.Point(632, 71);
             this.guna2TextBox2.Name = "guna2TextBox2";
@@ -925,7 +928,7 @@
             this.guna2HtmlLabel11.ForeColor = System.Drawing.Color.Black;
             this.guna2HtmlLabel11.Location = new System.Drawing.Point(667, 44);
             this.guna2HtmlLabel11.Name = "guna2HtmlLabel11";
-            this.guna2HtmlLabel11.Size = new System.Drawing.Size(64, 21);
+            this.guna2HtmlLabel11.Size = new System.Drawing.Size(63, 22);
             this.guna2HtmlLabel11.TabIndex = 85;
             this.guna2HtmlLabel11.Text = "Calcular";
             this.guna2HtmlLabel11.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -955,7 +958,7 @@
             this.guna2HtmlLabel8.ForeColor = System.Drawing.Color.DimGray;
             this.guna2HtmlLabel8.Location = new System.Drawing.Point(371, 119);
             this.guna2HtmlLabel8.Name = "guna2HtmlLabel8";
-            this.guna2HtmlLabel8.Size = new System.Drawing.Size(129, 25);
+            this.guna2HtmlLabel8.Size = new System.Drawing.Size(125, 25);
             this.guna2HtmlLabel8.TabIndex = 78;
             this.guna2HtmlLabel8.Text = "Todo Correcto";
             this.guna2HtmlLabel8.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -981,7 +984,7 @@
             this.guna2HtmlLabel7.ForeColor = System.Drawing.Color.Black;
             this.guna2HtmlLabel7.Location = new System.Drawing.Point(371, 92);
             this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
-            this.guna2HtmlLabel7.Size = new System.Drawing.Size(132, 21);
+            this.guna2HtmlLabel7.Size = new System.Drawing.Size(131, 22);
             this.guna2HtmlLabel7.TabIndex = 80;
             this.guna2HtmlLabel7.Text = "Estado de Cuenta";
             this.guna2HtmlLabel7.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -994,7 +997,7 @@
             this.guna2HtmlLabel5.ForeColor = System.Drawing.Color.Black;
             this.guna2HtmlLabel5.Location = new System.Drawing.Point(98, 92);
             this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            this.guna2HtmlLabel5.Size = new System.Drawing.Size(106, 21);
+            this.guna2HtmlLabel5.Size = new System.Drawing.Size(105, 22);
             this.guna2HtmlLabel5.TabIndex = 81;
             this.guna2HtmlLabel5.Text = "Dinero en caja";
             this.guna2HtmlLabel5.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;

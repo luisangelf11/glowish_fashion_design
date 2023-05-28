@@ -133,6 +133,12 @@
     <Compile Include="Notifications\Loader.Designer.cs">
       <DependentUpon>Loader.cs</DependentUpon>
     </Compile>
+    <Compile Include="Notifications\Options.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Notifications\Options.Designer.cs">
+      <DependentUpon>Options.cs</DependentUpon>
+    </Compile>
     <Compile Include="Plantilla.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -183,6 +189,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Notifications\Loader.resx">
       <DependentUpon>Loader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Notifications\Options.resx">
+      <DependentUpon>Options.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Plantilla.resx">
       <DependentUpon>Plantilla.cs</DependentUpon>
