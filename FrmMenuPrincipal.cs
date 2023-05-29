@@ -272,5 +272,11 @@ namespace Glowish_Fashion_System
             Options options = new Options();
             options.Show();
         }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new FrmClientes());
+            SelectButton(guna2Button2);
+        }
     }
 }

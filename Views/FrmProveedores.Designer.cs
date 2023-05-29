@@ -99,7 +99,7 @@
             this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.Crimson;
             this.guna2HtmlLabel2.Location = new System.Drawing.Point(341, 0);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(159, 35);
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(159, 34);
             this.guna2HtmlLabel2.TabIndex = 8;
             this.guna2HtmlLabel2.Text = "Proveedores";
             // 
@@ -445,7 +445,7 @@
             this.guna2HtmlLabel9.ForeColor = System.Drawing.Color.DimGray;
             this.guna2HtmlLabel9.Location = new System.Drawing.Point(45, 56);
             this.guna2HtmlLabel9.Name = "guna2HtmlLabel9";
-            this.guna2HtmlLabel9.Size = new System.Drawing.Size(114, 17);
+            this.guna2HtmlLabel9.Size = new System.Drawing.Size(114, 18);
             this.guna2HtmlLabel9.TabIndex = 109;
             this.guna2HtmlLabel9.Text = "Nombre proveedor";
             this.guna2HtmlLabel9.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -458,7 +458,7 @@
             this.guna2HtmlLabel8.ForeColor = System.Drawing.Color.DimGray;
             this.guna2HtmlLabel8.Location = new System.Drawing.Point(43, 115);
             this.guna2HtmlLabel8.Name = "guna2HtmlLabel8";
-            this.guna2HtmlLabel8.Size = new System.Drawing.Size(68, 17);
+            this.guna2HtmlLabel8.Size = new System.Drawing.Size(68, 18);
             this.guna2HtmlLabel8.TabIndex = 109;
             this.guna2HtmlLabel8.Text = "Plataforma";
             this.guna2HtmlLabel8.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -471,7 +471,7 @@
             this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.DimGray;
             this.guna2HtmlLabel3.Location = new System.Drawing.Point(43, 174);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(111, 17);
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(111, 18);
             this.guna2HtmlLabel3.TabIndex = 109;
             this.guna2HtmlLabel3.Text = "Correo electrónico";
             this.guna2HtmlLabel3.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -534,7 +534,7 @@
             this.guna2HtmlLabel11.ForeColor = System.Drawing.Color.DimGray;
             this.guna2HtmlLabel11.Location = new System.Drawing.Point(504, 174);
             this.guna2HtmlLabel11.Name = "guna2HtmlLabel11";
-            this.guna2HtmlLabel11.Size = new System.Drawing.Size(54, 17);
+            this.guna2HtmlLabel11.Size = new System.Drawing.Size(54, 18);
             this.guna2HtmlLabel11.TabIndex = 100;
             this.guna2HtmlLabel11.Text = "Teléfono";
             this.guna2HtmlLabel11.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -547,7 +547,7 @@
             this.guna2HtmlLabel10.ForeColor = System.Drawing.Color.DimGray;
             this.guna2HtmlLabel10.Location = new System.Drawing.Point(312, 173);
             this.guna2HtmlLabel10.Name = "guna2HtmlLabel10";
-            this.guna2HtmlLabel10.Size = new System.Drawing.Size(55, 17);
+            this.guna2HtmlLabel10.Size = new System.Drawing.Size(55, 18);
             this.guna2HtmlLabel10.TabIndex = 100;
             this.guna2HtmlLabel10.Text = "Empresa";
             this.guna2HtmlLabel10.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -560,7 +560,7 @@
             this.guna2HtmlLabel6.ForeColor = System.Drawing.Color.DimGray;
             this.guna2HtmlLabel6.Location = new System.Drawing.Point(312, 55);
             this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
-            this.guna2HtmlLabel6.Size = new System.Drawing.Size(28, 17);
+            this.guna2HtmlLabel6.Size = new System.Drawing.Size(28, 18);
             this.guna2HtmlLabel6.TabIndex = 100;
             this.guna2HtmlLabel6.Text = "País";
             this.guna2HtmlLabel6.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -573,7 +573,7 @@
             this.guna2HtmlLabel5.ForeColor = System.Drawing.Color.DimGray;
             this.guna2HtmlLabel5.Location = new System.Drawing.Point(312, 113);
             this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            this.guna2HtmlLabel5.Size = new System.Drawing.Size(45, 17);
+            this.guna2HtmlLabel5.Size = new System.Drawing.Size(45, 18);
             this.guna2HtmlLabel5.TabIndex = 100;
             this.guna2HtmlLabel5.Text = "Ciudad";
             this.guna2HtmlLabel5.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -916,7 +916,7 @@
             this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.DimGray;
             this.guna2HtmlLabel1.Location = new System.Drawing.Point(63, 125);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(71, 17);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(71, 18);
             this.guna2HtmlLabel1.TabIndex = 112;
             this.guna2HtmlLabel1.Text = "Buscar por:";
             this.guna2HtmlLabel1.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -929,7 +929,7 @@
             this.lblFiltro.ForeColor = System.Drawing.Color.RoyalBlue;
             this.lblFiltro.Location = new System.Drawing.Point(139, 125);
             this.lblFiltro.Name = "lblFiltro";
-            this.lblFiltro.Size = new System.Drawing.Size(48, 17);
+            this.lblFiltro.Size = new System.Drawing.Size(48, 18);
             this.lblFiltro.TabIndex = 113;
             this.lblFiltro.Text = "General";
             this.lblFiltro.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;

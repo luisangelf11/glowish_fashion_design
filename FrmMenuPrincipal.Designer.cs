@@ -290,7 +290,7 @@
             this.lblUsername.ForeColor = System.Drawing.Color.Black;
             this.lblUsername.Location = new System.Drawing.Point(609, 15);
             this.lblUsername.Name = "lblUsername";
-            this.lblUsername.Size = new System.Drawing.Size(113, 18);
+            this.lblUsername.Size = new System.Drawing.Size(114, 18);
             this.lblUsername.TabIndex = 84;
             this.lblUsername.Text = "Nombre de usuario";
             this.lblUsername.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -317,7 +317,7 @@
             this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.Salmon;
             this.guna2HtmlLabel1.Location = new System.Drawing.Point(609, 30);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(19, 16);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(19, 15);
             this.guna2HtmlLabel1.TabIndex = 85;
             this.guna2HtmlLabel1.Text = "Rol";
             this.guna2HtmlLabel1.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -363,7 +363,7 @@
             this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.Crimson;
             this.guna2HtmlLabel2.Location = new System.Drawing.Point(21, 18);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(135, 22);
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(135, 21);
             this.guna2HtmlLabel2.TabIndex = 93;
             this.guna2HtmlLabel2.Text = "Menú de opciones";
             this.guna2HtmlLabel2.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -562,6 +562,7 @@
             this.guna2Button2.Text = "Clientes";
             this.guna2Button2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.guna2HtmlToolTip1.SetToolTip(this.guna2Button2, "Ver Clientes");
+            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
             // btnUsuarios
             // 
@@ -855,7 +856,7 @@
             this.guna2HtmlLabel13.ForeColor = System.Drawing.Color.Black;
             this.guna2HtmlLabel13.Location = new System.Drawing.Point(267, 184);
             this.guna2HtmlLabel13.Name = "guna2HtmlLabel13";
-            this.guna2HtmlLabel13.Size = new System.Drawing.Size(53, 22);
+            this.guna2HtmlLabel13.Size = new System.Drawing.Size(55, 21);
             this.guna2HtmlLabel13.TabIndex = 90;
             this.guna2HtmlLabel13.Text = "Ventas";
             this.guna2HtmlLabel13.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -868,7 +869,7 @@
             this.guna2HtmlLabel12.ForeColor = System.Drawing.Color.DimGray;
             this.guna2HtmlLabel12.Location = new System.Drawing.Point(667, 190);
             this.guna2HtmlLabel12.Name = "guna2HtmlLabel12";
-            this.guna2HtmlLabel12.Size = new System.Drawing.Size(71, 22);
+            this.guna2HtmlLabel12.Size = new System.Drawing.Size(71, 21);
             this.guna2HtmlLabel12.TabIndex = 88;
             this.guna2HtmlLabel12.Text = "RD$ 0.00";
             this.guna2HtmlLabel12.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -928,7 +929,7 @@
             this.guna2HtmlLabel11.ForeColor = System.Drawing.Color.Black;
             this.guna2HtmlLabel11.Location = new System.Drawing.Point(667, 44);
             this.guna2HtmlLabel11.Name = "guna2HtmlLabel11";
-            this.guna2HtmlLabel11.Size = new System.Drawing.Size(63, 22);
+            this.guna2HtmlLabel11.Size = new System.Drawing.Size(64, 21);
             this.guna2HtmlLabel11.TabIndex = 85;
             this.guna2HtmlLabel11.Text = "Calcular";
             this.guna2HtmlLabel11.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -958,7 +959,7 @@
             this.guna2HtmlLabel8.ForeColor = System.Drawing.Color.DimGray;
             this.guna2HtmlLabel8.Location = new System.Drawing.Point(371, 119);
             this.guna2HtmlLabel8.Name = "guna2HtmlLabel8";
-            this.guna2HtmlLabel8.Size = new System.Drawing.Size(125, 25);
+            this.guna2HtmlLabel8.Size = new System.Drawing.Size(129, 25);
             this.guna2HtmlLabel8.TabIndex = 78;
             this.guna2HtmlLabel8.Text = "Todo Correcto";
             this.guna2HtmlLabel8.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -984,7 +985,7 @@
             this.guna2HtmlLabel7.ForeColor = System.Drawing.Color.Black;
             this.guna2HtmlLabel7.Location = new System.Drawing.Point(371, 92);
             this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
-            this.guna2HtmlLabel7.Size = new System.Drawing.Size(131, 22);
+            this.guna2HtmlLabel7.Size = new System.Drawing.Size(132, 21);
             this.guna2HtmlLabel7.TabIndex = 80;
             this.guna2HtmlLabel7.Text = "Estado de Cuenta";
             this.guna2HtmlLabel7.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -997,7 +998,7 @@
             this.guna2HtmlLabel5.ForeColor = System.Drawing.Color.Black;
             this.guna2HtmlLabel5.Location = new System.Drawing.Point(98, 92);
             this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            this.guna2HtmlLabel5.Size = new System.Drawing.Size(105, 22);
+            this.guna2HtmlLabel5.Size = new System.Drawing.Size(106, 21);
             this.guna2HtmlLabel5.TabIndex = 81;
             this.guna2HtmlLabel5.Text = "Dinero en caja";
             this.guna2HtmlLabel5.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
