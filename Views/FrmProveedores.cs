@@ -451,5 +451,21 @@ namespace Glowish_Fashion_System.Views
             
             
         }
+
+        private void cmbbProvPais_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            var paisSeleccionado = cmbbProvPais.Text;
+            var paisEncontrado = paises.FirstOrDefault(p => p.Contains(paisSeleccionado));
+
+            if (paisEncontrado != null)
+            {
+                lblPaisGuess.Text = paisEncontrado;
+            }
+        }
+
+        private void lblPaisGuess_Click(object sender, EventArgs e)
+        {
+            cmbbProvPais.Text = lblPaisGuess.Text;
+        }
     }
 }

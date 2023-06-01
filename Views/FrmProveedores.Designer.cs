@@ -30,9 +30,9 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmProveedores));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
@@ -84,6 +84,7 @@
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblFiltro = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.MessageBPais = new Guna.UI2.WinForms.Guna2MessageDialog();
+            this.lblPaisGuess = new Guna.UI2.WinForms.Guna2HtmlLabel();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rellenogirdview)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.datagridProveedores)).BeginInit();
@@ -99,7 +100,7 @@
             this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.Crimson;
             this.guna2HtmlLabel2.Location = new System.Drawing.Point(341, 0);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(159, 34);
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(159, 35);
             this.guna2HtmlLabel2.TabIndex = 8;
             this.guna2HtmlLabel2.Text = "Proveedores";
             // 
@@ -211,16 +212,16 @@
             // 
             // datagridProveedores
             // 
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(201)))), ((int)(((byte)(197)))));
-            this.datagridProveedores.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.Crimson;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("SF Pro Display", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.datagridProveedores.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(201)))), ((int)(((byte)(197)))));
+            this.datagridProveedores.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.Crimson;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("SF Pro Display", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.datagridProveedores.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
             this.datagridProveedores.ColumnHeadersHeight = 17;
             this.datagridProveedores.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             this.datagridProveedores.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -232,14 +233,14 @@
             this.correo,
             this.telefono,
             this.empresa});
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(219)))), ((int)(((byte)(216)))));
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("SF Pro Display", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.SteelBlue;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.datagridProveedores.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(219)))), ((int)(((byte)(216)))));
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("SF Pro Display", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.SteelBlue;
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.datagridProveedores.DefaultCellStyle = dataGridViewCellStyle9;
             this.datagridProveedores.GridColor = System.Drawing.Color.White;
             this.datagridProveedores.Location = new System.Drawing.Point(41, 171);
             this.datagridProveedores.Name = "datagridProveedores";
@@ -346,6 +347,7 @@
             // 
             // panelAnadirProveedor
             // 
+            this.panelAnadirProveedor.Controls.Add(this.lblPaisGuess);
             this.panelAnadirProveedor.Controls.Add(this.cmbbProvPais);
             this.panelAnadirProveedor.Controls.Add(this.cmbbProvCiudad);
             this.panelAnadirProveedor.Controls.Add(this.picturebAdvertenciaCorreo);
@@ -394,9 +396,10 @@
             this.cmbbProvPais.PasswordChar = '\0';
             this.cmbbProvPais.PlaceholderText = "Ejemplo: Republica Dominicana";
             this.cmbbProvPais.SelectedText = "";
-            this.cmbbProvPais.Size = new System.Drawing.Size(368, 30);
+            this.cmbbProvPais.Size = new System.Drawing.Size(226, 30);
             this.cmbbProvPais.TabIndex = 113;
             this.cmbbProvPais.TextChanged += new System.EventHandler(this.cmbbProvPais_TextChanged_1);
+            this.cmbbProvPais.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.cmbbProvPais_KeyPress);
             // 
             // cmbbProvCiudad
             // 
@@ -445,7 +448,7 @@
             this.guna2HtmlLabel9.ForeColor = System.Drawing.Color.DimGray;
             this.guna2HtmlLabel9.Location = new System.Drawing.Point(45, 56);
             this.guna2HtmlLabel9.Name = "guna2HtmlLabel9";
-            this.guna2HtmlLabel9.Size = new System.Drawing.Size(114, 18);
+            this.guna2HtmlLabel9.Size = new System.Drawing.Size(114, 17);
             this.guna2HtmlLabel9.TabIndex = 109;
             this.guna2HtmlLabel9.Text = "Nombre proveedor";
             this.guna2HtmlLabel9.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -458,7 +461,7 @@
             this.guna2HtmlLabel8.ForeColor = System.Drawing.Color.DimGray;
             this.guna2HtmlLabel8.Location = new System.Drawing.Point(43, 115);
             this.guna2HtmlLabel8.Name = "guna2HtmlLabel8";
-            this.guna2HtmlLabel8.Size = new System.Drawing.Size(68, 18);
+            this.guna2HtmlLabel8.Size = new System.Drawing.Size(68, 17);
             this.guna2HtmlLabel8.TabIndex = 109;
             this.guna2HtmlLabel8.Text = "Plataforma";
             this.guna2HtmlLabel8.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -471,7 +474,7 @@
             this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.DimGray;
             this.guna2HtmlLabel3.Location = new System.Drawing.Point(43, 174);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(111, 18);
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(111, 17);
             this.guna2HtmlLabel3.TabIndex = 109;
             this.guna2HtmlLabel3.Text = "Correo electrónico";
             this.guna2HtmlLabel3.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -534,7 +537,7 @@
             this.guna2HtmlLabel11.ForeColor = System.Drawing.Color.DimGray;
             this.guna2HtmlLabel11.Location = new System.Drawing.Point(504, 174);
             this.guna2HtmlLabel11.Name = "guna2HtmlLabel11";
-            this.guna2HtmlLabel11.Size = new System.Drawing.Size(54, 18);
+            this.guna2HtmlLabel11.Size = new System.Drawing.Size(54, 17);
             this.guna2HtmlLabel11.TabIndex = 100;
             this.guna2HtmlLabel11.Text = "Teléfono";
             this.guna2HtmlLabel11.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -547,7 +550,7 @@
             this.guna2HtmlLabel10.ForeColor = System.Drawing.Color.DimGray;
             this.guna2HtmlLabel10.Location = new System.Drawing.Point(312, 173);
             this.guna2HtmlLabel10.Name = "guna2HtmlLabel10";
-            this.guna2HtmlLabel10.Size = new System.Drawing.Size(55, 18);
+            this.guna2HtmlLabel10.Size = new System.Drawing.Size(55, 17);
             this.guna2HtmlLabel10.TabIndex = 100;
             this.guna2HtmlLabel10.Text = "Empresa";
             this.guna2HtmlLabel10.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -560,7 +563,7 @@
             this.guna2HtmlLabel6.ForeColor = System.Drawing.Color.DimGray;
             this.guna2HtmlLabel6.Location = new System.Drawing.Point(312, 55);
             this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
-            this.guna2HtmlLabel6.Size = new System.Drawing.Size(28, 18);
+            this.guna2HtmlLabel6.Size = new System.Drawing.Size(28, 17);
             this.guna2HtmlLabel6.TabIndex = 100;
             this.guna2HtmlLabel6.Text = "País";
             this.guna2HtmlLabel6.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -573,7 +576,7 @@
             this.guna2HtmlLabel5.ForeColor = System.Drawing.Color.DimGray;
             this.guna2HtmlLabel5.Location = new System.Drawing.Point(312, 113);
             this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            this.guna2HtmlLabel5.Size = new System.Drawing.Size(45, 18);
+            this.guna2HtmlLabel5.Size = new System.Drawing.Size(45, 17);
             this.guna2HtmlLabel5.TabIndex = 100;
             this.guna2HtmlLabel5.Text = "Ciudad";
             this.guna2HtmlLabel5.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -916,7 +919,7 @@
             this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.DimGray;
             this.guna2HtmlLabel1.Location = new System.Drawing.Point(63, 125);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(71, 18);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(71, 17);
             this.guna2HtmlLabel1.TabIndex = 112;
             this.guna2HtmlLabel1.Text = "Buscar por:";
             this.guna2HtmlLabel1.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -929,7 +932,7 @@
             this.lblFiltro.ForeColor = System.Drawing.Color.RoyalBlue;
             this.lblFiltro.Location = new System.Drawing.Point(139, 125);
             this.lblFiltro.Name = "lblFiltro";
-            this.lblFiltro.Size = new System.Drawing.Size(48, 18);
+            this.lblFiltro.Size = new System.Drawing.Size(48, 17);
             this.lblFiltro.TabIndex = 113;
             this.lblFiltro.Text = "General";
             this.lblFiltro.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -943,6 +946,20 @@
             this.MessageBPais.Parent = null;
             this.MessageBPais.Style = Guna.UI2.WinForms.MessageDialogStyle.Light;
             this.MessageBPais.Text = "El pais que introdujo no existe";
+            // 
+            // lblPaisGuess
+            // 
+            this.lblPaisGuess.BackColor = System.Drawing.Color.Transparent;
+            this.lblPaisGuess.Font = new System.Drawing.Font("SF Pro Display", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPaisGuess.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.lblPaisGuess.Location = new System.Drawing.Point(550, 87);
+            this.lblPaisGuess.Name = "lblPaisGuess";
+            this.lblPaisGuess.Size = new System.Drawing.Size(28, 17);
+            this.lblPaisGuess.TabIndex = 114;
+            this.lblPaisGuess.Text = "Pais";
+            this.lblPaisGuess.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
+            this.lblPaisGuess.UseGdiPlusTextRendering = true;
+            this.lblPaisGuess.Click += new System.EventHandler(this.lblPaisGuess_Click);
             // 
             // FrmProveedores
             // 
@@ -1035,5 +1052,6 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel lblFiltro;
         private Guna.UI2.WinForms.Guna2Button btnCambiarFiltro;
         private Guna.UI2.WinForms.Guna2MessageDialog MessageBPais;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblPaisGuess;
     }
 }

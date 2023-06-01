@@ -269,14 +269,18 @@ namespace Glowish_Fashion_System
 
         private void btnMasOpciones_Click(object sender, EventArgs e)
         {
-            Options options = new Options();
-            options.Show();
+            panelMasOpciones.Visible = !panelMasOpciones.Visible;
         }
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
             OpenChildForm(new FrmClientes());
             SelectButton(guna2Button2);
+        }
+
+        private void guna2PictureBox11_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -59,5 +59,33 @@ namespace Glowish_Fashion_System.Views
             panelAnadirProveedor.Visible = false;
             lblTitle.Text = "Añadir una venta";
         }
+
+        private void txtbCedulaCliente_TextChanged(object sender, EventArgs e)
+        {
+            if (txtbCedulaCliente.Text.Length == 3)
+            {
+                txtbCedulaCliente.Text += "-";
+                txtbCedulaCliente.SelectionStart = txtbCedulaCliente.Text.Length;
+            }
+            else if (txtbCedulaCliente.Text.Length == 12)
+            {
+                txtbCedulaCliente.Text += "-";
+                txtbCedulaCliente.SelectionStart = txtbCedulaCliente.Text.Length;
+            }
+        }
+
+        private void txtbCedulaCliente_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+
+            // Verificar si ya se alcanzó el número máximo de caracteres
+            if (txtbCedulaCliente.Text.Length >= 14 && e.KeyChar != '\b') // '\b' representa la tecla de retroceso
+            {
+                e.Handled = true;
+            }
+        }
     }
 }
