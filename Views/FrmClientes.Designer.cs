@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmClientes));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
             this.btnCambiarFiltro = new Guna.UI2.WinForms.Guna2Button();
             this.lblFiltro = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -43,6 +43,9 @@
             this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.panelAnadirProveedor = new Guna.UI2.WinForms.Guna2Panel();
+            this.picturebAdvertenciaCorreo = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.txtbProvCorreo = new Guna.UI2.WinForms.Guna2TextBox();
             this.cmbbProvPais = new Guna.UI2.WinForms.Guna2TextBox();
             this.cmbbProvCiudad = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel9 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -57,11 +60,9 @@
             this.txtbProvEmpresa = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtbProvTelefono = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtbProvPlataforma = new Guna.UI2.WinForms.Guna2TextBox();
-            this.txtbProvNombre = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txtbProvCedula = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.datagridProveedores = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.rellenogirdview = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.Cedula = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Apellido = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -69,19 +70,18 @@
             this.Direccion = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Telefono = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Correo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.rellenogirdview = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2CustomCheckBox1 = new Guna.UI2.WinForms.Guna2CustomCheckBox();
             this.guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.picturebAdvertenciaCorreo = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.txtbProvCorreo = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlToolTip1 = new Guna.UI2.WinForms.Guna2HtmlToolTip();
             this.panelAnadirProveedor.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picturebAdvertenciaCorreo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.datagridProveedores)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rellenogirdview)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picturebAdvertenciaCorreo)).BeginInit();
             this.SuspendLayout();
             // 
             // btnCambiarFiltro
@@ -113,7 +113,7 @@
             this.lblFiltro.ForeColor = System.Drawing.Color.RoyalBlue;
             this.lblFiltro.Location = new System.Drawing.Point(116, 122);
             this.lblFiltro.Name = "lblFiltro";
-            this.lblFiltro.Size = new System.Drawing.Size(48, 18);
+            this.lblFiltro.Size = new System.Drawing.Size(48, 17);
             this.lblFiltro.TabIndex = 123;
             this.lblFiltro.Text = "General";
             this.lblFiltro.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -126,7 +126,7 @@
             this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.DimGray;
             this.guna2HtmlLabel1.Location = new System.Drawing.Point(40, 122);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(71, 18);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(71, 17);
             this.guna2HtmlLabel1.TabIndex = 122;
             this.guna2HtmlLabel1.Text = "Buscar por:";
             this.guna2HtmlLabel1.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -258,7 +258,7 @@
             this.guna2HtmlLabel4.ForeColor = System.Drawing.Color.DimGray;
             this.guna2HtmlLabel4.Location = new System.Drawing.Point(310, 44);
             this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            this.guna2HtmlLabel4.Size = new System.Drawing.Size(158, 21);
+            this.guna2HtmlLabel4.Size = new System.Drawing.Size(159, 21);
             this.guna2HtmlLabel4.TabIndex = 116;
             this.guna2HtmlLabel4.Text = "Consultas de clientes";
             this.guna2HtmlLabel4.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -271,7 +271,7 @@
             this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.Crimson;
             this.guna2HtmlLabel2.Location = new System.Drawing.Point(336, 12);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(105, 34);
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(105, 35);
             this.guna2HtmlLabel2.TabIndex = 115;
             this.guna2HtmlLabel2.Text = "Clientes";
             // 
@@ -294,13 +294,66 @@
             this.panelAnadirProveedor.Controls.Add(this.txtbProvEmpresa);
             this.panelAnadirProveedor.Controls.Add(this.txtbProvTelefono);
             this.panelAnadirProveedor.Controls.Add(this.txtbProvPlataforma);
-            this.panelAnadirProveedor.Controls.Add(this.txtbProvNombre);
+            this.panelAnadirProveedor.Controls.Add(this.txtbProvCedula);
             this.panelAnadirProveedor.Controls.Add(this.guna2PictureBox1);
             this.panelAnadirProveedor.Location = new System.Drawing.Point(31, 151);
             this.panelAnadirProveedor.Name = "panelAnadirProveedor";
             this.panelAnadirProveedor.Size = new System.Drawing.Size(717, 279);
             this.panelAnadirProveedor.TabIndex = 128;
             this.panelAnadirProveedor.Visible = false;
+            // 
+            // picturebAdvertenciaCorreo
+            // 
+            this.picturebAdvertenciaCorreo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.picturebAdvertenciaCorreo.Image = ((System.Drawing.Image)(resources.GetObject("picturebAdvertenciaCorreo.Image")));
+            this.picturebAdvertenciaCorreo.ImageRotate = 0F;
+            this.picturebAdvertenciaCorreo.Location = new System.Drawing.Point(640, 204);
+            this.picturebAdvertenciaCorreo.Name = "picturebAdvertenciaCorreo";
+            this.picturebAdvertenciaCorreo.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.picturebAdvertenciaCorreo.Size = new System.Drawing.Size(17, 25);
+            this.picturebAdvertenciaCorreo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picturebAdvertenciaCorreo.TabIndex = 119;
+            this.picturebAdvertenciaCorreo.TabStop = false;
+            this.guna2HtmlToolTip1.SetToolTip(this.picturebAdvertenciaCorreo, "Debe de colocar el formato correcto con un \"@\" y finalizar con \".com\" u otro domi" +
+        "nio");
+            // 
+            // guna2HtmlLabel3
+            // 
+            this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel3.Font = new System.Drawing.Font("SF Pro Display", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.DimGray;
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(317, 177);
+            this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(111, 17);
+            this.guna2HtmlLabel3.TabIndex = 118;
+            this.guna2HtmlLabel3.Text = "Correo electrónico";
+            this.guna2HtmlLabel3.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
+            this.guna2HtmlLabel3.UseGdiPlusTextRendering = true;
+            // 
+            // txtbProvCorreo
+            // 
+            this.txtbProvCorreo.Animated = true;
+            this.txtbProvCorreo.BackColor = System.Drawing.Color.White;
+            this.txtbProvCorreo.BorderColor = System.Drawing.Color.White;
+            this.txtbProvCorreo.BorderRadius = 9;
+            this.txtbProvCorreo.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtbProvCorreo.DefaultText = "";
+            this.txtbProvCorreo.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtbProvCorreo.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtbProvCorreo.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtbProvCorreo.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtbProvCorreo.FillColor = System.Drawing.Color.WhiteSmoke;
+            this.txtbProvCorreo.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtbProvCorreo.Font = new System.Drawing.Font("SF Pro Display", 9.75F, System.Drawing.FontStyle.Bold);
+            this.txtbProvCorreo.ForeColor = System.Drawing.Color.Black;
+            this.txtbProvCorreo.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtbProvCorreo.Location = new System.Drawing.Point(305, 200);
+            this.txtbProvCorreo.Name = "txtbProvCorreo";
+            this.txtbProvCorreo.PasswordChar = '\0';
+            this.txtbProvCorreo.PlaceholderText = "alguien@ejemplo.com";
+            this.txtbProvCorreo.SelectedText = "";
+            this.txtbProvCorreo.Size = new System.Drawing.Size(327, 30);
+            this.txtbProvCorreo.TabIndex = 117;
             // 
             // cmbbProvPais
             // 
@@ -359,7 +412,7 @@
             this.guna2HtmlLabel9.ForeColor = System.Drawing.Color.DimGray;
             this.guna2HtmlLabel9.Location = new System.Drawing.Point(45, 56);
             this.guna2HtmlLabel9.Name = "guna2HtmlLabel9";
-            this.guna2HtmlLabel9.Size = new System.Drawing.Size(44, 18);
+            this.guna2HtmlLabel9.Size = new System.Drawing.Size(44, 17);
             this.guna2HtmlLabel9.TabIndex = 109;
             this.guna2HtmlLabel9.Text = "Cédula";
             this.guna2HtmlLabel9.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -372,7 +425,7 @@
             this.guna2HtmlLabel8.ForeColor = System.Drawing.Color.DimGray;
             this.guna2HtmlLabel8.Location = new System.Drawing.Point(43, 115);
             this.guna2HtmlLabel8.Name = "guna2HtmlLabel8";
-            this.guna2HtmlLabel8.Size = new System.Drawing.Size(50, 18);
+            this.guna2HtmlLabel8.Size = new System.Drawing.Size(50, 17);
             this.guna2HtmlLabel8.TabIndex = 109;
             this.guna2HtmlLabel8.Text = "Nombre";
             this.guna2HtmlLabel8.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -432,7 +485,7 @@
             this.guna2HtmlLabel11.ForeColor = System.Drawing.Color.DimGray;
             this.guna2HtmlLabel11.Location = new System.Drawing.Point(498, 56);
             this.guna2HtmlLabel11.Name = "guna2HtmlLabel11";
-            this.guna2HtmlLabel11.Size = new System.Drawing.Size(54, 18);
+            this.guna2HtmlLabel11.Size = new System.Drawing.Size(54, 17);
             this.guna2HtmlLabel11.TabIndex = 100;
             this.guna2HtmlLabel11.Text = "Teléfono";
             this.guna2HtmlLabel11.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -445,7 +498,7 @@
             this.guna2HtmlLabel10.ForeColor = System.Drawing.Color.DimGray;
             this.guna2HtmlLabel10.Location = new System.Drawing.Point(315, 114);
             this.guna2HtmlLabel10.Name = "guna2HtmlLabel10";
-            this.guna2HtmlLabel10.Size = new System.Drawing.Size(58, 18);
+            this.guna2HtmlLabel10.Size = new System.Drawing.Size(58, 17);
             this.guna2HtmlLabel10.TabIndex = 100;
             this.guna2HtmlLabel10.Text = "Dirección";
             this.guna2HtmlLabel10.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -458,7 +511,7 @@
             this.guna2HtmlLabel6.ForeColor = System.Drawing.Color.DimGray;
             this.guna2HtmlLabel6.Location = new System.Drawing.Point(37, 173);
             this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
-            this.guna2HtmlLabel6.Size = new System.Drawing.Size(51, 18);
+            this.guna2HtmlLabel6.Size = new System.Drawing.Size(51, 17);
             this.guna2HtmlLabel6.TabIndex = 100;
             this.guna2HtmlLabel6.Text = "Apellido";
             this.guna2HtmlLabel6.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -471,7 +524,7 @@
             this.guna2HtmlLabel5.ForeColor = System.Drawing.Color.DimGray;
             this.guna2HtmlLabel5.Location = new System.Drawing.Point(312, 55);
             this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            this.guna2HtmlLabel5.Size = new System.Drawing.Size(33, 18);
+            this.guna2HtmlLabel5.Size = new System.Drawing.Size(33, 17);
             this.guna2HtmlLabel5.TabIndex = 100;
             this.guna2HtmlLabel5.Text = "Edad";
             this.guna2HtmlLabel5.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -484,7 +537,7 @@
             this.lblTitle.ForeColor = System.Drawing.Color.White;
             this.lblTitle.Location = new System.Drawing.Point(286, 5);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(151, 25);
+            this.lblTitle.Size = new System.Drawing.Size(154, 25);
             this.lblTitle.TabIndex = 98;
             this.lblTitle.Text = "Añadir un Cliente";
             this.lblTitle.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -565,30 +618,33 @@
             this.txtbProvPlataforma.Size = new System.Drawing.Size(219, 30);
             this.txtbProvPlataforma.TabIndex = 97;
             // 
-            // txtbProvNombre
+            // txtbProvCedula
             // 
-            this.txtbProvNombre.Animated = true;
-            this.txtbProvNombre.BackColor = System.Drawing.Color.White;
-            this.txtbProvNombre.BorderColor = System.Drawing.Color.White;
-            this.txtbProvNombre.BorderRadius = 9;
-            this.txtbProvNombre.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtbProvNombre.DefaultText = "";
-            this.txtbProvNombre.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtbProvNombre.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtbProvNombre.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtbProvNombre.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtbProvNombre.FillColor = System.Drawing.Color.WhiteSmoke;
-            this.txtbProvNombre.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtbProvNombre.Font = new System.Drawing.Font("SF Pro Display", 9.75F, System.Drawing.FontStyle.Bold);
-            this.txtbProvNombre.ForeColor = System.Drawing.Color.Black;
-            this.txtbProvNombre.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtbProvNombre.Location = new System.Drawing.Point(31, 79);
-            this.txtbProvNombre.Name = "txtbProvNombre";
-            this.txtbProvNombre.PasswordChar = '\0';
-            this.txtbProvNombre.PlaceholderText = "xxx-xxxxxxx-x";
-            this.txtbProvNombre.SelectedText = "";
-            this.txtbProvNombre.Size = new System.Drawing.Size(221, 30);
-            this.txtbProvNombre.TabIndex = 97;
+            this.txtbProvCedula.Animated = true;
+            this.txtbProvCedula.BackColor = System.Drawing.Color.White;
+            this.txtbProvCedula.BorderColor = System.Drawing.Color.White;
+            this.txtbProvCedula.BorderRadius = 9;
+            this.txtbProvCedula.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtbProvCedula.DefaultText = "";
+            this.txtbProvCedula.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtbProvCedula.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtbProvCedula.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtbProvCedula.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtbProvCedula.FillColor = System.Drawing.Color.WhiteSmoke;
+            this.txtbProvCedula.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtbProvCedula.Font = new System.Drawing.Font("SF Pro Display", 9.75F, System.Drawing.FontStyle.Bold);
+            this.txtbProvCedula.ForeColor = System.Drawing.Color.Black;
+            this.txtbProvCedula.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtbProvCedula.Location = new System.Drawing.Point(31, 79);
+            this.txtbProvCedula.Name = "txtbProvCedula";
+            this.txtbProvCedula.PasswordChar = '\0';
+            this.txtbProvCedula.PlaceholderText = "xxx-xxxxxxx-x";
+            this.txtbProvCedula.SelectedText = "";
+            this.txtbProvCedula.Size = new System.Drawing.Size(221, 30);
+            this.txtbProvCedula.TabIndex = 97;
+            this.txtbProvCedula.TextChanged += new System.EventHandler(this.txtbProvCedula_TextChanged);
+            this.txtbProvCedula.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtbProvCedula_KeyPress);
+            this.txtbProvCedula.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtbProvCedula_KeyUp_1);
             // 
             // guna2PictureBox1
             // 
@@ -610,16 +666,16 @@
             // 
             // datagridProveedores
             // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(201)))), ((int)(((byte)(197)))));
-            this.datagridProveedores.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.Crimson;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("SF Pro Display", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.datagridProveedores.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(201)))), ((int)(((byte)(197)))));
+            this.datagridProveedores.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle11.BackColor = System.Drawing.Color.Crimson;
+            dataGridViewCellStyle11.Font = new System.Drawing.Font("SF Pro Display", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.datagridProveedores.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle11;
             this.datagridProveedores.ColumnHeadersHeight = 17;
             this.datagridProveedores.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             this.datagridProveedores.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -630,14 +686,14 @@
             this.Direccion,
             this.Telefono,
             this.Correo});
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(219)))), ((int)(((byte)(216)))));
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("SF Pro Display", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.SteelBlue;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.datagridProveedores.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(219)))), ((int)(((byte)(216)))));
+            dataGridViewCellStyle12.Font = new System.Drawing.Font("SF Pro Display", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.SteelBlue;
+            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.datagridProveedores.DefaultCellStyle = dataGridViewCellStyle12;
             this.datagridProveedores.GridColor = System.Drawing.Color.White;
             this.datagridProveedores.Location = new System.Drawing.Point(31, 168);
             this.datagridProveedores.Name = "datagridProveedores";
@@ -668,41 +724,6 @@
             this.datagridProveedores.ThemeStyle.RowsStyle.Height = 22;
             this.datagridProveedores.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.SteelBlue;
             this.datagridProveedores.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.White;
-            // 
-            // rellenogirdview
-            // 
-            this.rellenogirdview.BackColor = System.Drawing.Color.Transparent;
-            this.rellenogirdview.BorderRadius = 3;
-            this.rellenogirdview.FillColor = System.Drawing.Color.Crimson;
-            this.rellenogirdview.ImageFlip = Guna.UI2.WinForms.Enums.FlipOrientation.Vertical;
-            this.rellenogirdview.ImageRotate = 0F;
-            this.rellenogirdview.Location = new System.Drawing.Point(31, 151);
-            this.rellenogirdview.Name = "rellenogirdview";
-            this.rellenogirdview.ShadowDecoration.BorderRadius = 9;
-            this.rellenogirdview.ShadowDecoration.Depth = 2;
-            this.rellenogirdview.ShadowDecoration.Enabled = true;
-            this.rellenogirdview.Size = new System.Drawing.Size(717, 30);
-            this.rellenogirdview.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.rellenogirdview.TabIndex = 126;
-            this.rellenogirdview.TabStop = false;
-            this.rellenogirdview.UseTransparentBackground = true;
-            // 
-            // guna2PictureBox3
-            // 
-            this.guna2PictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox3.BorderRadius = 10;
-            this.guna2PictureBox3.ImageFlip = Guna.UI2.WinForms.Enums.FlipOrientation.Vertical;
-            this.guna2PictureBox3.ImageRotate = 0F;
-            this.guna2PictureBox3.Location = new System.Drawing.Point(31, 151);
-            this.guna2PictureBox3.Name = "guna2PictureBox3";
-            this.guna2PictureBox3.ShadowDecoration.BorderRadius = 9;
-            this.guna2PictureBox3.ShadowDecoration.Depth = 5;
-            this.guna2PictureBox3.ShadowDecoration.Enabled = true;
-            this.guna2PictureBox3.Size = new System.Drawing.Size(717, 279);
-            this.guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2PictureBox3.TabIndex = 125;
-            this.guna2PictureBox3.TabStop = false;
-            this.guna2PictureBox3.UseTransparentBackground = true;
             // 
             // Cedula
             // 
@@ -745,6 +766,41 @@
             this.Correo.HeaderText = "Correo";
             this.Correo.Name = "Correo";
             this.Correo.ReadOnly = true;
+            // 
+            // rellenogirdview
+            // 
+            this.rellenogirdview.BackColor = System.Drawing.Color.Transparent;
+            this.rellenogirdview.BorderRadius = 3;
+            this.rellenogirdview.FillColor = System.Drawing.Color.Crimson;
+            this.rellenogirdview.ImageFlip = Guna.UI2.WinForms.Enums.FlipOrientation.Vertical;
+            this.rellenogirdview.ImageRotate = 0F;
+            this.rellenogirdview.Location = new System.Drawing.Point(31, 151);
+            this.rellenogirdview.Name = "rellenogirdview";
+            this.rellenogirdview.ShadowDecoration.BorderRadius = 9;
+            this.rellenogirdview.ShadowDecoration.Depth = 2;
+            this.rellenogirdview.ShadowDecoration.Enabled = true;
+            this.rellenogirdview.Size = new System.Drawing.Size(717, 30);
+            this.rellenogirdview.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.rellenogirdview.TabIndex = 126;
+            this.rellenogirdview.TabStop = false;
+            this.rellenogirdview.UseTransparentBackground = true;
+            // 
+            // guna2PictureBox3
+            // 
+            this.guna2PictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox3.BorderRadius = 10;
+            this.guna2PictureBox3.ImageFlip = Guna.UI2.WinForms.Enums.FlipOrientation.Vertical;
+            this.guna2PictureBox3.ImageRotate = 0F;
+            this.guna2PictureBox3.Location = new System.Drawing.Point(31, 151);
+            this.guna2PictureBox3.Name = "guna2PictureBox3";
+            this.guna2PictureBox3.ShadowDecoration.BorderRadius = 9;
+            this.guna2PictureBox3.ShadowDecoration.Depth = 5;
+            this.guna2PictureBox3.ShadowDecoration.Enabled = true;
+            this.guna2PictureBox3.Size = new System.Drawing.Size(717, 279);
+            this.guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2PictureBox3.TabIndex = 125;
+            this.guna2PictureBox3.TabStop = false;
+            this.guna2PictureBox3.UseTransparentBackground = true;
             // 
             // guna2Button3
             // 
@@ -798,59 +854,6 @@
             this.guna2HtmlLabel7.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
             this.guna2HtmlLabel7.UseGdiPlusTextRendering = true;
             // 
-            // picturebAdvertenciaCorreo
-            // 
-            this.picturebAdvertenciaCorreo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.picturebAdvertenciaCorreo.Image = ((System.Drawing.Image)(resources.GetObject("picturebAdvertenciaCorreo.Image")));
-            this.picturebAdvertenciaCorreo.ImageRotate = 0F;
-            this.picturebAdvertenciaCorreo.Location = new System.Drawing.Point(640, 204);
-            this.picturebAdvertenciaCorreo.Name = "picturebAdvertenciaCorreo";
-            this.picturebAdvertenciaCorreo.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.picturebAdvertenciaCorreo.Size = new System.Drawing.Size(17, 25);
-            this.picturebAdvertenciaCorreo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picturebAdvertenciaCorreo.TabIndex = 119;
-            this.picturebAdvertenciaCorreo.TabStop = false;
-            this.guna2HtmlToolTip1.SetToolTip(this.picturebAdvertenciaCorreo, "Debe de colocar el formato correcto con un \"@\" y finalizar con \".com\" u otro domi" +
-        "nio");
-            // 
-            // guna2HtmlLabel3
-            // 
-            this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel3.Font = new System.Drawing.Font("SF Pro Display", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.DimGray;
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(317, 177);
-            this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(111, 18);
-            this.guna2HtmlLabel3.TabIndex = 118;
-            this.guna2HtmlLabel3.Text = "Correo electrónico";
-            this.guna2HtmlLabel3.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
-            this.guna2HtmlLabel3.UseGdiPlusTextRendering = true;
-            // 
-            // txtbProvCorreo
-            // 
-            this.txtbProvCorreo.Animated = true;
-            this.txtbProvCorreo.BackColor = System.Drawing.Color.White;
-            this.txtbProvCorreo.BorderColor = System.Drawing.Color.White;
-            this.txtbProvCorreo.BorderRadius = 9;
-            this.txtbProvCorreo.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtbProvCorreo.DefaultText = "";
-            this.txtbProvCorreo.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtbProvCorreo.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtbProvCorreo.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtbProvCorreo.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtbProvCorreo.FillColor = System.Drawing.Color.WhiteSmoke;
-            this.txtbProvCorreo.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtbProvCorreo.Font = new System.Drawing.Font("SF Pro Display", 9.75F, System.Drawing.FontStyle.Bold);
-            this.txtbProvCorreo.ForeColor = System.Drawing.Color.Black;
-            this.txtbProvCorreo.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtbProvCorreo.Location = new System.Drawing.Point(305, 200);
-            this.txtbProvCorreo.Name = "txtbProvCorreo";
-            this.txtbProvCorreo.PasswordChar = '\0';
-            this.txtbProvCorreo.PlaceholderText = "alguien@ejemplo.com";
-            this.txtbProvCorreo.SelectedText = "";
-            this.txtbProvCorreo.Size = new System.Drawing.Size(327, 30);
-            this.txtbProvCorreo.TabIndex = 117;
-            // 
             // guna2HtmlToolTip1
             // 
             this.guna2HtmlToolTip1.AllowLinksHandling = true;
@@ -885,11 +888,11 @@
             this.Load += new System.EventHandler(this.FrmClientes_Load);
             this.panelAnadirProveedor.ResumeLayout(false);
             this.panelAnadirProveedor.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picturebAdvertenciaCorreo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.datagridProveedores)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.rellenogirdview)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picturebAdvertenciaCorreo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -922,7 +925,7 @@
         private Guna.UI2.WinForms.Guna2TextBox txtbProvEmpresa;
         private Guna.UI2.WinForms.Guna2TextBox txtbProvTelefono;
         private Guna.UI2.WinForms.Guna2TextBox txtbProvPlataforma;
-        private Guna.UI2.WinForms.Guna2TextBox txtbProvNombre;
+        private Guna.UI2.WinForms.Guna2TextBox txtbProvCedula;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private Guna.UI2.WinForms.Guna2DataGridView datagridProveedores;
         private System.Windows.Forms.DataGridViewTextBoxColumn Cedula;
