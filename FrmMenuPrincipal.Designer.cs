@@ -43,6 +43,11 @@
             this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.panelMenu = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.panelMasOpciones = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.btnCerrarSesion = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnMasOpciones = new Guna.UI2.WinForms.Guna2Button();
@@ -83,16 +88,11 @@
             this.btnLinea = new Guna.UI2.WinForms.Guna2Button();
             this.guna2HtmlToolTip1 = new Guna.UI2.WinForms.Guna2HtmlToolTip();
             this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.panelMasOpciones = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2PictureBox11 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.panelSuperior.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             this.panelMenu.SuspendLayout();
+            this.panelMasOpciones.SuspendLayout();
             this.panelHome.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox10)).BeginInit();
@@ -103,8 +103,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox8)).BeginInit();
-            this.panelMasOpciones.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox11)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2Elipse1
@@ -298,7 +296,7 @@
             this.lblUsername.ForeColor = System.Drawing.Color.Black;
             this.lblUsername.Location = new System.Drawing.Point(609, 15);
             this.lblUsername.Name = "lblUsername";
-            this.lblUsername.Size = new System.Drawing.Size(114, 17);
+            this.lblUsername.Size = new System.Drawing.Size(114, 18);
             this.lblUsername.TabIndex = 84;
             this.lblUsername.Text = "Nombre de usuario";
             this.lblUsername.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
@@ -364,6 +362,123 @@
             this.panelMenu.Size = new System.Drawing.Size(171, 547);
             this.panelMenu.TabIndex = 0;
             this.panelMenu.Paint += new System.Windows.Forms.PaintEventHandler(this.panelMenu_Paint);
+            // 
+            // panelMasOpciones
+            // 
+            this.panelMasOpciones.Controls.Add(this.guna2Button6);
+            this.panelMasOpciones.Controls.Add(this.guna2Button5);
+            this.panelMasOpciones.Controls.Add(this.guna2Button4);
+            this.panelMasOpciones.Controls.Add(this.guna2Button3);
+            this.panelMasOpciones.Location = new System.Drawing.Point(17, 300);
+            this.panelMasOpciones.Name = "panelMasOpciones";
+            this.panelMasOpciones.ShadowDecoration.Depth = 12;
+            this.panelMasOpciones.Size = new System.Drawing.Size(137, 157);
+            this.panelMasOpciones.TabIndex = 99;
+            this.panelMasOpciones.Visible = false;
+            // 
+            // guna2Button6
+            // 
+            this.guna2Button6.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Button6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2Button6.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button6.FillColor = System.Drawing.Color.Transparent;
+            this.guna2Button6.Font = new System.Drawing.Font("SF Pro Display", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button6.ForeColor = System.Drawing.Color.Black;
+            this.guna2Button6.HoverState.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2Button6.HoverState.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.guna2Button6.HoverState.FillColor = System.Drawing.Color.Transparent;
+            this.guna2Button6.HoverState.ForeColor = System.Drawing.Color.Crimson;
+            this.guna2Button6.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button6.Image")));
+            this.guna2Button6.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.guna2Button6.Location = new System.Drawing.Point(11, 127);
+            this.guna2Button6.Name = "guna2Button6";
+            this.guna2Button6.PressedColor = System.Drawing.Color.Transparent;
+            this.guna2Button6.Size = new System.Drawing.Size(121, 21);
+            this.guna2Button6.TabIndex = 1;
+            this.guna2Button6.Text = "Calculadora";
+            this.guna2Button6.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.guna2Button6.UseTransparentBackground = true;
+            // 
+            // guna2Button5
+            // 
+            this.guna2Button5.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Button5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2Button5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button5.FillColor = System.Drawing.Color.Transparent;
+            this.guna2Button5.Font = new System.Drawing.Font("SF Pro Display", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button5.ForeColor = System.Drawing.Color.Black;
+            this.guna2Button5.HoverState.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2Button5.HoverState.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.guna2Button5.HoverState.FillColor = System.Drawing.Color.Transparent;
+            this.guna2Button5.HoverState.ForeColor = System.Drawing.Color.Crimson;
+            this.guna2Button5.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button5.Image")));
+            this.guna2Button5.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.guna2Button5.Location = new System.Drawing.Point(12, 90);
+            this.guna2Button5.Name = "guna2Button5";
+            this.guna2Button5.PressedColor = System.Drawing.Color.Transparent;
+            this.guna2Button5.Size = new System.Drawing.Size(110, 21);
+            this.guna2Button5.TabIndex = 1;
+            this.guna2Button5.Text = "Excel";
+            this.guna2Button5.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.guna2Button5.UseTransparentBackground = true;
+            // 
+            // guna2Button4
+            // 
+            this.guna2Button4.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Button4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2Button4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button4.FillColor = System.Drawing.Color.Transparent;
+            this.guna2Button4.Font = new System.Drawing.Font("SF Pro Display", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button4.ForeColor = System.Drawing.Color.Black;
+            this.guna2Button4.HoverState.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2Button4.HoverState.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.guna2Button4.HoverState.FillColor = System.Drawing.Color.Transparent;
+            this.guna2Button4.HoverState.ForeColor = System.Drawing.Color.Crimson;
+            this.guna2Button4.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button4.Image")));
+            this.guna2Button4.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.guna2Button4.Location = new System.Drawing.Point(11, 51);
+            this.guna2Button4.Name = "guna2Button4";
+            this.guna2Button4.PressedColor = System.Drawing.Color.Transparent;
+            this.guna2Button4.Size = new System.Drawing.Size(111, 21);
+            this.guna2Button4.TabIndex = 1;
+            this.guna2Button4.Text = "Notas";
+            this.guna2Button4.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.guna2Button4.UseTransparentBackground = true;
+            // 
+            // guna2Button3
+            // 
+            this.guna2Button3.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button3.FillColor = System.Drawing.Color.Transparent;
+            this.guna2Button3.Font = new System.Drawing.Font("SF Pro Display", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button3.ForeColor = System.Drawing.Color.Black;
+            this.guna2Button3.HoverState.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2Button3.HoverState.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.guna2Button3.HoverState.FillColor = System.Drawing.Color.Transparent;
+            this.guna2Button3.HoverState.ForeColor = System.Drawing.Color.Crimson;
+            this.guna2Button3.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button3.Image")));
+            this.guna2Button3.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.guna2Button3.Location = new System.Drawing.Point(11, 14);
+            this.guna2Button3.Name = "guna2Button3";
+            this.guna2Button3.PressedColor = System.Drawing.Color.Transparent;
+            this.guna2Button3.Size = new System.Drawing.Size(111, 21);
+            this.guna2Button3.TabIndex = 1;
+            this.guna2Button3.Text = "Word";
+            this.guna2Button3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.guna2Button3.UseTransparentBackground = true;
             // 
             // guna2HtmlLabel2
             // 
@@ -537,6 +652,7 @@
             this.btnInventario.Text = "Inventario";
             this.btnInventario.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.guna2HtmlToolTip1.SetToolTip(this.btnInventario, "Ver inventarios");
+            this.btnInventario.Click += new System.EventHandler(this.btnInventario_Click_1);
             // 
             // guna2Button2
             // 
@@ -1151,140 +1267,6 @@
             this.guna2Elipse2.BorderRadius = 16;
             this.guna2Elipse2.TargetControl = this.panelHome;
             // 
-            // panelMasOpciones
-            // 
-            this.panelMasOpciones.Controls.Add(this.guna2Button6);
-            this.panelMasOpciones.Controls.Add(this.guna2Button5);
-            this.panelMasOpciones.Controls.Add(this.guna2Button4);
-            this.panelMasOpciones.Controls.Add(this.guna2Button3);
-            this.panelMasOpciones.Controls.Add(this.guna2PictureBox11);
-            this.panelMasOpciones.Location = new System.Drawing.Point(19, 300);
-            this.panelMasOpciones.Name = "panelMasOpciones";
-            this.panelMasOpciones.ShadowDecoration.Depth = 12;
-            this.panelMasOpciones.Size = new System.Drawing.Size(137, 157);
-            this.panelMasOpciones.TabIndex = 99;
-            this.panelMasOpciones.Visible = false;
-            // 
-            // guna2Button3
-            // 
-            this.guna2Button3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button3.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button3.Font = new System.Drawing.Font("SF Pro Display", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button3.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button3.HoverState.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2Button3.HoverState.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.guna2Button3.HoverState.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button3.HoverState.ForeColor = System.Drawing.Color.Crimson;
-            this.guna2Button3.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button3.Image")));
-            this.guna2Button3.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button3.Location = new System.Drawing.Point(11, 14);
-            this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.PressedColor = System.Drawing.Color.Transparent;
-            this.guna2Button3.Size = new System.Drawing.Size(111, 21);
-            this.guna2Button3.TabIndex = 1;
-            this.guna2Button3.Text = "Word";
-            this.guna2Button3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.guna2Button3.UseTransparentBackground = true;
-            // 
-            // guna2Button4
-            // 
-            this.guna2Button4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button4.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button4.Font = new System.Drawing.Font("SF Pro Display", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button4.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button4.HoverState.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2Button4.HoverState.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.guna2Button4.HoverState.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button4.HoverState.ForeColor = System.Drawing.Color.Crimson;
-            this.guna2Button4.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button4.Image")));
-            this.guna2Button4.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button4.Location = new System.Drawing.Point(11, 51);
-            this.guna2Button4.Name = "guna2Button4";
-            this.guna2Button4.PressedColor = System.Drawing.Color.Transparent;
-            this.guna2Button4.Size = new System.Drawing.Size(111, 21);
-            this.guna2Button4.TabIndex = 1;
-            this.guna2Button4.Text = "Notas";
-            this.guna2Button4.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.guna2Button4.UseTransparentBackground = true;
-            // 
-            // guna2Button5
-            // 
-            this.guna2Button5.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button5.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button5.Font = new System.Drawing.Font("SF Pro Display", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button5.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button5.HoverState.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2Button5.HoverState.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.guna2Button5.HoverState.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button5.HoverState.ForeColor = System.Drawing.Color.Crimson;
-            this.guna2Button5.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button5.Image")));
-            this.guna2Button5.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button5.Location = new System.Drawing.Point(12, 90);
-            this.guna2Button5.Name = "guna2Button5";
-            this.guna2Button5.PressedColor = System.Drawing.Color.Transparent;
-            this.guna2Button5.Size = new System.Drawing.Size(110, 21);
-            this.guna2Button5.TabIndex = 1;
-            this.guna2Button5.Text = "Excel";
-            this.guna2Button5.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.guna2Button5.UseTransparentBackground = true;
-            // 
-            // guna2Button6
-            // 
-            this.guna2Button6.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button6.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button6.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button6.Font = new System.Drawing.Font("SF Pro Display", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button6.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button6.HoverState.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2Button6.HoverState.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.guna2Button6.HoverState.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button6.HoverState.ForeColor = System.Drawing.Color.Crimson;
-            this.guna2Button6.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button6.Image")));
-            this.guna2Button6.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button6.Location = new System.Drawing.Point(11, 127);
-            this.guna2Button6.Name = "guna2Button6";
-            this.guna2Button6.PressedColor = System.Drawing.Color.Transparent;
-            this.guna2Button6.Size = new System.Drawing.Size(121, 21);
-            this.guna2Button6.TabIndex = 1;
-            this.guna2Button6.Text = "Calculadora";
-            this.guna2Button6.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.guna2Button6.UseTransparentBackground = true;
-            // 
-            // guna2PictureBox11
-            // 
-            this.guna2PictureBox11.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox11.BorderRadius = 9;
-            this.guna2PictureBox11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2PictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox11.Image")));
-            this.guna2PictureBox11.ImageRotate = 0F;
-            this.guna2PictureBox11.Location = new System.Drawing.Point(0, 0);
-            this.guna2PictureBox11.Name = "guna2PictureBox11";
-            this.guna2PictureBox11.ShadowDecoration.Depth = 12;
-            this.guna2PictureBox11.Size = new System.Drawing.Size(137, 157);
-            this.guna2PictureBox11.TabIndex = 0;
-            this.guna2PictureBox11.TabStop = false;
-            this.guna2PictureBox11.UseTransparentBackground = true;
-            this.guna2PictureBox11.Click += new System.EventHandler(this.guna2PictureBox11_Click);
-            // 
             // FrmMenuPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1311,6 +1293,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
             this.panelMenu.ResumeLayout(false);
             this.panelMenu.PerformLayout();
+            this.panelMasOpciones.ResumeLayout(false);
             this.panelHome.ResumeLayout(false);
             this.panelHome.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox6)).EndInit();
@@ -1322,8 +1305,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox8)).EndInit();
-            this.panelMasOpciones.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox11)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1388,6 +1369,5 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button5;
         private Guna.UI2.WinForms.Guna2Button guna2Button4;
         private Guna.UI2.WinForms.Guna2Button guna2Button3;
-        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox11;
     }
 }

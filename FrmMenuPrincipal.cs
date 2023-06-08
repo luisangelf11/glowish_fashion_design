@@ -201,7 +201,8 @@ namespace Glowish_Fashion_System
 
         private void btnCompras_Click(object sender, EventArgs e)
         {
-
+            OpenChildForm(new FrmCompras());
+            SelectButton(btnCompras);
         }
 
       
@@ -281,6 +282,14 @@ namespace Glowish_Fashion_System
         private void guna2PictureBox11_Click(object sender, EventArgs e)
         {
 
+        }
+
+
+
+        private void btnInventario_Click_1(object sender, EventArgs e)
+        {
+            OpenChildForm(new FrmProductos());
+            SelectButton(btnInventario);
         }
     }
 }

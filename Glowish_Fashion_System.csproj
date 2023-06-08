@@ -154,11 +154,23 @@
     <Compile Include="Views\FrmClientes.Designer.cs">
       <DependentUpon>FrmClientes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\FrmCompras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FrmCompras.Designer.cs">
+      <DependentUpon>FrmCompras.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\FrmFactura.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Views\FrmFactura.Designer.cs">
       <DependentUpon>FrmFactura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FrmProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FrmProductos.Designer.cs">
+      <DependentUpon>FrmProductos.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\FrmProveedores.cs">
       <SubType>Form</SubType>
@@ -214,8 +226,14 @@
     <EmbeddedResource Include="Views\FrmClientes.resx">
       <DependentUpon>FrmClientes.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Views\FrmCompras.resx">
+      <DependentUpon>FrmCompras.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\FrmFactura.resx">
       <DependentUpon>FrmFactura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FrmProductos.resx">
+      <DependentUpon>FrmProductos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\FrmProveedores.resx">
       <DependentUpon>FrmProveedores.cs</DependentUpon>
@@ -241,7 +259,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="FrmReportes\" />
     <Folder Include="Multimedia\" />
+    <Folder Include="Reportes\" />
     <Folder Include="Reports\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

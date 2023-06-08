@@ -179,3 +179,5 @@ C:\Users\breid\OneDrive\Escritorio\glowish_fashion_design\obj\Debug\Glowish_Fash
 C:\Users\breid\OneDrive\Escritorio\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.Views.FrmClientes.resources
 C:\Users\breid\OneDrive\Escritorio\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.Views.FrmUsuarios.resources
 C:\Users\breid\OneDrive\Escritorio\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.Views.FrmVentas.resources
+C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.Views.FrmProductos.resources
+C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.Views.FrmCompras.resources
