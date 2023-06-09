@@ -152,6 +152,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Proveedor.cs" />
     <Compile Include="Reports\Cliente.cs" />
+    <Compile Include="Reports\Compras.cs" />
+    <Compile Include="Reports\Producto.cs" />
+    <Compile Include="Reports\Proveedor.cs" />
+    <Compile Include="Reports\Ventas.cs" />
     <Compile Include="Views\FrmClientes.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -228,6 +232,10 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Reports\ReporteClientes.rdlc" />
+    <EmbeddedResource Include="Reports\ReporteCompras.rdlc" />
+    <EmbeddedResource Include="Reports\ReporteProdocutos.rdlc" />
+    <EmbeddedResource Include="Reports\ReporteProveedores.rdlc" />
+    <EmbeddedResource Include="Reports\ReporteVentas.rdlc" />
     <EmbeddedResource Include="Views\FrmClientes.resx">
       <DependentUpon>FrmClientes.cs</DependentUpon>
     </EmbeddedResource>
@@ -251,6 +259,10 @@
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\DataSources\Glowish_Fashion_System.Reports.Cliente.datasource" />
+    <None Include="Properties\DataSources\Glowish_Fashion_System.Reports.Compras.datasource" />
+    <None Include="Properties\DataSources\Glowish_Fashion_System.Reports.Producto.datasource" />
+    <None Include="Properties\DataSources\Glowish_Fashion_System.Reports.Proveedor.datasource" />
+    <None Include="Properties\DataSources\Glowish_Fashion_System.Reports.Ventas.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

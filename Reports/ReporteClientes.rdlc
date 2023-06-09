@@ -14,6 +14,7 @@
                   <FontFamily>sf Pro Display</FontFamily>
                   <FontSize>20pt</FontSize>
                   <FontWeight>Bold</FontWeight>
+                  <Color>Tomato</Color>
                 </Style>
               </TextRun>
             </TextRuns>
@@ -573,10 +574,10 @@
           </TablixMembers>
         </TablixRowHierarchy>
         <DataSetName>DataSet1</DataSetName>
-        <Top>3.32535cm</Top>
+        <Top>5.17743cm</Top>
         <Left>0.7112cm</Left>
         <Height>1.2cm</Height>
-        <Width>19.41854cm</Width>
+        <Width>19.41856cm</Width>
         <ZIndex>1</ZIndex>
         <Style>
           <Border>
@@ -636,6 +637,78 @@
           </Border>
         </Style>
       </Image>
+      <Textbox Name="Textbox3">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Fecha de impresión: Jueves 8 de Junio del 2023</Value>
+                <Style>
+                  <FontFamily>sf Pro Display</FontFamily>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox1</rd:DefaultName>
+        <Top>3.09604cm</Top>
+        <Left>0.71118cm</Left>
+        <Height>0.54709cm</Height>
+        <Width>19.41854cm</Width>
+        <ZIndex>4</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox4">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Listado de los clientes:</Value>
+                <Style>
+                  <FontFamily>sf Pro Display</FontFamily>
+                  <FontSize>12pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                  <Color>Tomato</Color>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Left</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox1</rd:DefaultName>
+        <Top>4.26875cm</Top>
+        <Left>0.71122cm</Left>
+        <Height>0.7323cm</Height>
+        <Width>19.41854cm</Width>
+        <ZIndex>5</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
     </ReportItems>
     <Height>29.5504cm</Height>
     <Style />
