@@ -124,6 +124,7 @@
     <Compile Include="FrmMenuPrincipal.Designer.cs">
       <DependentUpon>FrmMenuPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="ModeloFactura\clsFactura.cs" />
     <Compile Include="Notifications\FrmWelcome.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -177,9 +177,6 @@ C:\Users\breid\OneDrive\Escritorio\glowish_fashion_design\obj\Debug\Glowish_Fash
 C:\Users\breid\OneDrive\Escritorio\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.Views.FrmVentas.resources
 C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.Views.FrmProductos.resources
 C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.Views.FrmCompras.resources
-C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.csprojResolveAssemblyReference.cache
-C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\glowish_fashion_design\obj\Debug\RdlCompile.cache
-C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\glowish_fashion_design\obj\Debug\RdlCompile.compiled
 C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\glowish_fashion_design\bin\Debug\Microsoft.ReportViewer.WinForms.dll
 C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\glowish_fashion_design\bin\Debug\Microsoft.SqlServer.Types.dll
 C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\glowish_fashion_design\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
@@ -193,3 +190,7 @@ C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\glowish_fashion_de
 C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\glowish_fashion_design\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
 C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\glowish_fashion_design\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
 C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\glowish_fashion_design\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.csproj.AssemblyReference.cache
+C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.csproj.SuggestedBindingRedirects.cache
+C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.csproj.CoreCompileInputs.cache
+C:\Users\Luis Angel\Desktop\Universidad\Diseño de sistemas I\glowish_fashion_design\obj\Debug\Glowish_Fashion_System.csproj.CopyComplete
